@@ -36,4 +36,4 @@ vignettes/*.pdf
 rsconnect/
 .Rproj.user
 
-imported_data/
+/imported_data/
