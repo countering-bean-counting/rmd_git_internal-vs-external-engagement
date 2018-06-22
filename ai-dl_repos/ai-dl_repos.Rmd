@@ -124,10 +124,10 @@ Engagement metrics are defined as follows:
  
 The Engagement Score adjusts the above metrics as follows:
 
-  * Activity Months - Proportion of total months with commits in the range considered for the report. For example, this report analyzes 6 months of data, so the proportion would be the number of months with an affiliated commit out of 6 months.
-  * Commit Weight - Takes the mode of the Commit Weight (most frequently occurring Commit Weight over the range analyzed)
+  * Months Percent - Proportion of total months with commits in the range considered for the report. For example, this report analyzes 6 months of data, so the proportion would be the number of months with an affiliated commit out of 6 months.
+  * Commit Weight - Takes the mode of the Commit Weight (most frequently occurring Commit Weight over the range analyzed) and divides it by 50 to better scale with the percent value being used.
 
-Engagement Score = Activity Months * Commit Weight
+Engagement Score = Activity Months + Commit Weight/50
 
 ```{r project-summary}
 
@@ -150,8 +150,8 @@ project_companies <-  gitlog %>%
 project_summary <- project_companies %>%
   group_by(project, repo, company_name, activity_month) %>%
   summarize(commits=n(),
-             # natural log provides a simple weight, add 1 so we can multiply later
-            commit_weight = round(log(commits)) + 1) %>%
+             # natural log provides a simple weight
+            commit_weight = round(log(commits))) %>%
   group_by(project, repo, company_name, commit_weight) %>%
   mutate(commit_weight_mode = n()) # for computing the mode
 
@@ -169,7 +169,7 @@ activity_months_max <- max(project_engagement$activity_months)
 project_engagement <- project_engagement %>% 
   # proportion of months with a commit
   mutate(months_pct = round(activity_months/activity_months_max, 1),
-         engagement_score = months_pct * commit_weight) %>%
+         engagement_score = months_pct + commit_weight/50) %>% # adjust the weight so it fits better with percent
   # add company type
   inner_join(company_type_lookup)
 
@@ -191,9 +191,11 @@ Focus specifically on a subset of companies.
 
 engagement_ibm <- project_engagement %>%
   filter(! (is.na(company_name) & commit_access == "closed")) %>% # haven't identified authors on closed repos yet
-  filter(company_name %in% c("Microsoft", "IBM") | sponsor %in% c("Microsoft", "IBM")) %>%
+  filter(company_name %in% c("Microsoft", "IBM")) %>%
   mutate(company_type=ifelse(is.na(company_type) & company_name %in% c("Microsoft", "IBM"), "public", company_type),
          sponsor=ifelse(is.na(sponsor), "Community Project", sponsor))
+
+engagement_ibm
 
 ```
 
@@ -205,22 +207,14 @@ ggplot(engagement_ibm,
        mapping = aes(x = project, y = engagement_score)) +
   geom_bar(aes(fill = company_name), stat="identity", position="dodge") +
   coord_flip() +
-  facet_wrap(~ sponsor, scales="free", ncol=2) +
+  facet_wrap(~ sponsor, scales="free_y", ncol=2) +
   labs(x="Project", y="Engagement Level", fill="Contributing Company")
 ```
 
 ```{r fig-raw-engagment-ibm-vs-microsoft-summary, fig.width=10, fig.height=10}
 
-ggplot(engagement_ibm, 
-       mapping = aes(x = project, y = engagement_score)) +
-  geom_bar(aes(fill = company_name), stat="identity", position="dodge") +
-  coord_flip() +
-  facet_wrap(~ sponsor, scales="free", ncol=2) +
-  labs(x="Project", y="Engagement Level", fill="Contributing Company")
-
 engagement_ibm_summary <- engagement_ibm %>%
-  mutate(sponsor=ifelse(sponsor %in% c("Microsoft", "IBM"), sponsor, "External")) %>%
-  filter(company_name %in% c("Microsoft", "IBM"))
+  mutate(sponsor=ifelse(sponsor %in% c("Microsoft", "IBM"), sponsor, "External"))
 
 ggplot(engagement_ibm_summary, 
        mapping = aes(x = project, y = engagement_score)) +
