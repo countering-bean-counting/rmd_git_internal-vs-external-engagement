@@ -1,0 +1,248 @@
+---
+title: "AI/DS Repos"
+author: "Augustina Ragwitz"
+date: "June 21, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r includes, message=FALSE}
+library(lubridate)
+library(tidyverse)
+
+```
+
+# Question
+
+Concerning open source engagement, are companies engaging more in their own projects than in external ones? Are companies collaborating or working in isolate?
+
+This analysis specifically focuses on Artificial Intelligence and Data Science projects.
+
+# Data
+
+The data come from other analysis, detailed below.
+
+## Projects of Interest
+
+From countering-bean-counting/git-commit-log-engagement/deep-learning-frameworks-commit-log/dl-frameworks-commit-log.Rmd
+
+```{r gitlog-open-projects}
+
+# manual list of sponsored projects
+sponsored_projects <- read_csv('
+tensorflow,Google
+paddlepaddle,Baidu
+pytorch,Facebook
+keras-team,Google
+', col_names=c("project","sponsor"))
+
+# Github Repositories
+repos_open <- read_rds("imported_data/repos_open.Rds")
+
+repos_open <- repos_open %>% 
+  select(project=owner.login, repo=full_name, description) %>%
+  mutate(commit_access = "open", project=str_to_lower(project)) %>%
+  left_join(sponsored_projects)
+
+# Commit Log for Repositories (last 6 months)
+gitlog_open_projects <- read_rds("imported_data/commit_log_open_Jun2018.Rds")
+
+gitlog_open_projects <- gitlog_open_projects %>%
+  select(project=org,
+         repo,
+         commit_month, 
+         author_name, author_email,
+         committer_name, committer_email,
+         sha,
+         committer_company_name, committer_company_type,
+         author_company_name, author_company_type)
+
+```
+
+## Companies of Interest
+
+```{r gitlog-closed-projects}
+
+# Github Repositories
+repos_closed <- read_rds("imported_data/repos_closed.Rds")
+
+repos_closed <- repos_closed %>% 
+  select(project=github_org, repo=full_name, description, sponsor=company) %>%
+  mutate(commit_access = "closed")
+
+# Commit Log for Repositories (last 6 months)
+gitlog_closed_projects <- read_rds("imported_data/commit_log_closed_Jun2018.Rds")
+
+gitlog_closed_projects <- gitlog_closed_projects %>%
+  select(project=github_org,
+         repo,
+         commit.committer.date, 
+         # author_name=commit.author.name, author_email=commit.author.email, author_login=author.login,
+         committer_name=commit.committer.name, committer_email=commit.committer.email, committer_login=committer.login,
+         sha,
+         committer_company_name=company) %>%
+ mutate(commit_month=floor_date(as.Date(commit.committer.date), unit="months")) %>%
+ select(-commit.committer.date) %>%
+  filter(commit_month > "2017-12-01")
+
+# Commit Activity for Contributors to the Company Repositories Above
+# affliated_commits_closed <- read_rds("imported_data/commit_activity_closed_Jun2018.Rds")
+ 
+```
+
+## Combined Repo List
+
+Make a consolidated list of repos and add information about whether it's a company-owned or public repository.
+
+```{r repos-combined}
+
+repos <- bind_rows(repos_open, repos_closed)
+
+```
+
+## Consolidated Commit Logs
+
+Combine the commit logs and update with metadata about the repos.
+
+```{r gitlog-combined}
+
+# bind rows on commit logs
+gitlog <- bind_rows(gitlog_closed_projects, gitlog_open_projects)
+
+```
+
+
+## Engagement Score
+
+Engagement metrics are defined as follows:
+
+ * Activity Months - Number of months that had at least one commit from an affiliated email address
+ * Commit Weight - Rounded natural log of the number of commits from an affiliated email address per month
+ 
+The Engagement Score adjusts the above metrics as follows:
+
+  * Activity Months - Proportion of total months with commits in the range considered for the report. For example, this report analyzes 6 months of data, so the proportion would be the number of months with an affiliated commit out of 6 months.
+  * Commit Weight - Takes the mode of the Commit Weight (most frequently occurring Commit Weight over the range analyzed)
+
+Engagement Score = Activity Months * Commit Weight
+
+```{r project-summary}
+
+# consolidate author + committer (ok if counted twice -- this shows an increased interest in the project)
+
+# create a lookup for company type so we don't have to deal with it in the summary below
+company_type_lookup <- bind_rows(gitlog %>% select(company_name=author_company_name, company_type=author_company_type), 
+                                 gitlog %>% select(company_name=committer_company_name, company_type=committer_company_type))
+
+company_type_lookup <- company_type_lookup %>% unique()
+
+# phase 1 - project, repo, company, type, date, sha
+project_companies <-  gitlog %>%
+  select(project, repo, author_company_name, committer_company_name, activity_month=commit_month, sha) %>%
+  # convert committer_date to month
+  unite(company_name, author_company_name, committer_company_name) %>%
+  separate_rows(company_name, sep="_", convert=TRUE)
+
+# group by project
+project_summary <- project_companies %>%
+  group_by(project, repo, company_name, activity_month) %>%
+  summarize(commits=n(),
+             # natural log provides a simple weight, add 1 so we can multiply later
+            commit_weight = round(log(commits)) + 1) %>%
+  group_by(project, repo, company_name, commit_weight) %>%
+  mutate(commit_weight_mode = n()) # for computing the mode
+
+# project, company, engagement (activity interval)
+
+project_engagement <- project_summary %>%
+  group_by(project, company_name) %>%
+  summarize(
+    activity_months = n_distinct(activity_month),
+    commit_weight = commit_weight[which.max(commit_weight_mode)]
+  )
+
+activity_months_max <- max(project_engagement$activity_months)
+
+project_engagement <- project_engagement %>% 
+  # proportion of months with a commit
+  mutate(months_pct = round(activity_months/activity_months_max, 1),
+         engagement_score = months_pct * commit_weight) %>%
+  # add company type
+  inner_join(company_type_lookup)
+
+# add repo data for plotting
+
+project_engagement <- project_engagement %>%
+  inner_join(repos %>% select(-repo, -description) %>% unique())
+
+write_csv(project_engagement, "data/project_engagement.csv")
+```
+
+# Analysis
+
+## IBM vs Microsoft
+
+Focus specifically on a subset of companies.
+
+```{r engagement-subset}
+
+engagement_ibm <- project_engagement %>%
+  filter(! (is.na(company_name) & commit_access == "closed")) %>% # haven't identified authors on closed repos yet
+  filter(company_name %in% c("Microsoft", "IBM") | sponsor %in% c("Microsoft", "IBM")) %>%
+  mutate(company_type=ifelse(is.na(company_type) & company_name %in% c("Microsoft", "IBM"), "public", company_type),
+         sponsor=ifelse(is.na(sponsor), "Community Project", sponsor))
+
+```
+
+### Raw Comparison
+
+```{r fig-raw-engagment-ibm-vs-microsoft, fig.width=10, fig.height=10}
+
+ggplot(engagement_ibm, 
+       mapping = aes(x = project, y = engagement_score)) +
+  geom_bar(aes(fill = company_name), stat="identity", position="dodge") +
+  coord_flip() +
+  facet_wrap(~ sponsor, scales="free", ncol=2) +
+  labs(x="Project", y="Engagement Level", fill="Contributing Company")
+```
+
+```{r fig-raw-engagment-ibm-vs-microsoft-summary, fig.width=10, fig.height=10}
+
+ggplot(engagement_ibm, 
+       mapping = aes(x = project, y = engagement_score)) +
+  geom_bar(aes(fill = company_name), stat="identity", position="dodge") +
+  coord_flip() +
+  facet_wrap(~ sponsor, scales="free", ncol=2) +
+  labs(x="Project", y="Engagement Level", fill="Contributing Company")
+
+engagement_ibm_summary <- engagement_ibm %>%
+  mutate(sponsor=ifelse(sponsor %in% c("Microsoft", "IBM"), sponsor, "External")) %>%
+  filter(company_name %in% c("Microsoft", "IBM"))
+
+ggplot(engagement_ibm_summary, 
+       mapping = aes(x = project, y = engagement_score)) +
+  geom_bar(aes(fill = company_name), stat="identity", position="dodge") +
+  coord_flip() +
+  facet_wrap(~ sponsor, scales="free_y", ncol=1) +
+  labs(x="Project", y="Engagement Level", fill="Contributor")
+
+```
+
+
+
+
+### Engagement Baseline
+
+What does "normal" engagement look like for the companies?
+
+### Adjusted Comparisons
+
+TODO: Include affiliated commits
+
+TODO: Only compare AI/DS "closed" projects.
+
+
+

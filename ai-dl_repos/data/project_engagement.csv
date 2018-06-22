@@ -1,0 +1,561 @@
+project,company_name,activity_months,commit_weight,months_pct,engagement_score,company_type,commit_access,sponsor
+01org,Intel,1,4,0.2,0.8,public,closed,Intel
+01org,Intel,1,4,0.2,0.8,NA,closed,Intel
+01org,NA,1,4,0.2,0.8,NA,closed,Intel
+01org,NA,1,4,0.2,0.8,no domain record,closed,Intel
+alexa,Amazon.com,6,2,1,2,public,closed,Amazon.com
+alexa,Amazon.com,6,2,1,2,NA,closed,Amazon.com
+alexa,NA,6,2,1,2,NA,closed,Amazon.com
+alexa,NA,6,2,1,2,no domain record,closed,Amazon.com
+amzn,Amazon.com,6,1,1,1,public,closed,Amazon.com
+amzn,Amazon.com,6,1,1,1,NA,closed,Amazon.com
+amzn,NA,6,1,1,1,NA,closed,Amazon.com
+amzn,NA,6,1,1,1,no domain record,closed,Amazon.com
+apple,Apple,6,1,1,1,public,closed,Apple
+apple,Apple,6,1,1,1,NA,closed,Apple
+apple,BCG Digital Ventures,1,2,0.2,0.4,private,closed,Apple
+apple,Google Email,2,2,0.3,0.6,personal,closed,Apple
+apple,hello,1,2,0.2,0.4,private,closed,Apple
+apple,Hover Camera,1,2,0.2,0.4,private,closed,Apple
+apple,Mapbox,1,3,0.2,0.6000000000000001,private,closed,Apple
+apple,NA,6,1,1,1,NA,closed,Apple
+apple,NA,6,1,1,1,no domain record,closed,Apple
+aspnet,Microsoft,6,1,1,1,public,closed,Microsoft
+aspnet,Microsoft,6,1,1,1,NA,closed,Microsoft
+aspnet,NA,6,1,1,1,NA,closed,Microsoft
+aspnet,NA,6,1,1,1,no domain record,closed,Microsoft
+att,AT&T,6,2,1,2,NA,closed,AT&T
+att,NA,6,2,1,2,NA,closed,AT&T
+att,NA,6,2,1,2,no domain record,closed,AT&T
+aws,Amazon.com,6,2,1,2,public,closed,Amazon.com
+aws,Amazon.com,6,2,1,2,NA,closed,Amazon.com
+aws,"FreakOut Inc.,",2,1,0.3,0.3,private,closed,Amazon.com
+aws,GitHub,5,4,0.8,3.2,github,closed,Amazon.com
+aws,Google Email,5,2,0.8,1.6,personal,closed,Amazon.com
+aws,Hudl,2,2,0.3,0.6,private,closed,Amazon.com
+aws,NA,6,2,1,2,NA,closed,Amazon.com
+aws,NA,6,2,1,2,no domain record,closed,Amazon.com
+awslabs,Amazon.com,6,3,1,3,public,closed,Amazon.com
+awslabs,Amazon.com,6,3,1,3,NA,closed,Amazon.com
+awslabs,NA,6,3,1,3,NA,closed,Amazon.com
+awslabs,NA,6,3,1,3,no domain record,closed,Amazon.com
+azure,Microsoft,6,3,1,3,public,closed,Microsoft
+azure,Microsoft,6,3,1,3,NA,closed,Microsoft
+azure,NA,6,3,1,3,NA,closed,Microsoft
+azure,NA,6,3,1,3,no domain record,closed,Microsoft
+azure-samples,Microsoft,5,3,0.8,2.4000000000000004,public,closed,Microsoft
+azure-samples,Microsoft,5,3,0.8,2.4000000000000004,NA,closed,Microsoft
+azure-samples,NA,5,3,0.8,2.4000000000000004,NA,closed,Microsoft
+azure-samples,NA,5,3,0.8,2.4000000000000004,no domain record,closed,Microsoft
+baidu,Baidu,6,2,1,2,public,closed,Baidu
+baidu,Baidu,6,2,1,2,NA,closed,Baidu
+baidu,NA,6,2,1,2,NA,closed,Baidu
+baidu,NA,6,2,1,2,no domain record,closed,Baidu
+baidu-aip,Baidu,6,1,1,1,public,closed,Baidu
+baidu-aip,Baidu,6,1,1,1,NA,closed,Baidu
+baidu-aip,NA,6,1,1,1,NA,closed,Baidu
+baidu-aip,NA,6,1,1,1,no domain record,closed,Baidu
+baidu-research,Baidu,4,3,0.7,2.0999999999999996,public,closed,Baidu
+baidu-research,Baidu,4,3,0.7,2.0999999999999996,NA,closed,Baidu
+baidu-research,NA,4,3,0.7,2.0999999999999996,NA,closed,Baidu
+baidu-research,NA,4,3,0.7,2.0999999999999996,no domain record,closed,Baidu
+caffe2,CK-Telecom,2,2,0.3,0.6,private,open,NA
+caffe2,Duke University,1,2,0.2,0.4,education,open,NA
+caffe2,Facebook,5,2,0.8,1.6,public,open,NA
+caffe2,Facebook,5,2,0.8,1.6,NA,open,NA
+caffe2,Facebook Email,2,2,0.3,0.6,personal,open,NA
+caffe2,GitHub,5,6,0.8,4.800000000000001,github,open,NA
+caffe2,Google Email,5,6,0.8,4.800000000000001,personal,open,NA
+caffe2,Hasso Plattner Institute,1,1,0.2,0.2,private,open,NA
+caffe2,Instagram,1,1,0.2,0.2,private,open,NA
+caffe2,Iowa State University,1,1,0.2,0.2,education,open,NA
+caffe2,Massachusetts Institute of Technology,1,1,0.2,0.2,education,open,NA
+caffe2,Microsoft,1,1,0.2,0.2,public,open,NA
+caffe2,Microsoft,1,1,0.2,0.2,NA,open,NA
+caffe2,Outlook.com Email,2,2,0.3,0.6,personal,open,NA
+caffe2,Peter Goldsborough,3,1,0.5,0.5,private,open,NA
+caffe2,ProtonMail Email,1,2,0.2,0.4,personal,open,NA
+caffe2,PyTorch,4,4,0.7,2.8,nonprofit,open,NA
+caffe2,QQ Email,2,1,0.3,0.3,personal,open,NA
+caffe2,Rensselaer Polytechnic Institute,1,1,0.2,0.2,education,open,NA
+caffe2,Samsung,1,2,0.2,0.4,public,open,NA
+caffe2,Samsung,1,2,0.2,0.4,NA,open,NA
+caffe2,TU München,2,2,0.3,0.6,education,open,NA
+caffe2,University of South Florida,1,1,0.2,0.2,education,open,NA
+caffe2,UT Austin,1,1,0.2,0.2,education,open,NA
+caffe2,Yahoo Email,1,1,0.2,0.2,personal,open,NA
+caffe2,NA,4,2,0.7,1.4,NA,open,NA
+caffe2,NA,4,2,0.7,1.4,no domain record,open,NA
+chainer,Foxmail,1,2,0.2,0.4,private,open,NA
+chainer,GitHub,5,3,0.8,2.4000000000000004,github,open,NA
+chainer,Google Email,5,6,0.8,4.800000000000001,personal,open,NA
+chainer,Intel,5,4,0.8,3.2,public,open,NA
+chainer,Intel,5,4,0.8,3.2,NA,open,NA
+chainer,Microsoft,1,2,0.2,0.4,public,open,NA
+chainer,Microsoft,1,2,0.2,0.4,NA,open,NA
+chainer,NVIDIA,5,4,0.8,3.2,public,open,NA
+chainer,NVIDIA,5,4,0.8,3.2,NA,open,NA
+chainer,Outlook.com Email,5,4,0.8,3.2,personal,open,NA
+chainer,Preferred Infrastructure,5,6,0.8,4.800000000000001,private,open,NA
+chainer,Preferred Networks,1,2,0.2,0.4,private,open,NA
+chainer,Tohoku University,1,2,0.2,0.4,education,open,NA
+chainer,Toshiba,1,2,0.2,0.4,public,open,NA
+chainer,Universität Potsdam,1,2,0.2,0.4,education,open,NA
+chainer,University of Tokyo,3,3,0.5,1.5,education,open,NA
+chainer,Zalando,2,1,0.3,0.3,public,open,NA
+chainer,NA,5,2,0.8,1.6,NA,open,NA
+chainer,NA,5,2,0.8,1.6,no domain record,open,NA
+cisco,Cisco,6,2,1,2,NA,closed,Cisco
+cisco,NA,6,2,1,2,NA,closed,Cisco
+cisco,NA,6,2,1,2,no domain record,closed,Cisco
+ciscodevnet,Cisco,6,2,1,2,NA,closed,Cisco
+ciscodevnet,NA,6,2,1,2,NA,closed,Cisco
+ciscodevnet,NA,6,2,1,2,no domain record,closed,Cisco
+deeplearning4j,Apache Software Foundation,2,1,0.3,0.3,nonprofit,open,NA
+deeplearning4j,Bloomberg,3,2,0.5,1,private,open,NA
+deeplearning4j,CA Technologies,1,1,0.2,0.2,public,open,NA
+deeplearning4j,Deeplearning4j,5,3,0.8,2.4000000000000004,private,open,NA
+deeplearning4j,GitHub,5,5,0.8,4,github,open,NA
+deeplearning4j,GMX Email,1,1,0.2,0.2,personal,open,NA
+deeplearning4j,Google Email,5,7,0.8,5.6000000000000005,personal,open,NA
+deeplearning4j,Komfo,2,4,0.3,1.2,private,open,NA
+deeplearning4j,LodgON,2,1,0.3,0.3,private,open,NA
+deeplearning4j,mail.com Email,3,2,0.5,1,personal,open,NA
+deeplearning4j,MPI-CBG,1,2,0.2,0.4,private,open,NA
+deeplearning4j,Outlook.com Email,5,4,0.8,3.2,personal,open,NA
+deeplearning4j,Politechnika,1,2,0.2,0.4,education,open,NA
+deeplearning4j,QQ Email,2,1,0.3,0.3,personal,open,NA
+deeplearning4j,SCHUFA Holding AG,1,2,0.2,0.4,public,open,NA
+deeplearning4j,Seznam.cz Email,1,2,0.2,0.4,personal,open,NA
+deeplearning4j,UC Berkeley,2,2,0.3,0.6,education,open,NA
+deeplearning4j,Yahoo Email,1,2,0.2,0.4,personal,open,NA
+deeplearning4j,NA,5,2,0.8,1.6,NA,open,NA
+deeplearning4j,NA,5,2,0.8,1.6,no domain record,open,NA
+ecomfe,Baidu,3,4,0.5,2,public,closed,Baidu
+ecomfe,Baidu,3,4,0.5,2,NA,closed,Baidu
+ecomfe,NA,3,4,0.5,2,NA,closed,Baidu
+ecomfe,NA,3,4,0.5,2,no domain record,closed,Baidu
+facebook,Facebook,6,2,1,2,public,closed,Facebook
+facebook,Facebook,6,2,1,2,NA,closed,Facebook
+facebook,NA,6,2,1,2,NA,closed,Facebook
+facebook,NA,6,2,1,2,no domain record,closed,Facebook
+facebookexperimental,Facebook,6,3,1,3,public,closed,Facebook
+facebookexperimental,Facebook,6,3,1,3,NA,closed,Facebook
+facebookexperimental,NA,6,3,1,3,NA,closed,Facebook
+facebookexperimental,NA,6,3,1,3,no domain record,closed,Facebook
+facebookincubator,Facebook,6,2,1,2,public,closed,Facebook
+facebookincubator,Facebook,6,2,1,2,NA,closed,Facebook
+facebookincubator,NA,6,2,1,2,NA,closed,Facebook
+facebookincubator,NA,6,2,1,2,no domain record,closed,Facebook
+facebookresearch,Facebook,6,3,1,3,public,closed,Facebook
+facebookresearch,Facebook,6,3,1,3,NA,closed,Facebook
+facebookresearch,NA,6,3,1,3,NA,closed,Facebook
+facebookresearch,NA,6,3,1,3,no domain record,closed,Facebook
+fex-team,Baidu,6,3,1,3,public,closed,Baidu
+fex-team,Baidu,6,3,1,3,NA,closed,Baidu
+fex-team,NA,6,3,1,3,NA,closed,Baidu
+fex-team,NA,6,3,1,3,no domain record,closed,Baidu
+fujitsu,Fujitsu,4,3,0.7,2.0999999999999996,NA,closed,Fujitsu
+fujitsu,NA,4,3,0.7,2.0999999999999996,NA,closed,Fujitsu
+fujitsu,NA,4,3,0.7,2.0999999999999996,no domain record,closed,Fujitsu
+google,Google,6,1,1,1,public,closed,Google
+google,Google,6,1,1,1,NA,closed,Google
+google,NA,6,1,1,1,NA,closed,Google
+google,NA,6,1,1,1,no domain record,closed,Google
+googlecloudplatform,Google,5,3,0.8,2.4000000000000004,public,closed,Google
+googlecloudplatform,Google,5,3,0.8,2.4000000000000004,NA,closed,Google
+googlecloudplatform,NA,5,3,0.8,2.4000000000000004,NA,closed,Google
+googlecloudplatform,NA,5,3,0.8,2.4000000000000004,no domain record,closed,Google
+googlesamples,Google,5,1,0.8,0.8,public,closed,Google
+googlesamples,Google,5,1,0.8,0.8,NA,closed,Google
+googlesamples,NA,5,1,0.8,0.8,NA,closed,Google
+googlesamples,NA,5,1,0.8,0.8,no domain record,closed,Google
+h2oai,GitHub,5,5,0.8,4,github,open,NA
+h2oai,GMX,1,1,0.2,0.2,private,open,NA
+h2oai,GMX Email,1,1,0.2,0.2,personal,open,NA
+h2oai,Google Email,5,4,0.8,3.2,personal,open,NA
+h2oai,H2O.ai,5,6,0.8,4.800000000000001,private,open,NA
+h2oai,Outlook.com Email,2,1,0.3,0.3,personal,open,NA
+h2oai,Pavel Pscheidl,5,3,0.8,2.4000000000000004,private,open,NA
+h2oai,ProtonMail Email,1,1,0.2,0.2,personal,open,NA
+h2oai,Seznam.cz Email,2,2,0.3,0.6,personal,open,NA
+h2oai,UC Berkeley,1,1,0.2,0.2,education,open,NA
+h2oai,Yahoo Email,4,3,0.7,2.0999999999999996,personal,open,NA
+h2oai,NA,5,3,0.8,2.4000000000000004,NA,open,NA
+h2oai,NA,5,3,0.8,2.4000000000000004,no domain record,open,NA
+huawei,Huawei,3,3,0.5,1.5,NA,closed,Huawei
+huawei,NA,3,3,0.5,1.5,NA,closed,Huawei
+huawei,NA,3,3,0.5,1.5,no domain record,closed,Huawei
+huawei-clouds,Huawei,5,3,0.8,2.4000000000000004,NA,closed,Huawei
+huawei-clouds,NA,5,3,0.8,2.4000000000000004,NA,closed,Huawei
+huawei-clouds,NA,5,3,0.8,2.4000000000000004,no domain record,closed,Huawei
+huaweicloud,Huawei,6,3,1,3,NA,closed,Huawei
+huaweicloud,NA,6,3,1,3,NA,closed,Huawei
+huaweicloud,NA,6,3,1,3,no domain record,closed,Huawei
+ibm,Apache Software Foundation,1,2,0.2,0.4,nonprofit,closed,IBM
+ibm,Bluewin,1,1,0.2,0.2,private,closed,IBM
+ibm,GitHub,2,1,0.3,0.3,github,closed,IBM
+ibm,Google Email,3,1,0.5,0.5,personal,closed,IBM
+ibm,IBM,6,4,1,4,public,closed,IBM
+ibm,IBM,6,4,1,4,NA,closed,IBM
+ibm,Seldon,1,2,0.2,0.4,private,closed,IBM
+ibm,NA,6,2,1,2,NA,closed,IBM
+ibm,NA,6,2,1,2,no domain record,closed,IBM
+ibm-cloud,IBM,5,3,0.8,2.4000000000000004,public,closed,IBM
+ibm-cloud,IBM,5,3,0.8,2.4000000000000004,NA,closed,IBM
+ibm-cloud,NA,5,3,0.8,2.4000000000000004,NA,closed,IBM
+ibm-cloud,NA,5,3,0.8,2.4000000000000004,no domain record,closed,IBM
+ibm-watson-iot,IBM,4,4,0.7,2.8,public,closed,IBM
+ibm-watson-iot,IBM,4,4,0.7,2.8,NA,closed,IBM
+ibm-watson-iot,NA,4,4,0.7,2.8,NA,closed,IBM
+ibm-watson-iot,NA,4,4,0.7,2.8,no domain record,closed,IBM
+ibmdatascience,IBM,6,1,1,1,public,closed,IBM
+ibmdatascience,IBM,6,1,1,1,NA,closed,IBM
+ibmdatascience,NA,6,1,1,1,NA,closed,IBM
+ibmdatascience,NA,6,1,1,1,no domain record,closed,IBM
+ibmresearch,IBM,5,4,0.8,3.2,public,closed,IBM
+ibmresearch,IBM,5,4,0.8,3.2,NA,closed,IBM
+ibmresearch,NA,5,4,0.8,3.2,NA,closed,IBM
+ibmresearch,NA,5,4,0.8,3.2,no domain record,closed,IBM
+intel,Intel,5,3,0.8,2.4000000000000004,public,closed,Intel
+intel,Intel,5,3,0.8,2.4000000000000004,NA,closed,Intel
+intel,NA,5,3,0.8,2.4000000000000004,NA,closed,Intel
+intel,NA,5,3,0.8,2.4000000000000004,no domain record,closed,Intel
+intel-bigdata,Intel,6,3,1,3,public,closed,Intel
+intel-bigdata,Intel,6,3,1,3,NA,closed,Intel
+intel-bigdata,NA,6,3,1,3,NA,closed,Intel
+intel-bigdata,NA,6,3,1,3,no domain record,closed,Intel
+intellabs,Intel,5,1,0.8,0.8,public,closed,Intel
+intellabs,Intel,5,1,0.8,0.8,NA,closed,Intel
+intellabs,NA,5,1,0.8,0.8,NA,closed,Intel
+intellabs,NA,5,1,0.8,0.8,no domain record,closed,Intel
+keras-team,AIA Science,1,1,0.2,0.2,private,open,Google
+keras-team,Amazon.com,1,1,0.2,0.2,public,open,Google
+keras-team,Amazon.com,1,1,0.2,0.2,NA,open,Google
+keras-team,Apple Email,1,2,0.2,0.4,personal,open,Google
+keras-team,Aw Young Qingzhuo,1,1,0.2,0.2,private,open,Google
+keras-team,"Birkbeck, University of London",1,1,0.2,0.2,education,open,Google
+keras-team,Bluewin,1,1,0.2,0.2,private,open,Google
+keras-team,Cornell University,1,1,0.2,0.2,education,open,Google
+keras-team,ekholabs,1,4,0.2,0.8,private,open,Google
+keras-team,GitHub,5,3,0.8,2.4000000000000004,github,open,Google
+keras-team,GMX Email,1,1,0.2,0.2,personal,open,Google
+keras-team,Google,4,2,0.7,1.4,public,open,Google
+keras-team,Google,4,2,0.7,1.4,NA,open,Google
+keras-team,Google Email,5,5,0.8,4,personal,open,Google
+keras-team,Hong,1,1,0.2,0.2,private,open,Google
+keras-team,Intel,1,1,0.2,0.2,public,open,Google
+keras-team,Intel,1,1,0.2,0.2,NA,open,Google
+keras-team,Melinae,1,1,0.2,0.2,private,open,Google
+keras-team,Microsoft,1,1,0.2,0.2,public,open,Google
+keras-team,Microsoft,1,1,0.2,0.2,NA,open,Google
+keras-team,National Taiwan University,1,1,0.2,0.2,education,open,Google
+keras-team,Outlook.com Email,5,2,0.8,1.6,personal,open,Google
+keras-team,QQ Email,4,2,0.7,1.4,personal,open,Google
+keras-team,RWTH Aachen University,1,2,0.2,0.4,education,open,Google
+keras-team,Sparkbit,1,1,0.2,0.2,private,open,Google
+keras-team,Stefano Cappellini,2,2,0.3,0.6,private,open,Google
+keras-team,ThoughtRiver,1,1,0.2,0.2,private,open,Google
+keras-team,Université de Sherbrooke,5,2,0.8,1.6,education,open,Google
+keras-team,University of Florida,1,1,0.2,0.2,education,open,Google
+keras-team,University of Tsukuba,2,2,0.3,0.6,education,open,Google
+keras-team,University of Victoria,1,1,0.2,0.2,education,open,Google
+keras-team,Yandex Email,1,1,0.2,0.2,personal,open,Google
+keras-team,NA,5,4,0.8,3.2,NA,open,Google
+keras-team,NA,5,4,0.8,3.2,no domain record,open,Google
+kubeflow,Apple Email,2,1,0.3,0.3,personal,open,NA
+kubeflow,Caicloud,3,2,0.5,1,private,open,NA
+kubeflow,Carol Willing,3,2,0.5,1,private,open,NA
+kubeflow,datawire.io,1,1,0.2,0.2,private,open,NA
+kubeflow,Georgia Tech,1,1,0.2,0.2,education,open,NA
+kubeflow,GitHub,5,4,0.8,3.2,github,open,NA
+kubeflow,Google,5,3,0.8,2.4000000000000004,public,open,NA
+kubeflow,Google,5,3,0.8,2.4000000000000004,NA,open,NA
+kubeflow,Google Email,5,4,0.8,3.2,personal,open,NA
+kubeflow,Intel,2,2,0.3,0.6,public,open,NA
+kubeflow,Intel,2,2,0.3,0.6,NA,open,NA
+kubeflow,Kris Nova,1,1,0.2,0.2,private,open,NA
+kubeflow,Lyft,1,1,0.2,0.2,private,open,NA
+kubeflow,NetEase Email,2,1,0.3,0.3,personal,open,NA
+kubeflow,Outlook.com Email,4,3,0.7,2.0999999999999996,personal,open,NA
+kubeflow,ProtonMail Email,2,1,0.3,0.3,personal,open,NA
+kubeflow,QQ Email,1,1,0.2,0.2,personal,open,NA
+kubeflow,Red Hat,3,2,0.5,1,public,open,NA
+kubeflow,Rummble,1,1,0.2,0.2,private,open,NA
+kubeflow,Sabancı University,1,1,0.2,0.2,education,open,NA
+kubeflow,Seldon,4,6,0.7,4.199999999999999,private,open,NA
+kubeflow,Uber,2,3,0.3,0.8999999999999999,private,open,NA
+kubeflow,Yahoo Email,3,1,0.5,0.5,personal,open,NA
+kubeflow,Yandex Email,1,2,0.2,0.4,personal,open,NA
+kubeflow,МФТИ,1,1,0.2,0.2,private,open,NA
+kubeflow,NA,5,2,0.8,1.6,NA,open,NA
+kubeflow,NA,5,2,0.8,1.6,no domain record,open,NA
+liteos,Huawei,3,3,0.5,1.5,NA,closed,Huawei
+liteos,NA,3,3,0.5,1.5,NA,closed,Huawei
+liteos,NA,3,3,0.5,1.5,no domain record,closed,Huawei
+microsoft,GitHub,4,3,0.7,2.0999999999999996,github,closed,Microsoft
+microsoft,Google Email,5,4,0.8,3.2,personal,closed,Microsoft
+microsoft,Microsoft,5,5,0.8,4,public,closed,Microsoft
+microsoft,Microsoft,5,5,0.8,4,NA,closed,Microsoft
+microsoft,Outlook.com Email,2,2,0.3,0.6,personal,closed,Microsoft
+microsoft,QQ Email,1,1,0.2,0.2,personal,closed,Microsoft
+microsoft,SUALAB,1,1,0.2,0.2,private,closed,Microsoft
+microsoft,NA,4,4,0.7,2.8,NA,closed,Microsoft
+microsoft,NA,4,4,0.7,2.8,no domain record,closed,Microsoft
+nvidia,NVIDIA,6,2,1,2,public,closed,NVIDIA
+nvidia,NVIDIA,6,2,1,2,NA,closed,NVIDIA
+nvidia,NA,6,2,1,2,NA,closed,NVIDIA
+nvidia,NA,6,2,1,2,no domain record,closed,NVIDIA
+nvidiagameworks,NVIDIA,5,4,0.8,3.2,public,closed,NVIDIA
+nvidiagameworks,NVIDIA,5,4,0.8,3.2,NA,closed,NVIDIA
+nvidiagameworks,NA,5,4,0.8,3.2,NA,closed,NVIDIA
+nvidiagameworks,NA,5,4,0.8,3.2,no domain record,closed,NVIDIA
+nvlabs,NVIDIA,6,2,1,2,public,closed,NVIDIA
+nvlabs,NVIDIA,6,2,1,2,NA,closed,NVIDIA
+nvlabs,NA,6,2,1,2,NA,closed,NVIDIA
+nvlabs,NA,6,2,1,2,no domain record,closed,NVIDIA
+oracle,Oracle,6,1,1,1,NA,closed,Oracle
+oracle,NA,6,1,1,1,NA,closed,Oracle
+oracle,NA,6,1,1,1,no domain record,closed,Oracle
+paddlepaddle,Alibaba Cloud,1,1,0.2,0.2,private,open,Baidu
+paddlepaddle,AMD,1,3,0.2,0.6000000000000001,private,open,Baidu
+paddlepaddle,Baidu,5,2,0.8,1.6,public,open,Baidu
+paddlepaddle,Baidu,5,2,0.8,1.6,NA,open,Baidu
+paddlepaddle,Foxmail,1,2,0.2,0.4,private,open,Baidu
+paddlepaddle,Georgia Tech,1,1,0.2,0.2,education,open,Baidu
+paddlepaddle,GitHub,5,4,0.8,3.2,github,open,Baidu
+paddlepaddle,Google Email,5,7,0.8,5.6000000000000005,personal,open,Baidu
+paddlepaddle,Intel,5,5,0.8,4,public,open,Baidu
+paddlepaddle,Intel,5,5,0.8,4,NA,open,Baidu
+paddlepaddle,nankai,1,1,0.2,0.2,education,open,Baidu
+paddlepaddle,NetEase Email,5,5,0.8,4,personal,open,Baidu
+paddlepaddle,Outlook.com Email,5,4,0.8,3.2,personal,open,Baidu
+paddlepaddle,Peking University,2,4,0.3,1.2,education,open,Baidu
+paddlepaddle,QQ Email,4,3,0.7,2.0999999999999996,personal,open,Baidu
+paddlepaddle,University of Chinese Academy of Sciences,1,3,0.2,0.6000000000000001,education,open,Baidu
+paddlepaddle,wanglun,1,2,0.2,0.4,personal,open,Baidu
+paddlepaddle,Yahoo Email,5,2,0.8,1.6,personal,open,Baidu
+paddlepaddle,百分点-Baifendian,3,3,0.5,1.5,private,open,Baidu
+paddlepaddle,NA,4,5,0.7,3.5,NA,open,Baidu
+paddlepaddle,NA,4,5,0.7,3.5,no domain record,open,Baidu
+pivotal-cf,Pivotal,6,3,1,3,NA,closed,Pivotal
+pivotal-cf,NA,6,3,1,3,NA,closed,Pivotal
+pivotal-cf,NA,6,3,1,3,no domain record,closed,Pivotal
+pivotal-cf-experimental,Pivotal,1,1,0.2,0.2,NA,closed,Pivotal
+pivotal-cf-experimental,NA,1,1,0.2,0.2,NA,closed,Pivotal
+pivotal-cf-experimental,NA,1,1,0.2,0.2,no domain record,closed,Pivotal
+powershell,Microsoft,6,2,1,2,public,closed,Microsoft
+powershell,Microsoft,6,2,1,2,NA,closed,Microsoft
+powershell,NA,6,2,1,2,NA,closed,Microsoft
+powershell,NA,6,2,1,2,no domain record,closed,Microsoft
+pytorch,Alibaba Cloud,1,2,0.2,0.4,private,open,Facebook
+pytorch,Apache Software Foundation,3,1,0.5,0.5,nonprofit,open,Facebook
+pytorch,Baidu,1,1,0.2,0.2,public,open,Facebook
+pytorch,Baidu,1,1,0.2,0.2,NA,open,Facebook
+pytorch,Case Western Reserve University,1,1,0.2,0.2,education,open,Facebook
+pytorch,CK-Telecom,2,2,0.3,0.6,private,open,Facebook
+pytorch,Cornell University,5,3,0.8,2.4000000000000004,education,open,Facebook
+pytorch,Duke University,1,1,0.2,0.2,education,open,Facebook
+pytorch,Facebook,5,4,0.8,3.2,public,open,Facebook
+pytorch,Facebook,5,4,0.8,3.2,NA,open,Facebook
+pytorch,Facebook Email,2,2,0.3,0.6,personal,open,Facebook
+pytorch,GitHub,5,6,0.8,4.800000000000001,github,open,Facebook
+pytorch,Google Email,5,7,0.8,5.6000000000000005,personal,open,Facebook
+pytorch,Hasso Plattner Institute,1,1,0.2,0.2,private,open,Facebook
+pytorch,hello,1,1,0.2,0.2,private,open,Facebook
+pytorch,IBM,4,3,0.7,2.0999999999999996,public,open,Facebook
+pytorch,IBM,4,3,0.7,2.0999999999999996,NA,open,Facebook
+pytorch,Imagen Technologies,2,1,0.3,0.3,private,open,Facebook
+pytorch,Imperial College London,1,1,0.2,0.2,education,open,Facebook
+pytorch,Indian Inst of Technology Hyderabad,5,3,0.8,2.4000000000000004,education,open,Facebook
+pytorch,Instagram,1,1,0.2,0.2,private,open,Facebook
+pytorch,Intel,4,1,0.7,0.7,public,open,Facebook
+pytorch,Intel,4,1,0.7,0.7,NA,open,Facebook
+pytorch,Iowa State University,1,1,0.2,0.2,education,open,Facebook
+pytorch,Kemal Maulana,1,2,0.2,0.4,personal,open,Facebook
+pytorch,Massachusetts Institute of Technology,5,5,0.8,4,education,open,Facebook
+pytorch,Microsoft,1,1,0.2,0.2,public,open,Facebook
+pytorch,Microsoft,1,1,0.2,0.2,NA,open,Facebook
+pytorch,Naren Dasan,1,1,0.2,0.2,personal,open,Facebook
+pytorch,NetEase Email,5,3,0.8,2.4000000000000004,personal,open,Facebook
+pytorch,NVIDIA,5,2,0.8,1.6,public,open,Facebook
+pytorch,NVIDIA,5,2,0.8,1.6,NA,open,Facebook
+pytorch,Orobix,4,2,0.7,1.4,private,open,Facebook
+pytorch,Outlook.com Email,4,2,0.7,1.4,personal,open,Facebook
+pytorch,Peter Goldsborough,5,4,0.8,3.2,private,open,Facebook
+pytorch,PlanGrid,1,1,0.2,0.2,private,open,Facebook
+pytorch,ProtonMail Email,1,2,0.2,0.4,personal,open,Facebook
+pytorch,PyTorch,5,8,0.8,6.4,nonprofit,open,Facebook
+pytorch,QQ Email,2,1,0.3,0.3,personal,open,Facebook
+pytorch,Rensselaer Polytechnic Institute,1,1,0.2,0.2,education,open,Facebook
+pytorch,Rochester Institute of Technology,2,2,0.3,0.6,education,open,Facebook
+pytorch,Samsung,1,2,0.2,0.4,public,open,Facebook
+pytorch,Samsung,1,2,0.2,0.4,NA,open,Facebook
+pytorch,Sebastian Raschka,1,2,0.2,0.4,private,open,Facebook
+pytorch,SenseTime Group Limited,1,4,0.2,0.8,private,open,Facebook
+pytorch,Seoul National Univ.,1,1,0.2,0.2,education,open,Facebook
+pytorch,Stanford University,1,2,0.2,0.4,education,open,Facebook
+pytorch,Tsinghua University,1,1,0.2,0.2,education,open,Facebook
+pytorch,TTIC,1,2,0.2,0.4,education,open,Facebook
+pytorch,TU München,4,3,0.7,2.0999999999999996,education,open,Facebook
+pytorch,Uber,1,1,0.2,0.2,private,open,Facebook
+pytorch,Universität Würzburg,1,2,0.2,0.4,education,open,Facebook
+pytorch,University of Illinois at Urbana-Champaign,1,2,0.2,0.4,education,open,Facebook
+pytorch,University of Oxford,3,2,0.5,1,education,open,Facebook
+pytorch,University of South Florida,1,1,0.2,0.2,education,open,Facebook
+pytorch,University of Tsukuba,2,2,0.3,0.6,education,open,Facebook
+pytorch,University of Washington,1,1,0.2,0.2,education,open,Facebook
+pytorch,University of Zagreb,2,1,0.3,0.3,education,open,Facebook
+pytorch,UT Austin,2,1,0.3,0.3,education,open,Facebook
+pytorch,Yahoo Email,2,2,0.3,0.6,personal,open,Facebook
+pytorch,Yandex Email,1,1,0.2,0.2,personal,open,Facebook
+pytorch,Zoho Email,1,1,0.2,0.2,personal,open,Facebook
+pytorch,NA,5,3,0.8,2.4000000000000004,NA,open,Facebook
+pytorch,NA,5,3,0.8,2.4000000000000004,no domain record,open,Facebook
+redhat-developer,Redhat,6,2,1,2,NA,closed,Redhat
+redhat-developer,NA,6,2,1,2,NA,closed,Redhat
+redhat-developer,NA,6,2,1,2,no domain record,closed,Redhat
+rht-labs,Redhat,6,1,1,1,NA,closed,Redhat
+rht-labs,NA,6,1,1,1,NA,closed,Redhat
+rht-labs,NA,6,1,1,1,no domain record,closed,Redhat
+samsung,Samsung,3,1,0.5,0.5,public,closed,Samsung
+samsung,Samsung,3,1,0.5,0.5,NA,closed,Samsung
+samsung,NA,3,1,0.5,0.5,NA,closed,Samsung
+samsung,NA,3,1,0.5,0.5,no domain record,closed,Samsung
+scikit-learn,AOL Email,2,2,0.3,0.6,personal,open,NA
+scikit-learn,Bluewin,1,2,0.2,0.4,private,open,NA
+scikit-learn,BlueYonder,1,1,0.2,0.2,private,open,NA
+scikit-learn,Columbia University,1,1,0.2,0.2,education,open,NA
+scikit-learn,ENSTA PTech Alumni,3,1,0.5,0.5,nonprofit,open,NA
+scikit-learn,Framasoft,1,1,0.2,0.2,nonprofit,open,NA
+scikit-learn,GitHub,5,4,0.8,3.2,github,open,NA
+scikit-learn,GMX Email,1,1,0.2,0.2,personal,open,NA
+scikit-learn,Google,1,1,0.2,0.2,public,open,NA
+scikit-learn,Google,1,1,0.2,0.2,NA,open,NA
+scikit-learn,Google Email,5,5,0.8,4,personal,open,NA
+scikit-learn,IIEST,1,1,0.2,0.2,education,open,NA
+scikit-learn,Indian Institute of Technology Kanpur,1,1,0.2,0.2,education,open,NA
+scikit-learn,Luis Pedro Coelho,1,1,0.2,0.2,nonprofit,open,NA
+scikit-learn,Nicolas Hug,1,1,0.2,0.2,private,open,NA
+scikit-learn,Onet.,1,1,0.2,0.2,private,open,NA
+scikit-learn,Outlook.com Email,3,1,0.5,0.5,personal,open,NA
+scikit-learn,QQ Email,1,1,0.2,0.2,personal,open,NA
+scikit-learn,Sina Email,5,3,0.8,2.4000000000000004,personal,open,NA
+scikit-learn,Universidad de Córdoba,1,1,0.2,0.2,education,open,NA
+scikit-learn,"University of California, Irvine",1,1,0.2,0.2,education,open,NA
+scikit-learn,Yahoo Email,5,4,0.8,3.2,personal,open,NA
+scikit-learn,NA,5,4,0.8,3.2,NA,open,NA
+scikit-learn,NA,5,4,0.8,3.2,no domain record,open,NA
+tensorflow,⩕,1,1,0.2,0.2,private,open,Google
+tensorflow,4Catalyzer,1,1,0.2,0.2,private,open,Google
+tensorflow,Adobe Systems,1,1,0.2,0.2,public,open,Google
+tensorflow,Alibaba Cloud,1,1,0.2,0.2,private,open,Google
+tensorflow,Amazon.com,1,2,0.2,0.4,public,open,Google
+tensorflow,Amazon.com,1,2,0.2,0.4,NA,open,Google
+tensorflow,AMD,1,1,0.2,0.2,private,open,Google
+tensorflow,Andrew Selle,3,1,0.5,0.5,private,open,Google
+tensorflow,Anton Marini,1,1,0.2,0.2,private,open,Google
+tensorflow,Apple Email,4,2,0.7,1.4,personal,open,Google
+tensorflow,Applicative,1,2,0.2,0.4,private,open,Google
+tensorflow,Bluewin,4,1,0.7,0.7,private,open,Google
+tensorflow,Brainscode,2,1,0.3,0.3,private,open,Google
+tensorflow,Caicloud,1,2,0.2,0.4,private,open,Google
+tensorflow,Carnegie Mellon University,2,1,0.3,0.3,education,open,Google
+tensorflow,Clarifai,2,2,0.3,0.6,private,open,Google
+tensorflow,Codeplay Software,1,2,0.2,0.4,private,open,Google
+tensorflow,CodiLime,4,5,0.7,3.5,private,open,Google
+tensorflow,Combient AB,1,2,0.2,0.4,private,open,Google
+tensorflow,Cornell University,1,1,0.2,0.2,education,open,Google
+tensorflow,Cruise Automation,1,3,0.2,0.6000000000000001,private,open,Google
+tensorflow,Danijar Hafner,5,1,0.8,0.8,private,open,Google
+tensorflow,David Soergel,3,2,0.5,1,private,open,Google
+tensorflow,Deutsches Herzzentrum Berlin,1,2,0.2,0.4,private,open,Google
+tensorflow,dheera,1,2,0.2,0.4,private,open,Google
+tensorflow,Dyn,1,1,0.2,0.2,private,open,Google
+tensorflow,Foxmail,1,1,0.2,0.2,private,open,Google
+tensorflow,Freedom of the Press Foundation,1,2,0.2,0.4,government,open,Google
+tensorflow,Geoffrey Irving,1,2,0.2,0.4,private,open,Google
+tensorflow,GitHub,5,5,0.8,4,github,open,Google
+tensorflow,GMX Email,2,2,0.3,0.6,personal,open,Google
+tensorflow,Google,5,4,0.8,3.2,public,open,Google
+tensorflow,Google,5,4,0.8,3.2,NA,open,Google
+tensorflow,Google Email,5,4,0.8,3.2,personal,open,Google
+tensorflow,Graphcore,2,2,0.3,0.6,private,open,Google
+tensorflow,HAMBERG.NO,1,2,0.2,0.4,private,open,Google
+tensorflow,Harvard University,1,1,0.2,0.2,education,open,Google
+tensorflow,hello,3,2,0.5,1,private,open,Google
+tensorflow,Hudl,2,1,0.3,0.3,private,open,Google
+tensorflow,IBM,5,3,0.8,2.4000000000000004,public,open,Google
+tensorflow,IBM,5,3,0.8,2.4000000000000004,NA,open,Google
+tensorflow,iCloud Email,1,1,0.2,0.2,personal,open,Google
+tensorflow,Immonet,1,2,0.2,0.4,private,open,Google
+tensorflow,Imperial College London,1,2,0.2,0.4,education,open,Google
+tensorflow,Intel,5,3,0.8,2.4000000000000004,public,open,Google
+tensorflow,Intel,5,3,0.8,2.4000000000000004,NA,open,Google
+tensorflow,John Glover,1,2,0.2,0.4,personal,open,Google
+tensorflow,Johns Hopkins University,1,3,0.2,0.6000000000000001,education,open,Google
+tensorflow,JoyTunes,1,1,0.2,0.2,private,open,Google
+tensorflow,Kamil Sindi,1,2,0.2,0.4,private,open,Google
+tensorflow,Kansas State University,1,4,0.2,0.8,education,open,Google
+tensorflow,Kika Tech,4,1,0.7,0.7,private,open,Google
+tensorflow,KTH Royal Institute of Technology,1,2,0.2,0.4,education,open,Google
+tensorflow,Kwangwoon University,5,4,0.8,3.2,education,open,Google
+tensorflow,Kyle McDonald,1,2,0.2,0.4,private,open,Google
+tensorflow,LeapMind,2,2,0.3,0.6,private,open,Google
+tensorflow,mail.com Email,1,2,0.2,0.4,personal,open,Google
+tensorflow,Massachusetts Institute of Technology,3,3,0.5,1.5,education,open,Google
+tensorflow,Maximilian Mitchell,1,1,0.2,0.2,private,open,Google
+tensorflow,Microsoft,1,1,0.2,0.2,public,open,Google
+tensorflow,Microsoft,1,1,0.2,0.2,NA,open,Google
+tensorflow,Mozilla,1,2,0.2,0.4,nonprofit,open,Google
+tensorflow,NetEase Email,3,1,0.5,0.5,personal,open,Google
+tensorflow,New Jersey Institute of Technology,1,1,0.2,0.2,education,open,Google
+tensorflow,NTNU,2,1,0.3,0.3,education,open,Google
+tensorflow,NVIDIA,5,5,0.8,4,public,open,Google
+tensorflow,NVIDIA,5,5,0.8,4,NA,open,Google
+tensorflow,Outlook.com Email,5,5,0.8,4,personal,open,Google
+tensorflow,Penn State,2,2,0.3,0.6,education,open,Google
+tensorflow,Pete Warden,2,1,0.3,0.3,private,open,Google
+tensorflow,Phil,1,1,0.2,0.2,personal,open,Google
+tensorflow,PicsArt,3,2,0.5,1,private,open,Google
+tensorflow,ProtonMail Email,1,2,0.2,0.4,personal,open,Google
+tensorflow,QQ Email,4,3,0.7,2.0999999999999996,personal,open,Google
+tensorflow,RIST,2,2,0.3,0.6,private,open,Google
+tensorflow,Ruby,1,2,0.2,0.4,nonprofit,open,Google
+tensorflow,Sapienza University of Rome,1,2,0.2,0.4,education,open,Google
+tensorflow,SevenTablets,1,2,0.2,0.4,private,open,Google
+tensorflow,Shopify,4,2,0.7,1.4,public,open,Google
+tensorflow,Spreadtrum,1,1,0.2,0.2,private,open,Google
+tensorflow,Stylight,1,2,0.2,0.4,private,open,Google
+tensorflow,Synchron Voice and Video,1,1,0.2,0.2,private,open,Google
+tensorflow,TensorFlow,5,8,0.8,6.4,nonprofit,open,Google
+tensorflow,Tero Parviainen,1,1,0.2,0.2,private,open,Google
+tensorflow,Traptic,1,1,0.2,0.2,private,open,Google
+tensorflow,Trent,1,1,0.2,0.2,private,open,Google
+tensorflow,Uber,3,2,0.5,1,private,open,Google
+tensorflow,UC San Diego,2,1,0.3,0.3,education,open,Google
+tensorflow,UnifyID,1,2,0.2,0.4,private,open,Google
+tensorflow,Université de Sherbrooke,1,1,0.2,0.2,education,open,Google
+tensorflow,University of Fribourg,1,4,0.2,0.8,education,open,Google
+tensorflow,University of Guelph,1,2,0.2,0.4,education,open,Google
+tensorflow,University of Heidelberg,1,1,0.2,0.2,education,open,Google
+tensorflow,University of Illinois at Urbana-Champaign,1,1,0.2,0.2,education,open,Google
+tensorflow,University of Mainz,1,3,0.2,0.6000000000000001,education,open,Google
+tensorflow,University of São Paulo,1,2,0.2,0.4,education,open,Google
+tensorflow,Univerzita Karlova,4,3,0.7,2.0999999999999996,education,open,Google
+tensorflow,UP Information Technology Development Center,1,2,0.2,0.4,education,open,Google
+tensorflow,Winton Group,1,1,0.2,0.2,private,open,Google
+tensorflow,Xiaomi,1,1,0.2,0.2,private,open,Google
+tensorflow,Yahoo Email,5,2,0.8,1.6,personal,open,Google
+tensorflow,Yandex Email,1,1,0.2,0.2,personal,open,Google
+tensorflow,НГС,1,1,0.2,0.2,private,open,Google
+tensorflow,NA,5,2,0.8,1.6,NA,open,Google
+tensorflow,NA,5,2,0.8,1.6,no domain record,open,Google
+watson-developer-cloud,IBM,6,2,1,2,public,closed,IBM
+watson-developer-cloud,IBM,6,2,1,2,NA,closed,IBM
+watson-developer-cloud,NA,6,2,1,2,NA,closed,IBM
+watson-developer-cloud,NA,6,2,1,2,no domain record,closed,IBM
+watson-explorer,IBM,5,1,0.8,0.8,public,closed,IBM
+watson-explorer,IBM,5,1,0.8,0.8,NA,closed,IBM
+watson-explorer,NA,5,1,0.8,0.8,NA,closed,IBM
+watson-explorer,NA,5,1,0.8,0.8,no domain record,closed,IBM
