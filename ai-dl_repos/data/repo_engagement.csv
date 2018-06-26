@@ -1,0 +1,1652 @@
+project,repo,company_name,activity_months,commit_weight,months_pct,engagement_score,company_type,commit_access,sponsor,activity_scope
+01org,01org/murphy,Intel,1,3,0.2,26,public,closed,Intel,internal
+alexa,alexa/alexa-avs-sample-app,Amazon.com,1,0,0.2,20,public,closed,Amazon.com,internal
+alexa,alexa/alexa-avs-sample-app,GitHub,1,1,0.2,22,github,closed,Amazon.com,unknown
+alexa,alexa/alexa-cookbook,GitHub,1,3,0.2,26,github,closed,Amazon.com,unknown
+alexa,alexa/alexa-cookbook,Google Email,1,1,0.2,22,personal,closed,Amazon.com,unknown
+alexa,alexa/alexa-skills-kit-sdk-for-java,Amazon.com,2,1,0.3,32,public,closed,Amazon.com,internal
+alexa,alexa/alexa-skills-kit-sdk-for-java,GitHub,2,2,0.3,34,github,closed,Amazon.com,unknown
+alexa,alexa/alexa-skills-kit-sdk-for-nodejs,Amazon.com,3,1,0.5,52,public,closed,Amazon.com,internal
+alexa,alexa/alexa-skills-kit-sdk-for-nodejs,GitHub,2,2,0.3,34,github,closed,Amazon.com,unknown
+alexa,alexa/alexa-skills-kit-sdk-for-nodejs,Google Email,3,1,0.5,52,personal,closed,Amazon.com,unknown
+alexa,alexa/alexa-smarthome,GitHub,3,1,0.5,52,github,closed,Amazon.com,unknown
+alexa,alexa/avs-device-sdk,Amazon.com,5,1,0.8,82,public,closed,Amazon.com,internal
+alexa,alexa/avs-device-sdk,GitHub,3,1,0.5,52,github,closed,Amazon.com,unknown
+alexa,alexa/skill-sample-csharp-fact,GitHub,2,0,0.3,30,github,closed,Amazon.com,unknown
+alexa,alexa/skill-sample-csharp-fact,Google Email,2,0,0.3,30,personal,closed,Amazon.com,unknown
+alexa,alexa/skill-sample-csharp-quiz-game,GitHub,1,1,0.2,22,github,closed,Amazon.com,unknown
+alexa,alexa/skill-sample-csharp-quiz-game,Google Email,2,0,0.3,30,personal,closed,Amazon.com,unknown
+alexa,alexa/skill-sample-csharp-trivia,GitHub,1,1,0.2,22,github,closed,Amazon.com,unknown
+alexa,alexa/skill-sample-csharp-trivia,Google Email,1,0,0.2,20,personal,closed,Amazon.com,unknown
+alexa,alexa/skill-sample-node-device-address-api,Amazon.com,1,0,0.2,20,public,closed,Amazon.com,internal
+alexa,alexa/skill-sample-node-device-address-api,GitHub,2,0,0.3,30,github,closed,Amazon.com,unknown
+alexa,alexa/skill-sample-node-device-address-api,Google Email,1,0,0.2,20,personal,closed,Amazon.com,unknown
+alexa,alexa/skill-sample-nodejs-adventure-game,GitHub,3,0,0.5,50,github,closed,Amazon.com,unknown
+alexa,alexa/skill-sample-nodejs-adventure-game,Google Email,2,1,0.3,32,personal,closed,Amazon.com,unknown
+alexa,alexa/skill-sample-nodejs-audio-player,Amazon.com,3,2,0.5,54,public,closed,Amazon.com,internal
+alexa,alexa/skill-sample-nodejs-audio-player,GitHub,1,1,0.2,22,github,closed,Amazon.com,unknown
+alexa,alexa/skill-sample-nodejs-calendar-reader,GitHub,2,1,0.3,32,github,closed,Amazon.com,unknown
+alexa,alexa/skill-sample-nodejs-calendar-reader,Google Email,2,2,0.3,34,personal,closed,Amazon.com,unknown
+alexa,alexa/skill-sample-nodejs-city-guide,Amazon.com,1,0,0.2,20,public,closed,Amazon.com,internal
+alexa,alexa/skill-sample-nodejs-city-guide,GitHub,2,3,0.3,36,github,closed,Amazon.com,unknown
+alexa,alexa/skill-sample-nodejs-city-guide,Google Email,2,1,0.3,32,personal,closed,Amazon.com,unknown
+alexa,alexa/skill-sample-nodejs-decision-tree,Amazon.com,2,0,0.3,30,public,closed,Amazon.com,internal
+alexa,alexa/skill-sample-nodejs-decision-tree,GitHub,4,1,0.7,72,github,closed,Amazon.com,unknown
+alexa,alexa/skill-sample-nodejs-decision-tree,Google Email,3,0,0.5,50,personal,closed,Amazon.com,unknown
+alexa,alexa/skill-sample-nodejs-fact,GitHub,2,2,0.3,34,github,closed,Amazon.com,unknown
+alexa,alexa/skill-sample-nodejs-fact,Google Email,1,2,0.2,24.000000000000004,personal,closed,Amazon.com,unknown
+alexa,alexa/skill-sample-nodejs-feed,GitHub,4,1,0.7,72,github,closed,Amazon.com,unknown
+alexa,alexa/skill-sample-nodejs-feed,Google Email,4,0,0.7,70,personal,closed,Amazon.com,unknown
+alexa,alexa/skill-sample-nodejs-hello-world,GitHub,3,1,0.5,52,github,closed,Amazon.com,unknown
+alexa,alexa/skill-sample-nodejs-hello-world,Google Email,1,2,0.2,24.000000000000004,personal,closed,Amazon.com,unknown
+alexa,alexa/skill-sample-nodejs-highlowgame,Amazon.com,1,0,0.2,20,public,closed,Amazon.com,internal
+alexa,alexa/skill-sample-nodejs-highlowgame,GitHub,5,0,0.8,80,github,closed,Amazon.com,unknown
+alexa,alexa/skill-sample-nodejs-highlowgame,Google Email,3,0,0.5,50,personal,closed,Amazon.com,unknown
+alexa,alexa/skill-sample-nodejs-howto,GitHub,2,1,0.3,32,github,closed,Amazon.com,unknown
+alexa,alexa/skill-sample-nodejs-howto,Google Email,2,1,0.3,32,personal,closed,Amazon.com,unknown
+alexa,alexa/skill-sample-nodejs-quiz-game,Amazon.com,2,1,0.3,32,public,closed,Amazon.com,internal
+alexa,alexa/skill-sample-nodejs-quiz-game,GitHub,2,2,0.3,34,github,closed,Amazon.com,unknown
+alexa,alexa/skill-sample-nodejs-quiz-game,Google Email,2,1,0.3,32,personal,closed,Amazon.com,unknown
+alexa,alexa/skill-sample-nodejs-salesforce,Amazon.com,2,0,0.3,30,public,closed,Amazon.com,internal
+alexa,alexa/skill-sample-nodejs-salesforce,GitHub,1,0,0.2,20,github,closed,Amazon.com,unknown
+alexa,alexa/skill-sample-nodejs-team-lookup,Amazon.com,1,0,0.2,20,public,closed,Amazon.com,internal
+alexa,alexa/skill-sample-nodejs-team-lookup,GitHub,5,1,0.8,82,github,closed,Amazon.com,unknown
+alexa,alexa/skill-sample-nodejs-team-lookup,Google Email,4,0,0.7,70,personal,closed,Amazon.com,unknown
+alexa,alexa/skill-sample-nodejs-trivia,GitHub,2,3,0.3,36,github,closed,Amazon.com,unknown
+alexa,alexa/skill-sample-nodejs-trivia,Google Email,1,2,0.2,24.000000000000004,personal,closed,Amazon.com,unknown
+alexa,alexa/skill-sample-python-fact,GitHub,1,2,0.2,24.000000000000004,github,closed,Amazon.com,unknown
+alexa,alexa/skill-sample-python-fact,Google Email,1,0,0.2,20,personal,closed,Amazon.com,unknown
+alexa,alexa/skill-sample-python-quiz-game,GitHub,2,0,0.3,30,github,closed,Amazon.com,unknown
+alexa,alexa/skill-sample-python-quiz-game,Google Email,2,0,0.3,30,personal,closed,Amazon.com,unknown
+alexa,alexa/skill-sample-python-trivia,GitHub,1,1,0.2,22,github,closed,Amazon.com,unknown
+alexa,alexa/skill-sample-python-trivia,Google Email,1,0,0.2,20,personal,closed,Amazon.com,unknown
+alexa,alexa/skill-samples-java,Amazon.com,1,0,0.2,20,public,closed,Amazon.com,internal
+amzn,amzn/amazon-advertising-api-php-sdk,GitHub,1,1,0.2,22,github,closed,Amazon.com,unknown
+amzn,amzn/amazon-dsstne,GitHub,4,1,0.7,72,github,closed,Amazon.com,unknown
+amzn,amzn/amazon-dsstne,Google Email,3,0,0.5,50,personal,closed,Amazon.com,unknown
+amzn,amzn/amazon-dsstne,Harvard University,1,1,0.2,22,education,closed,Amazon.com,external
+amzn,amzn/amazon-instant-access-sdk-java,Amazon.com,1,0,0.2,20,public,closed,Amazon.com,internal
+amzn,amzn/amazon-instant-access-sdk-java,GitHub,1,1,0.2,22,github,closed,Amazon.com,unknown
+amzn,amzn/amazon-instant-access-sdk-net,Amazon.com,1,0,0.2,20,public,closed,Amazon.com,internal
+amzn,amzn/amazon-instant-access-sdk-net,GitHub,1,0,0.2,20,github,closed,Amazon.com,unknown
+amzn,amzn/amazon-instant-access-sdk-php,Amazon.com,1,0,0.2,20,public,closed,Amazon.com,internal
+amzn,amzn/amazon-instant-access-sdk-php,GitHub,1,0,0.2,20,github,closed,Amazon.com,unknown
+amzn,amzn/amazon-pay-sdk-csharp,Amazon.com,3,0,0.5,50,public,closed,Amazon.com,internal
+amzn,amzn/amazon-pay-sdk-csharp,GitHub,1,0,0.2,20,github,closed,Amazon.com,unknown
+amzn,amzn/amazon-pay-sdk-java,Amazon.com,3,0,0.5,50,public,closed,Amazon.com,internal
+amzn,amzn/amazon-pay-sdk-java,GitHub,2,0,0.3,30,github,closed,Amazon.com,unknown
+amzn,amzn/amazon-pay-sdk-php,Amazon.com,3,0,0.5,50,public,closed,Amazon.com,internal
+amzn,amzn/amazon-pay-sdk-php,GitHub,1,0,0.2,20,github,closed,Amazon.com,unknown
+amzn,amzn/amazon-pay-sdk-python,Amazon.com,2,0,0.3,30,public,closed,Amazon.com,internal
+amzn,amzn/amazon-pay-sdk-python,GitHub,1,0,0.2,20,github,closed,Amazon.com,unknown
+amzn,amzn/amazon-pay-sdk-ruby,Amazon.com,4,1,0.7,72,public,closed,Amazon.com,internal
+amzn,amzn/amazon-pay-sdk-ruby,GitHub,2,0,0.3,30,github,closed,Amazon.com,unknown
+amzn,amzn/amazon-pay-sdk-samples,Amazon.com,2,0,0.3,30,public,closed,Amazon.com,internal
+amzn,amzn/amazon-pay-sdk-samples,GitHub,1,0,0.2,20,github,closed,Amazon.com,unknown
+amzn,amzn/amazon-payments-magento-2-plugin,Amazon.com,3,0,0.5,50,public,closed,Amazon.com,internal
+amzn,amzn/amazon-payments-magento-2-plugin,GitHub,4,1,0.7,72,github,closed,Amazon.com,unknown
+amzn,amzn/amazon-payments-magento-plugin,Amazon.com,1,0,0.2,20,public,closed,Amazon.com,internal
+amzn,amzn/amazon-payments-magento-plugin,GitHub,2,2,0.3,34,github,closed,Amazon.com,unknown
+amzn,amzn/amazonpay-express-demo,Amazon.com,1,0,0.2,20,public,closed,Amazon.com,internal
+amzn,amzn/amazonpay-express-demo,GitHub,3,2,0.5,54,github,closed,Amazon.com,unknown
+amzn,amzn/amzn-drivers,Amazon.com,5,1,0.8,82,public,closed,Amazon.com,internal
+amzn,amzn/amzn-drivers,GitHub,1,0,0.2,20,github,closed,Amazon.com,unknown
+amzn,amzn/exoplayer-amazon-port,Amazon.com,2,2,0.3,34,public,closed,Amazon.com,internal
+amzn,amzn/exoplayer-amazon-port,GitHub,1,1,0.2,22,github,closed,Amazon.com,unknown
+amzn,amzn/exoplayer-amazon-port,Google,1,3,0.2,26,public,closed,Amazon.com,external
+amzn,amzn/ion-c,GitHub,5,1,0.8,82,github,closed,Amazon.com,unknown
+amzn,amzn/ion-intellij-plugin,Amazon.com,1,0,0.2,20,public,closed,Amazon.com,internal
+amzn,amzn/ion-intellij-plugin,GitHub,1,0,0.2,20,github,closed,Amazon.com,unknown
+amzn,amzn/ion-java,Amazon.com,3,1,0.5,52,public,closed,Amazon.com,internal
+amzn,amzn/ion-java,GitHub,5,0,0.8,80,github,closed,Amazon.com,unknown
+amzn,amzn/ion-python,Amazon.com,1,2,0.2,24.000000000000004,public,closed,Amazon.com,internal
+amzn,amzn/ion-python,GitHub,2,0,0.3,30,github,closed,Amazon.com,unknown
+amzn,amzn/ion-python,Google Email,1,0,0.2,20,personal,closed,Amazon.com,unknown
+amzn,amzn/ion-tests,GitHub,3,0,0.5,50,github,closed,Amazon.com,unknown
+amzn,amzn/login-with-amazon-oscommerce,Amazon.com,1,0,0.2,20,public,closed,Amazon.com,internal
+amzn,amzn/login-with-amazon-oscommerce,GitHub,1,0,0.2,20,github,closed,Amazon.com,unknown
+amzn,amzn/login-with-amazon-wordpress,Amazon.com,1,0,0.2,20,public,closed,Amazon.com,internal
+amzn,amzn/login-with-amazon-wordpress,GitHub,1,0,0.2,20,github,closed,Amazon.com,unknown
+amzn,amzn/oss-dashboard,Amazon.com,3,0,0.5,50,public,closed,Amazon.com,internal
+amzn,amzn/oss-dashboard,GitHub,2,2,0.3,34,github,closed,Amazon.com,unknown
+amzn,amzn/pay-with-amazon-express-wordpress,Amazon.com,1,0,0.2,20,public,closed,Amazon.com,internal
+amzn,amzn/pay-with-amazon-express-wordpress,GitHub,1,0,0.2,20,github,closed,Amazon.com,unknown
+amzn,amzn/spree_pay_with_amazon,Amazon.com,1,0,0.2,20,public,closed,Amazon.com,internal
+amzn,amzn/spree_pay_with_amazon,GitHub,1,0,0.2,20,github,closed,Amazon.com,unknown
+amzn,amzn/swa-sample-seller,Amazon.com,1,0,0.2,20,public,closed,Amazon.com,internal
+amzn,amzn/swa-sample-seller,GitHub,1,0,0.2,20,github,closed,Amazon.com,unknown
+amzn,amzn/web-app-starter-kit-for-fire-tv,Amazon.com,1,0,0.2,20,public,closed,Amazon.com,internal
+amzn,amzn/web-app-starter-kit-for-fire-tv,GitHub,3,0,0.5,50,github,closed,Amazon.com,unknown
+apple,apple/ccs-calendarserver,Apple,1,1,0.2,22,public,closed,Apple,internal
+apple,apple/ccs-calendarserver,GitHub,1,0,0.2,20,github,closed,Apple,unknown
+apple,apple/ccs-pykerberos,GitHub,1,1,0.2,22,github,closed,Apple,unknown
+apple,apple/ccs-pykerberos,Google Email,1,0,0.2,20,personal,closed,Apple,unknown
+apple,apple/cups,GitHub,1,1,0.2,22,github,closed,Apple,unknown
+apple,apple/cups,Google Email,1,3,0.2,26,personal,closed,Apple,unknown
+apple,apple/example-package-deckofplayingcards,Apple,1,0,0.2,20,public,closed,Apple,internal
+apple,apple/example-package-fisheryates,Apple,1,0,0.2,20,public,closed,Apple,internal
+apple,apple/example-package-playingcard,Apple,3,0,0.5,50,public,closed,Apple,internal
+apple,apple/swift,Apple,1,2,0.2,24.000000000000004,public,closed,Apple,internal
+apple,apple/swift,GitHub,1,3,0.2,26,github,closed,Apple,unknown
+apple,apple/swift,Google Email,1,1,0.2,22,personal,closed,Apple,unknown
+apple,apple/swift-clang,Apple,2,2,0.3,34,public,closed,Apple,internal
+apple,apple/swift-clang,GitHub,2,2,0.3,34,github,closed,Apple,unknown
+apple,apple/swift-clang,Red Hat,1,2,0.2,24.000000000000004,public,closed,Apple,external
+apple,apple/swift-compiler-rt,Apple,4,1,0.7,72,public,closed,Apple,internal
+apple,apple/swift-compiler-rt,GitHub,3,1,0.5,52,github,closed,Apple,unknown
+apple,apple/swift-compiler-rt,Google Email,1,0,0.2,20,personal,closed,Apple,unknown
+apple,apple/swift-corelibs-foundation,Apple,1,1,0.2,22,public,closed,Apple,internal
+apple,apple/swift-corelibs-foundation,GitHub,1,3,0.2,26,github,closed,Apple,unknown
+apple,apple/swift-corelibs-foundation,Google Email,1,1,0.2,22,personal,closed,Apple,unknown
+apple,apple/swift-corelibs-foundation,IBM,1,0,0.2,20,public,closed,Apple,external
+apple,apple/swift-corelibs-libdispatch,Apple,1,1,0.2,22,public,closed,Apple,internal
+apple,apple/swift-corelibs-libdispatch,Facebook,1,1,0.2,22,public,closed,Apple,external
+apple,apple/swift-corelibs-libdispatch,GitHub,4,1,0.7,72,github,closed,Apple,unknown
+apple,apple/swift-corelibs-libdispatch,Google Email,1,0,0.2,20,personal,closed,Apple,unknown
+apple,apple/swift-corelibs-libdispatch,Yahoo Email,1,0,0.2,20,personal,closed,Apple,unknown
+apple,apple/swift-corelibs-xctest,Apple,1,0,0.2,20,public,closed,Apple,internal
+apple,apple/swift-corelibs-xctest,GitHub,2,1,0.3,32,github,closed,Apple,unknown
+apple,apple/swift-corelibs-xctest,Yahoo Email,1,0,0.2,20,personal,closed,Apple,unknown
+apple,apple/swift-evolution,Apple,2,1,0.3,32,public,closed,Apple,internal
+apple,apple/swift-evolution,GitHub,2,2,0.3,34,github,closed,Apple,unknown
+apple,apple/swift-evolution,Google,1,1,0.2,22,public,closed,Apple,external
+apple,apple/swift-integration-tests,Apple,2,1,0.3,32,public,closed,Apple,internal
+apple,apple/swift-integration-tests,GitHub,2,1,0.3,32,github,closed,Apple,unknown
+apple,apple/swift-llbuild,Apple,2,2,0.3,34,public,closed,Apple,internal
+apple,apple/swift-llbuild,GitHub,2,0,0.3,30,github,closed,Apple,unknown
+apple,apple/swift-lldb,Apple,1,2,0.2,24.000000000000004,public,closed,Apple,internal
+apple,apple/swift-lldb,GitHub,1,3,0.2,26,github,closed,Apple,unknown
+apple,apple/swift-llvm,Apple,2,0,0.3,30,public,closed,Apple,internal
+apple,apple/swift-llvm,GitHub,2,1,0.3,32,github,closed,Apple,unknown
+apple,apple/swift-llvm,Google Email,1,0,0.2,20,personal,closed,Apple,unknown
+apple,apple/swift-llvm,Red Hat,2,2,0.3,34,public,closed,Apple,external
+apple,apple/swift-llvm,Yahoo Email,1,1,0.2,22,personal,closed,Apple,unknown
+apple,apple/swift-package-manager,Apple,2,2,0.3,34,public,closed,Apple,internal
+apple,apple/swift-package-manager,GitHub,2,1,0.3,32,github,closed,Apple,unknown
+apple,apple/swift-xcode-playground-support,Apple,1,1,0.2,22,public,closed,Apple,internal
+apple,apple/swift-xcode-playground-support,Apple Email,1,3,0.2,26,personal,closed,Apple,unknown
+apple,apple/swift-xcode-playground-support,GitHub,2,0,0.3,30,github,closed,Apple,unknown
+apple,apple/swift-xcode-playground-support,Google Email,1,0,0.2,20,personal,closed,Apple,unknown
+aspnet,aspnet/Configuration,GitHub,3,2,0.5,54,github,closed,Microsoft,unknown
+aspnet,aspnet/Configuration,Microsoft,4,1,0.7,72,public,closed,Microsoft,internal
+aspnet,aspnet/DataProtection,GitHub,3,1,0.5,52,github,closed,Microsoft,unknown
+aspnet,aspnet/DataProtection,Microsoft,4,1,0.7,72,public,closed,Microsoft,internal
+aspnet,aspnet/DependencyInjection,GitHub,4,1,0.7,72,github,closed,Microsoft,unknown
+aspnet,aspnet/DependencyInjection,Microsoft,4,1,0.7,72,public,closed,Microsoft,internal
+aspnet,aspnet/Diagnostics,GitHub,4,1,0.7,72,github,closed,Microsoft,unknown
+aspnet,aspnet/Diagnostics,Microsoft,4,2,0.7,74,public,closed,Microsoft,internal
+aspnet,aspnet/EntityFrameworkCore,GitHub,2,1,0.3,32,github,closed,Microsoft,unknown
+aspnet,aspnet/EntityFrameworkCore,Microsoft,1,3,0.2,26,public,closed,Microsoft,internal
+aspnet,aspnet/EntityFrameworkCore,Outlook.com Email,1,1,0.2,22,personal,closed,Microsoft,unknown
+aspnet,aspnet/Entropy,Microsoft,1,0,0.2,20,public,closed,Microsoft,internal
+aspnet,aspnet/Entropy,Outlook.com Email,2,0,0.3,30,personal,closed,Microsoft,unknown
+aspnet,aspnet/FileSystem,GitHub,4,1,0.7,72,github,closed,Microsoft,unknown
+aspnet,aspnet/FileSystem,Microsoft,4,1,0.7,72,public,closed,Microsoft,internal
+aspnet,aspnet/Home,GitHub,3,1,0.5,52,github,closed,Microsoft,unknown
+aspnet,aspnet/Hosting,GitHub,2,2,0.3,34,github,closed,Microsoft,unknown
+aspnet,aspnet/Hosting,Google Email,1,1,0.2,22,personal,closed,Microsoft,unknown
+aspnet,aspnet/Hosting,Microsoft,2,2,0.3,34,public,closed,Microsoft,internal
+aspnet,aspnet/Hosting,Outlook.com Email,2,1,0.3,32,personal,closed,Microsoft,unknown
+aspnet,aspnet/HttpAbstractions,GitHub,4,1,0.7,72,github,closed,Microsoft,unknown
+aspnet,aspnet/HttpAbstractions,Microsoft,4,1,0.7,72,public,closed,Microsoft,internal
+aspnet,aspnet/HttpAbstractions,Outlook.com Email,2,0,0.3,30,personal,closed,Microsoft,unknown
+aspnet,aspnet/HttpSysServer,GitHub,3,1,0.5,52,github,closed,Microsoft,unknown
+aspnet,aspnet/HttpSysServer,Microsoft,4,1,0.7,72,public,closed,Microsoft,internal
+aspnet,aspnet/HttpSysServer,Outlook.com Email,1,1,0.2,22,personal,closed,Microsoft,unknown
+aspnet,aspnet/Identity,GitHub,3,2,0.5,54,github,closed,Microsoft,unknown
+aspnet,aspnet/Identity,Microsoft,3,1,0.5,52,public,closed,Microsoft,internal
+aspnet,aspnet/Logging,GitHub,3,2,0.5,54,github,closed,Microsoft,unknown
+aspnet,aspnet/Logging,Microsoft,3,1,0.5,52,public,closed,Microsoft,internal
+aspnet,aspnet/Logging,Outlook.com Email,1,0,0.2,20,personal,closed,Microsoft,unknown
+aspnet,aspnet/Microsoft.Data.Sqlite,GitHub,3,2,0.5,54,github,closed,Microsoft,unknown
+aspnet,aspnet/Microsoft.Data.Sqlite,Google Email,1,1,0.2,22,personal,closed,Microsoft,unknown
+aspnet,aspnet/Microsoft.Data.Sqlite,Microsoft,3,1,0.5,52,public,closed,Microsoft,internal
+aspnet,aspnet/MusicStore,GitHub,4,1,0.7,72,github,closed,Microsoft,unknown
+aspnet,aspnet/MusicStore,Microsoft,4,2,0.7,74,public,closed,Microsoft,internal
+aspnet,aspnet/MusicStore,Outlook.com Email,2,1,0.3,32,personal,closed,Microsoft,unknown
+aspnet,aspnet/Mvc,GitHub,2,1,0.3,32,github,closed,Microsoft,unknown
+aspnet,aspnet/Mvc,Microsoft,2,0,0.3,30,public,closed,Microsoft,internal
+aspnet,aspnet/Mvc,Outlook.com Email,2,2,0.3,34,personal,closed,Microsoft,unknown
+aspnet,aspnet/Razor,GitHub,2,1,0.3,32,github,closed,Microsoft,unknown
+aspnet,aspnet/Razor,Google Email,1,0,0.2,20,personal,closed,Microsoft,unknown
+aspnet,aspnet/Razor,Microsoft,2,2,0.3,34,public,closed,Microsoft,internal
+aspnet,aspnet/Razor,Outlook.com Email,2,2,0.3,34,personal,closed,Microsoft,unknown
+aspnet,aspnet/Routing,GitHub,1,2,0.2,24.000000000000004,github,closed,Microsoft,unknown
+aspnet,aspnet/Routing,Google Email,1,3,0.2,26,personal,closed,Microsoft,unknown
+aspnet,aspnet/Routing,Microsoft,1,2,0.2,24.000000000000004,public,closed,Microsoft,internal
+aspnet,aspnet/Security,GitHub,3,1,0.5,52,github,closed,Microsoft,unknown
+aspnet,aspnet/Security,Microsoft,4,1,0.7,72,public,closed,Microsoft,internal
+aspnet,aspnet/Security,Outlook.com Email,2,0,0.3,30,personal,closed,Microsoft,unknown
+aspnet,aspnet/Session,GitHub,4,1,0.7,72,github,closed,Microsoft,unknown
+aspnet,aspnet/Session,Microsoft,4,1,0.7,72,public,closed,Microsoft,internal
+aspnet,aspnet/StaticFiles,GitHub,4,1,0.7,72,github,closed,Microsoft,unknown
+aspnet,aspnet/StaticFiles,Microsoft,4,1,0.7,72,public,closed,Microsoft,internal
+aspnet,aspnet/StaticFiles,Outlook.com Email,1,0,0.2,20,personal,closed,Microsoft,unknown
+aspnet,aspnet/Testing,GitHub,4,1,0.7,72,github,closed,Microsoft,unknown
+aspnet,aspnet/Testing,Microsoft,2,0,0.3,30,public,closed,Microsoft,internal
+aspnet,aspnet/Testing,Outlook.com Email,2,0,0.3,30,personal,closed,Microsoft,unknown
+aspnet,aspnet/Universe,GitHub,1,3,0.2,26,github,closed,Microsoft,unknown
+aspnet,aspnet/WebSockets,GitHub,3,2,0.5,54,github,closed,Microsoft,unknown
+aspnet,aspnet/WebSockets,Microsoft,3,1,0.5,52,public,closed,Microsoft,internal
+att,att/ast,Google Email,1,1,0.2,22,personal,closed,AT&T,unknown
+att,att/gopkgs,GitHub,2,1,0.3,32,github,closed,AT&T,unknown
+att,att/rcloud,GitHub,1,0,0.2,20,github,closed,AT&T,unknown
+att,att/rcloud,Google Email,1,1,0.2,22,personal,closed,AT&T,unknown
+att,att/rcloud.rcap,GitHub,2,1,0.3,32,github,closed,AT&T,unknown
+att,att/rcloud.rcap,Google Email,1,1,0.2,22,personal,closed,AT&T,unknown
+att,att/rcloud.shiny,Google Email,2,1,0.3,32,personal,closed,AT&T,unknown
+aws,aws/amazon-cognito-android,Amazon.com,1,0,0.2,20,public,closed,Amazon.com,internal
+aws,aws/amazon-cognito-android,GitHub,1,0,0.2,20,github,closed,Amazon.com,unknown
+aws,aws/amazon-cognito-ios,Amazon.com,1,0,0.2,20,public,closed,Amazon.com,internal
+aws,aws/amazon-cognito-ios,GitHub,2,0,0.3,30,github,closed,Amazon.com,unknown
+aws,aws/amazon-ecs-agent,Amazon.com,2,2,0.3,34,public,closed,Amazon.com,internal
+aws,aws/amazon-ecs-agent,GitHub,2,3,0.3,36,github,closed,Amazon.com,unknown
+aws,aws/amazon-ecs-init,Amazon.com,4,1,0.7,72,public,closed,Amazon.com,internal
+aws,aws/amazon-ecs-init,GitHub,3,1,0.5,52,github,closed,Amazon.com,unknown
+aws,aws/amazon-ecs-init,Google Email,1,0,0.2,20,personal,closed,Amazon.com,unknown
+aws,aws/aws-cli,Amazon.com,1,3,0.2,26,public,closed,Amazon.com,internal
+aws,aws/aws-cli,GitHub,1,3,0.2,26,github,closed,Amazon.com,unknown
+aws,aws/aws-cloudtrail-processing-library,Amazon.com,1,0,0.2,20,public,closed,Amazon.com,internal
+aws,aws/aws-cloudtrail-processing-library,GitHub,1,1,0.2,22,github,closed,Amazon.com,unknown
+aws,aws/aws-codedeploy-agent,Amazon.com,2,0,0.3,30,public,closed,Amazon.com,internal
+aws,aws/aws-codedeploy-agent,GitHub,1,1,0.2,22,github,closed,Amazon.com,unknown
+aws,aws/aws-sdk-android,Amazon.com,5,1,0.8,82,public,closed,Amazon.com,internal
+aws,aws/aws-sdk-android,GitHub,4,0,0.7,70,github,closed,Amazon.com,unknown
+aws,aws/aws-sdk-go,Amazon.com,1,2,0.2,24.000000000000004,public,closed,Amazon.com,internal
+aws,aws/aws-sdk-go,GitHub,1,3,0.2,26,github,closed,Amazon.com,unknown
+aws,aws/aws-sdk-go,Google Email,1,1,0.2,22,personal,closed,Amazon.com,unknown
+aws,aws/aws-sdk-ios,Amazon.com,3,1,0.5,52,public,closed,Amazon.com,internal
+aws,aws/aws-sdk-ios,GitHub,2,2,0.3,34,github,closed,Amazon.com,unknown
+aws,aws/aws-sdk-ios,Google Email,1,1,0.2,22,personal,closed,Amazon.com,unknown
+aws,aws/aws-sdk-java,Amazon.com,1,1,0.2,22,public,closed,Amazon.com,internal
+aws,aws/aws-sdk-java,GitHub,1,0,0.2,20,github,closed,Amazon.com,unknown
+aws,aws/aws-sdk-java,Google Email,1,0,0.2,20,personal,closed,Amazon.com,unknown
+aws,aws/aws-sdk-js,Amazon.com,2,1,0.3,32,public,closed,Amazon.com,internal
+aws,aws/aws-sdk-js,Google Email,2,1,0.3,32,personal,closed,Amazon.com,unknown
+aws,aws/aws-sdk-net,Amazon.com,1,3,0.2,26,public,closed,Amazon.com,internal
+aws,aws/aws-sdk-php,Amazon.com,2,2,0.3,34,public,closed,Amazon.com,internal
+aws,aws/aws-sdk-php,GitHub,1,1,0.2,22,github,closed,Amazon.com,unknown
+aws,aws/aws-sdk-php-zf2,GitHub,1,0,0.2,20,github,closed,Amazon.com,unknown
+aws,aws/aws-sdk-ruby,Amazon.com,2,2,0.3,34,public,closed,Amazon.com,internal
+aws,aws/aws-sdk-ruby,GitHub,2,1,0.3,32,github,closed,Amazon.com,unknown
+aws,aws/aws-sdk-ruby,Google Email,2,1,0.3,32,personal,closed,Amazon.com,unknown
+aws,aws/aws-sessionstore-dynamodb-ruby,Amazon.com,1,0,0.2,20,public,closed,Amazon.com,internal
+aws,aws/aws-toolkit-eclipse,Amazon.com,3,0,0.5,50,public,closed,Amazon.com,internal
+awslabs,awslabs/amazon-kinesis-client,Amazon.com,4,1,0.7,72,public,closed,Amazon.com,internal
+awslabs,awslabs/amazon-kinesis-client,GitHub,1,2,0.2,24.000000000000004,github,closed,Amazon.com,unknown
+awslabs,awslabs/amazon-kinesis-client,Google Email,4,0,0.7,70,personal,closed,Amazon.com,unknown
+awslabs,awslabs/amazon-kinesis-client-python,Amazon.com,3,0,0.5,50,public,closed,Amazon.com,internal
+awslabs,awslabs/amazon-kinesis-client-python,GitHub,1,1,0.2,22,github,closed,Amazon.com,unknown
+awslabs,awslabs/amazon-kinesis-scaling-utils,Amazon.com,2,0,0.3,30,public,closed,Amazon.com,internal
+awslabs,awslabs/amazon-redshift-utils,Amazon.com,2,2,0.3,34,public,closed,Amazon.com,internal
+awslabs,awslabs/amazon-redshift-utils,GitHub,2,2,0.3,34,github,closed,Amazon.com,unknown
+awslabs,awslabs/aws-codedeploy-plugin,GitHub,1,1,0.2,22,github,closed,Amazon.com,unknown
+awslabs,awslabs/aws-dynamodb-encryption-java,Amazon.com,3,1,0.5,52,public,closed,Amazon.com,internal
+awslabs,awslabs/aws-dynamodb-encryption-java,GitHub,2,1,0.3,32,github,closed,Amazon.com,unknown
+awslabs,awslabs/aws-dynamodb-encryption-java,Google Email,1,0,0.2,20,personal,closed,Amazon.com,unknown
+awslabs,awslabs/aws-fluent-plugin-kinesis,GitHub,1,0,0.2,20,github,closed,Amazon.com,unknown
+awslabs,awslabs/aws-fluent-plugin-kinesis,Google Email,1,0,0.2,20,personal,closed,Amazon.com,unknown
+awslabs,awslabs/aws-sdk-android-samples,Amazon.com,3,1,0.5,52,public,closed,Amazon.com,internal
+awslabs,awslabs/aws-sdk-android-samples,GitHub,3,0,0.5,50,github,closed,Amazon.com,unknown
+awslabs,awslabs/aws-sdk-android-samples,UC San Diego,2,0,0.3,30,education,closed,Amazon.com,external
+awslabs,awslabs/cfncluster,Amazon.com,1,0,0.2,20,public,closed,Amazon.com,internal
+awslabs,awslabs/cfncluster,GitHub,1,3,0.2,26,github,closed,Amazon.com,unknown
+awslabs,awslabs/dynamodb-cross-region-library,Amazon.com,1,0,0.2,20,public,closed,Amazon.com,internal
+awslabs,awslabs/dynamodb-cross-region-library,GitHub,1,0,0.2,20,github,closed,Amazon.com,unknown
+awslabs,awslabs/dynamodb-streams-kinesis-adapter,Amazon.com,1,0,0.2,20,public,closed,Amazon.com,internal
+awslabs,awslabs/dynamodb-transactions,Amazon.com,1,0,0.2,20,public,closed,Amazon.com,internal
+awslabs,awslabs/dynamodb-transactions,GitHub,1,1,0.2,22,github,closed,Amazon.com,unknown
+awslabs,awslabs/s2n,Amazon.com,2,1,0.3,32,public,closed,Amazon.com,internal
+awslabs,awslabs/s2n,GitHub,4,2,0.7,74,github,closed,Amazon.com,unknown
+awslabs,awslabs/s2n,Google Email,1,1,0.2,22,personal,closed,Amazon.com,unknown
+azure,Azure/azure-sdk-for-java,GitHub,6,1,1,102,github,closed,Microsoft,unknown
+azure,Azure/azure-sdk-for-java,Microsoft,1,0,0.2,20,public,closed,Microsoft,internal
+azure,Azure/azure-sdk-for-media-services,GitHub,1,2,0.2,24.000000000000004,github,closed,Microsoft,unknown
+azure,Azure/azure-sdk-for-net,GitHub,1,2,0.2,24.000000000000004,github,closed,Microsoft,unknown
+azure,Azure/azure-sdk-for-net,Microsoft,1,3,0.2,26,public,closed,Microsoft,internal
+azure,Azure/azure-sdk-for-node,GitHub,1,2,0.2,24.000000000000004,github,closed,Microsoft,unknown
+azure,Azure/azure-sdk-for-node,Google Email,1,1,0.2,22,personal,closed,Microsoft,unknown
+azure,Azure/azure-sdk-for-node,Microsoft,1,3,0.2,26,public,closed,Microsoft,internal
+azure,Azure/azure-sdk-for-php,GitHub,2,1,0.3,32,github,closed,Microsoft,unknown
+azure,Azure/azure-sdk-for-python,GitHub,2,2,0.3,34,github,closed,Microsoft,unknown
+azure,Azure/azure-sdk-for-python,Google Email,2,1,0.3,32,personal,closed,Microsoft,unknown
+azure,Azure/azure-sdk-for-python,Microsoft,2,2,0.3,34,public,closed,Microsoft,internal
+azure,Azure/azure-sdk-for-ruby,GitHub,4,1,0.7,72,github,closed,Microsoft,unknown
+azure,Azure/azure-sdk-for-ruby,Microsoft,4,0,0.7,70,public,closed,Microsoft,internal
+azure,Azure/azure-storage-cpp,GitHub,3,1,0.5,52,github,closed,Microsoft,unknown
+azure,Azure/azure-storage-cpp,Microsoft,1,2,0.2,24.000000000000004,public,closed,Microsoft,internal
+azure,Azure/azure-storage-java,GitHub,3,2,0.5,54,github,closed,Microsoft,unknown
+azure,Azure/azure-storage-java,Microsoft,4,1,0.7,72,public,closed,Microsoft,internal
+azure,Azure/azure-storage-net,GitHub,4,1,0.7,72,github,closed,Microsoft,unknown
+azure,Azure/azure-storage-net,Microsoft,4,1,0.7,72,public,closed,Microsoft,internal
+azure,Azure/azure-xplat-cli,GitHub,3,1,0.5,52,github,closed,Microsoft,unknown
+azure,Azure/azure-xplat-cli,Microsoft,3,1,0.5,52,public,closed,Microsoft,internal
+azure,Azure/iisnode,GitHub,1,0,0.2,20,github,closed,Microsoft,unknown
+azure,Azure/iisnode,Microsoft,1,0,0.2,20,public,closed,Microsoft,internal
+azure,Azure/WALinuxAgent,GitHub,2,2,0.3,34,github,closed,Microsoft,unknown
+azure,Azure/WALinuxAgent,Microsoft,2,1,0.3,32,public,closed,Microsoft,internal
+azure-samples,Azure-Samples/active-directory-android,GitHub,1,0,0.2,20,github,closed,Microsoft,unknown
+azure-samples,Azure-Samples/active-directory-android,Google Email,1,2,0.2,24.000000000000004,personal,closed,Microsoft,unknown
+azure-samples,Azure-Samples/active-directory-android,Microsoft,2,2,0.3,34,public,closed,Microsoft,internal
+azure-samples,Azure-Samples/active-directory-dotnet-daemon,GitHub,2,0,0.3,30,github,closed,Microsoft,unknown
+azure-samples,Azure-Samples/active-directory-dotnet-daemon,Microsoft,2,1,0.3,32,public,closed,Microsoft,internal
+azure-samples,Azure-Samples/active-directory-dotnet-daemon-certificate-credential,GitHub,3,1,0.5,52,github,closed,Microsoft,unknown
+azure-samples,Azure-Samples/active-directory-dotnet-daemon-certificate-credential,Microsoft,3,1,0.5,52,public,closed,Microsoft,internal
+azure-samples,Azure-Samples/active-directory-dotnet-graphapi-console,GitHub,1,1,0.2,22,github,closed,Microsoft,unknown
+azure-samples,Azure-Samples/active-directory-dotnet-graphapi-console,Microsoft,1,0,0.2,20,public,closed,Microsoft,internal
+azure-samples,Azure-Samples/active-directory-dotnet-graphapi-diffquery,GitHub,1,0,0.2,20,github,closed,Microsoft,unknown
+azure-samples,Azure-Samples/active-directory-dotnet-graphapi-diffquery,Microsoft,1,1,0.2,22,public,closed,Microsoft,internal
+azure-samples,Azure-Samples/active-directory-dotnet-graphapi-directoryextensions-web,GitHub,1,2,0.2,24.000000000000004,github,closed,Microsoft,unknown
+azure-samples,Azure-Samples/active-directory-dotnet-graphapi-directoryextensions-web,Microsoft,1,0,0.2,20,public,closed,Microsoft,internal
+azure-samples,Azure-Samples/active-directory-dotnet-graphapi-web,GitHub,1,1,0.2,22,github,closed,Microsoft,unknown
+azure-samples,Azure-Samples/active-directory-dotnet-graphapi-web,Microsoft,1,0,0.2,20,public,closed,Microsoft,internal
+azure-samples,Azure-Samples/active-directory-dotnet-native-desktop,GitHub,2,2,0.3,34,github,closed,Microsoft,unknown
+azure-samples,Azure-Samples/active-directory-dotnet-native-desktop,Microsoft,3,3,0.5,56.00000000000001,public,closed,Microsoft,internal
+azure-samples,Azure-Samples/active-directory-dotnet-native-headless,GitHub,1,2,0.2,24.000000000000004,github,closed,Microsoft,unknown
+azure-samples,Azure-Samples/active-directory-dotnet-native-headless,Microsoft,3,3,0.5,56.00000000000001,public,closed,Microsoft,internal
+azure-samples,Azure-Samples/active-directory-dotnet-webapi-manual-jwt-validation,GitHub,1,2,0.2,24.000000000000004,github,closed,Microsoft,unknown
+azure-samples,Azure-Samples/active-directory-dotnet-webapi-manual-jwt-validation,Microsoft,3,2,0.5,54,public,closed,Microsoft,internal
+azure-samples,Azure-Samples/active-directory-dotnet-webapi-multitenant-windows-store,GitHub,1,1,0.2,22,github,closed,Microsoft,unknown
+azure-samples,Azure-Samples/active-directory-dotnet-webapi-multitenant-windows-store,Microsoft,1,2,0.2,24.000000000000004,public,closed,Microsoft,internal
+azure-samples,Azure-Samples/active-directory-dotnet-webapi-onbehalfof,GitHub,4,0,0.7,70,github,closed,Microsoft,unknown
+azure-samples,Azure-Samples/active-directory-dotnet-webapi-onbehalfof,Microsoft,3,3,0.5,56.00000000000001,public,closed,Microsoft,internal
+azure-samples,Azure-Samples/active-directory-dotnet-webapp-openidconnect,GitHub,2,0,0.3,30,github,closed,Microsoft,unknown
+azure-samples,Azure-Samples/active-directory-dotnet-webapp-openidconnect,Microsoft,1,1,0.2,22,public,closed,Microsoft,internal
+azure-samples,Azure-Samples/active-directory-dotnet-webapp-webapi-multitenant-openidconnect,Microsoft,1,0,0.2,20,public,closed,Microsoft,internal
+azure-samples,Azure-Samples/active-directory-dotnet-windows-store,GitHub,1,1,0.2,22,github,closed,Microsoft,unknown
+azure-samples,Azure-Samples/active-directory-dotnet-windows-store,Microsoft,2,2,0.3,34,public,closed,Microsoft,internal
+azure-samples,Azure-Samples/active-directory-java-graphapi-web,Microsoft,1,0,0.2,20,public,closed,Microsoft,internal
+azure-samples,Azure-Samples/active-directory-xamarin-android,GitHub,2,0,0.3,30,github,closed,Microsoft,unknown
+azure-samples,Azure-Samples/active-directory-xamarin-android,Microsoft,1,0,0.2,20,public,closed,Microsoft,internal
+azure-samples,Azure-Samples/active-directory-xamarin-ios,GitHub,1,0,0.2,20,github,closed,Microsoft,unknown
+azure-samples,Azure-Samples/active-directory-xamarin-ios,Microsoft,1,0,0.2,20,public,closed,Microsoft,internal
+azure-samples,Azure-Samples/Azure-Information-Protection-Samples,Microsoft,1,0,0.2,20,public,closed,Microsoft,internal
+baidu,baidu/CUP,GitHub,2,0,0.3,30,github,closed,Baidu,unknown
+baidu,baidu/CUP,Google Email,2,0,0.3,30,personal,closed,Baidu,unknown
+baidu,baidu/Familia,GitHub,2,1,0.3,32,github,closed,Baidu,unknown
+baidu,baidu/fast_rgf,GitHub,2,0,0.3,30,github,closed,Baidu,unknown
+baidu,baidu/fast_rgf,Google Email,1,1,0.2,22,personal,closed,Baidu,unknown
+baidu,baidu/iot-edge-sdk-for-iot-parser,NetEase Email,1,0,0.2,20,personal,closed,Baidu,unknown
+baidu,baidu/Jprotobuf-rpc-socket,Baidu,3,1,0.5,52,public,closed,Baidu,internal
+baidu,baidu/Jprotobuf-rpc-socket,GitHub,1,1,0.2,22,github,closed,Baidu,unknown
+baidu,baidu/rust-sgx-sdk,Baidu,4,1,0.7,72,public,closed,Baidu,internal
+baidu,baidu/rust-sgx-sdk,BCG Digital Ventures,1,0,0.2,20,private,closed,Baidu,external
+baidu,baidu/rust-sgx-sdk,GitHub,2,0,0.3,30,github,closed,Baidu,unknown
+baidu,baidu/rust-sgx-sdk,Google Email,4,1,0.7,72,personal,closed,Baidu,unknown
+baidu,baidu/rust-sgx-sdk,UC Berkeley,1,0,0.2,20,education,closed,Baidu,external
+baidu,baidu/san,Baidu,1,0,0.2,20,public,closed,Baidu,internal
+baidu,baidu/san,GitHub,2,0,0.3,30,github,closed,Baidu,unknown
+baidu,baidu/san,Google Email,2,3,0.3,36,personal,closed,Baidu,unknown
+baidu,baidu/san-devtool,GitHub,2,0,0.3,30,github,closed,Baidu,unknown
+baidu,baidu/san-devtool,Google Email,1,3,0.2,26,personal,closed,Baidu,unknown
+baidu,baidu/san-router,GitHub,1,1,0.2,22,github,closed,Baidu,unknown
+baidu,baidu/san-router,Google Email,2,2,0.3,34,personal,closed,Baidu,unknown
+baidu,baidu/san-router,QQ Email,1,0,0.2,20,personal,closed,Baidu,unknown
+baidu,baidu/san-store,Google Email,1,1,0.2,22,personal,closed,Baidu,unknown
+baidu,baidu/san-update,Google Email,1,1,0.2,22,personal,closed,Baidu,unknown
+baidu,baidu/san-update,iCloud Email,1,1,0.2,22,personal,closed,Baidu,unknown
+baidu,baidu/san-website,Baidu,1,1,0.2,22,public,closed,Baidu,internal
+baidu,baidu/san-website,Foxmail,1,1,0.2,22,private,closed,Baidu,external
+baidu,baidu/san-website,GitHub,2,0,0.3,30,github,closed,Baidu,unknown
+baidu,baidu/san-website,Google Email,3,1,0.5,52,personal,closed,Baidu,unknown
+baidu,baidu/sofa-pbrpc,Baidu,1,0,0.2,20,public,closed,Baidu,internal
+baidu,baidu/sofa-pbrpc,GitHub,2,1,0.3,32,github,closed,Baidu,unknown
+baidu,baidu/speech-samples,Baidu,2,1,0.3,32,public,closed,Baidu,internal
+baidu-aip,Baidu-AIP/asr-linux-cpp-demo,Baidu,4,0,0.7,70,public,closed,Baidu,internal
+baidu-aip,Baidu-AIP/asr-linux-cpp-demo,GitHub,1,0,0.2,20,github,closed,Baidu,unknown
+baidu-aip,Baidu-AIP/dotnet-sdk,Baidu,5,1,0.8,82,public,closed,Baidu,internal
+baidu-aip,Baidu-AIP/java-sdk,Baidu,1,1,0.2,22,public,closed,Baidu,internal
+baidu-aip,Baidu-AIP/java-sdk,Google Email,3,1,0.5,52,personal,closed,Baidu,unknown
+baidu-aip,Baidu-AIP/php-sdk,NetEase Email,4,1,0.7,72,personal,closed,Baidu,unknown
+baidu-aip,Baidu-AIP/python-sdk,NetEase Email,4,1,0.7,72,personal,closed,Baidu,unknown
+baidu-aip,Baidu-AIP/speech-demo,Baidu,2,1,0.3,32,public,closed,Baidu,internal
+baidu-aip,Baidu-AIP/speech-demo,GitHub,4,0,0.7,70,github,closed,Baidu,unknown
+baidu-aip,Baidu-AIP/speech-demo,Google Email,3,2,0.5,54,personal,closed,Baidu,unknown
+baidu-aip,Baidu-AIP/speech-tts-cors,Baidu,2,0,0.3,30,public,closed,Baidu,internal
+baidu-aip,Baidu-AIP/speech-vad-demo,Baidu,3,0,0.5,50,public,closed,Baidu,internal
+baidu-aip,Baidu-AIP/speech-vad-demo,GitHub,2,0,0.3,30,github,closed,Baidu,unknown
+baidu-aip,Baidu-AIP/speech-vad-demo,QQ Email,2,2,0.3,34,personal,closed,Baidu,unknown
+baidu-research,baidu-research/DeepBench,AMD,3,0,0.5,50,private,closed,Baidu,external
+baidu-research,baidu-research/DeepBench,Baidu,1,1,0.2,22,public,closed,Baidu,internal
+baidu-research,baidu-research/DeepBench,GitHub,3,2,0.5,54,github,closed,Baidu,unknown
+baidu-research,baidu-research/DeepBench,Google Email,2,2,0.3,34,personal,closed,Baidu,unknown
+baidu-research,baidu-research/NCRF,Baidu,1,1,0.2,22,public,closed,Baidu,internal
+baidu-research,baidu-research/NCRF,GitHub,1,3,0.2,26,github,closed,Baidu,unknown
+baidu-research,baidu-research/NCRF,"University of California, Irvine",1,2,0.2,24.000000000000004,education,closed,Baidu,external
+caffe2,caffe2/caffe2,CK-Telecom,2,1,0.3,32,private,open,Community Project,external
+caffe2,caffe2/caffe2,Duke University,1,1,0.2,22,education,open,Community Project,external
+caffe2,caffe2/caffe2,Facebook,3,5,0.5,60,public,open,Community Project,external
+caffe2,caffe2/caffe2,Facebook Email,2,1,0.3,32,personal,open,Community Project,unknown
+caffe2,caffe2/caffe2,GitHub,4,5,0.7,80,github,open,Community Project,unknown
+caffe2,caffe2/caffe2,Google Email,4,3,0.7,76,personal,open,Community Project,unknown
+caffe2,caffe2/caffe2,Hasso Plattner Institute,1,0,0.2,20,private,open,Community Project,external
+caffe2,caffe2/caffe2,Instagram,1,0,0.2,20,private,open,Community Project,external
+caffe2,caffe2/caffe2,Iowa State University,1,0,0.2,20,education,open,Community Project,external
+caffe2,caffe2/caffe2,Massachusetts Institute of Technology,1,2,0.2,24.000000000000004,education,open,Community Project,external
+caffe2,caffe2/caffe2,Outlook.com Email,2,1,0.3,32,personal,open,Community Project,unknown
+caffe2,caffe2/caffe2,ProtonMail Email,1,1,0.2,22,personal,open,Community Project,unknown
+caffe2,caffe2/caffe2,QQ Email,1,0,0.2,20,personal,open,Community Project,unknown
+caffe2,caffe2/caffe2,Rensselaer Polytechnic Institute,1,0,0.2,20,education,open,Community Project,external
+caffe2,caffe2/caffe2,Samsung,1,1,0.2,22,public,open,Community Project,external
+caffe2,caffe2/caffe2,TU München,3,0,0.5,50,education,open,Community Project,external
+caffe2,caffe2/caffe2,University of South Florida,1,0,0.2,20,education,open,Community Project,external
+caffe2,caffe2/caffe2,UT Austin,1,0,0.2,20,education,open,Community Project,external
+caffe2,caffe2/caffe2,Yahoo Email,1,0,0.2,20,personal,open,Community Project,unknown
+caffe2,caffe2/caffe2,NA,3,1,0.5,52,no domain record,open,Community Project,unknown
+caffe2,caffe2/caffe2_bhtsne,Google Email,1,0,0.2,20,personal,open,Community Project,unknown
+caffe2,caffe2/caffe2.github.io,Facebook,4,0,0.7,70,public,open,Community Project,external
+caffe2,caffe2/caffe2.github.io,GitHub,4,2,0.7,74,github,open,Community Project,unknown
+caffe2,caffe2/caffe2.github.io,Google Email,5,2,0.8,84.00000000000001,personal,open,Community Project,unknown
+caffe2,caffe2/caffe2.github.io,Microsoft,1,0,0.2,20,public,open,Community Project,external
+caffe2,caffe2/caffe2.github.io,PyTorch,4,3,0.7,76,nonprofit,open,Community Project,external
+caffe2,caffe2/caffe2.github.io,QQ Email,1,0,0.2,20,personal,open,Community Project,unknown
+caffe2,caffe2/caffe2.github.io,NA,1,0,0.2,20,no domain record,open,Community Project,unknown
+caffe2,caffe2/models,GitHub,3,1,0.5,52,github,open,Community Project,unknown
+caffe2,caffe2/models,Google Email,3,1,0.5,52,personal,open,Community Project,unknown
+caffe2,caffe2/models,NA,1,1,0.2,22,no domain record,open,Community Project,unknown
+caffe2,caffe2/tutorials,Duke University,1,1,0.2,22,education,open,Community Project,external
+caffe2,caffe2/tutorials,Facebook,3,0,0.5,50,public,open,Community Project,external
+caffe2,caffe2/tutorials,GitHub,3,1,0.5,52,github,open,Community Project,unknown
+caffe2,caffe2/tutorials,Google Email,3,1,0.5,52,personal,open,Community Project,unknown
+caffe2,caffe2/tutorials,Outlook.com Email,1,0,0.2,20,personal,open,Community Project,unknown
+chainer,chainer/backport,Google Email,1,1,0.2,22,personal,open,Community Project,unknown
+chainer,chainer/backport,Preferred Infrastructure,1,1,0.2,22,private,open,Community Project,external
+chainer,chainer/backport,NA,3,0,0.5,50,no domain record,open,Community Project,unknown
+chainer,chainer/chainer,Foxmail,1,1,0.2,22,private,open,Community Project,external
+chainer,chainer/chainer,GitHub,5,2,0.8,84.00000000000001,github,open,Community Project,unknown
+chainer,chainer/chainer,Google Email,5,4,0.8,88,personal,open,Community Project,unknown
+chainer,chainer/chainer,Intel,5,2,0.8,84.00000000000001,public,open,Community Project,external
+chainer,chainer/chainer,NVIDIA,5,3,0.8,86.00000000000001,public,open,Community Project,external
+chainer,chainer/chainer,Outlook.com Email,4,2,0.7,74,personal,open,Community Project,unknown
+chainer,chainer/chainer,Preferred Infrastructure,5,4,0.8,88,private,open,Community Project,external
+chainer,chainer/chainer,Toshiba,1,0,0.2,20,public,open,Community Project,external
+chainer,chainer/chainer,University of Tokyo,3,1,0.5,52,education,open,Community Project,external
+chainer,chainer/chainer,Zalando,2,0,0.3,30,public,open,Community Project,external
+chainer,chainer/chainer,NA,5,4,0.8,88,no domain record,open,Community Project,unknown
+chainer,chainer/chainer-ami,Google Email,1,1,0.2,22,personal,open,Community Project,unknown
+chainer,chainer/chainer-benchmark,Preferred Infrastructure,1,3,0.2,26,private,open,Community Project,external
+chainer,chainer/chainer-benchmark,NA,2,2,0.3,34,no domain record,open,Community Project,unknown
+chainer,chainer/chainer-cfn,Google Email,1,1,0.2,22,personal,open,Community Project,unknown
+chainer,chainer/chainer-test,Google Email,2,2,0.3,34,personal,open,Community Project,unknown
+chainer,chainer/chainer-test,Preferred Infrastructure,3,1,0.5,52,private,open,Community Project,external
+chainer,chainer/chainer-test,NA,5,2,0.8,84.00000000000001,no domain record,open,Community Project,unknown
+chainer,chainer/chainer.org,GitHub,1,1,0.2,22,github,open,Community Project,unknown
+chainer,chainer/chainer.org,Google Email,5,2,0.8,84.00000000000001,personal,open,Community Project,unknown
+chainer,chainer/chainer.org,Preferred Infrastructure,2,1,0.3,32,private,open,Community Project,external
+chainer,chainer/chainer.org,Preferred Networks,1,0,0.2,20,private,open,Community Project,external
+chainer,chainer/chainer.org,NA,2,0,0.3,30,no domain record,open,Community Project,unknown
+chainer,chainer/chainercv,GitHub,4,5,0.7,80,github,open,Community Project,unknown
+chainer,chainer/chainercv,Google Email,5,4,0.8,88,personal,open,Community Project,unknown
+chainer,chainer/chainercv,Outlook.com Email,3,3,0.5,56.00000000000001,personal,open,Community Project,unknown
+chainer,chainer/chainercv,Preferred Infrastructure,1,1,0.2,22,private,open,Community Project,external
+chainer,chainer/chainercv,University of Tokyo,1,1,0.2,22,education,open,Community Project,external
+chainer,chainer/chainermn,GitHub,2,1,0.3,32,github,open,Community Project,unknown
+chainer,chainer/chainermn,Google Email,5,2,0.8,84.00000000000001,personal,open,Community Project,unknown
+chainer,chainer/chainermn,Preferred Infrastructure,5,3,0.8,86.00000000000001,private,open,Community Project,external
+chainer,chainer/chainerrl,GitHub,5,1,0.8,82,github,open,Community Project,unknown
+chainer,chainer/chainerrl,Google Email,5,2,0.8,84.00000000000001,personal,open,Community Project,unknown
+chainer,chainer/chainerrl,Microsoft,1,1,0.2,22,public,open,Community Project,external
+chainer,chainer/chainerrl,Preferred Infrastructure,4,2,0.7,74,private,open,Community Project,external
+chainer,chainer/chainerui,GitHub,1,2,0.2,24.000000000000004,github,open,Community Project,unknown
+chainer,chainer/chainerui,Google Email,5,3,0.8,86.00000000000001,personal,open,Community Project,unknown
+chainer,chainer/chainerui,Preferred Infrastructure,5,1,0.8,82,private,open,Community Project,external
+chainer,chainer/chainerui,Universität Potsdam,1,0,0.2,20,education,open,Community Project,external
+chainer,chainer/daz,GitHub,1,0,0.2,20,github,open,Community Project,unknown
+chainer,chainer/daz,Preferred Infrastructure,1,2,0.2,24.000000000000004,private,open,Community Project,external
+chainer,chainer/models,GitHub,1,0,0.2,20,github,open,Community Project,unknown
+chainer,chainer/models,Google Email,2,1,0.3,32,personal,open,Community Project,unknown
+chainer,chainer/models,Preferred Infrastructure,1,0,0.2,20,private,open,Community Project,external
+chainer,chainer/models,Tohoku University,1,1,0.2,22,education,open,Community Project,external
+chainer,chainer/onnx-chainer,Google Email,1,0,0.2,20,personal,open,Community Project,unknown
+cisco,cisco/cisco-network-node-utils,GitHub,4,1,0.7,72,github,closed,Cisco,unknown
+cisco,cisco/cisco-network-puppet-module,GitHub,4,1,0.7,72,github,closed,Cisco,unknown
+cisco,cisco/libsrtp,GitHub,6,0,1,100,github,closed,Cisco,unknown
+cisco,cisco/libusnic_verbs,GitHub,1,0,0.2,20,github,closed,Cisco,unknown
+cisco,cisco/node-jose,GitHub,3,0,0.5,50,github,closed,Cisco,unknown
+cisco,cisco/openh264,GitHub,4,2,0.7,74,github,closed,Cisco,unknown
+cisco,cisco/openh264,Google,1,0,0.2,20,public,closed,Cisco,external
+ciscodevnet,CiscoDevNet/api-design-guide,GitHub,1,0,0.2,20,github,closed,Cisco,unknown
+ciscodevnet,CiscoDevNet/apic-em-samples-aradford,GitHub,1,0,0.2,20,github,closed,Cisco,unknown
+ciscodevnet,CiscoDevNet/apic-em-samples-aradford,Outlook.com Email,1,0,0.2,20,personal,closed,Cisco,unknown
+ciscodevnet,CiscoDevNet/apicem-ga-ll-sample-code,GitHub,2,0,0.3,30,github,closed,Cisco,unknown
+ciscodevnet,CiscoDevNet/coding-skills-sample-code,GitHub,3,1,0.5,52,github,closed,Cisco,unknown
+ciscodevnet,CiscoDevNet/collab-uds,GitHub,2,0,0.3,30,github,closed,Cisco,unknown
+ciscodevnet,CiscoDevNet/cosc-rest-api-python,GitHub,2,0,0.3,30,github,closed,Cisco,unknown
+ciscodevnet,CiscoDevNet/opendaylight-sample-apps,GitHub,2,1,0.3,32,github,closed,Cisco,unknown
+ciscodevnet,CiscoDevNet/restconf-examples,GitHub,2,0,0.3,30,github,closed,Cisco,unknown
+deeplearning4j,deeplearning4j/deeplearning4j,Apache Software Foundation,2,0,0.3,30,nonprofit,open,Community Project,external
+deeplearning4j,deeplearning4j/deeplearning4j,Bloomberg,3,0,0.5,50,private,open,Community Project,external
+deeplearning4j,deeplearning4j/deeplearning4j,Deeplearning4j,5,4,0.8,88,private,open,Community Project,external
+deeplearning4j,deeplearning4j/deeplearning4j,GitHub,5,4,0.8,88,github,open,Community Project,unknown
+deeplearning4j,deeplearning4j/deeplearning4j,GMX Email,1,0,0.2,20,personal,open,Community Project,unknown
+deeplearning4j,deeplearning4j/deeplearning4j,Google Email,5,6,0.8,92,personal,open,Community Project,unknown
+deeplearning4j,deeplearning4j/deeplearning4j,Komfo,2,2,0.3,34,private,open,Community Project,external
+deeplearning4j,deeplearning4j/deeplearning4j,LodgON,2,0,0.3,30,private,open,Community Project,external
+deeplearning4j,deeplearning4j/deeplearning4j,mail.com Email,3,1,0.5,52,personal,open,Community Project,unknown
+deeplearning4j,deeplearning4j/deeplearning4j,MPI-CBG,1,1,0.2,22,private,open,Community Project,external
+deeplearning4j,deeplearning4j/deeplearning4j,Outlook.com Email,4,2,0.7,74,personal,open,Community Project,unknown
+deeplearning4j,deeplearning4j/deeplearning4j,Politechnika,1,1,0.2,22,education,open,Community Project,external
+deeplearning4j,deeplearning4j/deeplearning4j,QQ Email,1,0,0.2,20,personal,open,Community Project,unknown
+deeplearning4j,deeplearning4j/deeplearning4j,SCHUFA Holding AG,1,1,0.2,22,public,open,Community Project,external
+deeplearning4j,deeplearning4j/deeplearning4j,Seznam.cz Email,1,0,0.2,20,personal,open,Community Project,unknown
+deeplearning4j,deeplearning4j/deeplearning4j,UC Berkeley,2,0,0.3,30,education,open,Community Project,external
+deeplearning4j,deeplearning4j/deeplearning4j,NA,5,0,0.8,80,no domain record,open,Community Project,unknown
+deeplearning4j,deeplearning4j/dl4j-benchmark,Google Email,2,3,0.3,36,personal,open,Community Project,unknown
+deeplearning4j,deeplearning4j/dl4j-benchmark,Outlook.com Email,2,1,0.3,32,personal,open,Community Project,unknown
+deeplearning4j,deeplearning4j/dl4j-examples,CA Technologies,1,0,0.2,20,public,open,Community Project,external
+deeplearning4j,deeplearning4j/dl4j-examples,Deeplearning4j,3,2,0.5,54,private,open,Community Project,external
+deeplearning4j,deeplearning4j/dl4j-examples,GitHub,4,2,0.7,74,github,open,Community Project,unknown
+deeplearning4j,deeplearning4j/dl4j-examples,Google Email,5,3,0.8,86.00000000000001,personal,open,Community Project,unknown
+deeplearning4j,deeplearning4j/dl4j-examples,MPI-CBG,1,0,0.2,20,private,open,Community Project,external
+deeplearning4j,deeplearning4j/dl4j-examples,QQ Email,1,2,0.2,24.000000000000004,personal,open,Community Project,unknown
+deeplearning4j,deeplearning4j/dl4j-examples,Yahoo Email,1,0,0.2,20,personal,open,Community Project,unknown
+deeplearning4j,deeplearning4j/dl4j-model-z,Outlook.com Email,1,0,0.2,20,personal,open,Community Project,unknown
+deeplearning4j,deeplearning4j/dl4j-test-resources,Deeplearning4j,2,2,0.3,34,private,open,Community Project,external
+deeplearning4j,deeplearning4j/dl4j-test-resources,GitHub,2,0,0.3,30,github,open,Community Project,unknown
+deeplearning4j,deeplearning4j/dl4j-test-resources,Google Email,5,3,0.8,86.00000000000001,personal,open,Community Project,unknown
+deeplearning4j,deeplearning4j/libnd4j,Deeplearning4j,5,2,0.8,84.00000000000001,private,open,Community Project,external
+deeplearning4j,deeplearning4j/libnd4j,GitHub,5,3,0.8,86.00000000000001,github,open,Community Project,unknown
+deeplearning4j,deeplearning4j/libnd4j,Google Email,5,4,0.8,88,personal,open,Community Project,unknown
+deeplearning4j,deeplearning4j/libnd4j,LodgON,1,0,0.2,20,private,open,Community Project,external
+deeplearning4j,deeplearning4j/nd4j,Deeplearning4j,5,2,0.8,84.00000000000001,private,open,Community Project,external
+deeplearning4j,deeplearning4j/nd4j,GitHub,5,4,0.8,88,github,open,Community Project,unknown
+deeplearning4j,deeplearning4j/nd4j,GMX Email,1,0,0.2,20,personal,open,Community Project,unknown
+deeplearning4j,deeplearning4j/nd4j,Google Email,5,4,0.8,88,personal,open,Community Project,unknown
+deeplearning4j,deeplearning4j/nd4j,mail.com Email,3,0,0.5,50,personal,open,Community Project,unknown
+deeplearning4j,deeplearning4j/nd4j,Politechnika,1,0,0.2,20,education,open,Community Project,external
+deeplearning4j,deeplearning4j/nd4j,NA,2,0,0.3,30,no domain record,open,Community Project,unknown
+deeplearning4j,deeplearning4j/nd4s,GitHub,1,0,0.2,20,github,open,Community Project,unknown
+deeplearning4j,deeplearning4j/nd4s,Google Email,3,0,0.5,50,personal,open,Community Project,unknown
+ecomfe,ecomfe/esl,GitHub,1,0,0.2,20,github,closed,Baidu,unknown
+ecomfe,ecomfe/esl,Google Email,1,2,0.2,24.000000000000004,personal,closed,Baidu,unknown
+ecomfe,ecomfe/zrender,Google Email,2,3,0.3,36,personal,closed,Baidu,unknown
+facebook,facebook/buck,GitHub,1,3,0.2,26,github,closed,Facebook,unknown
+facebook,facebook/caf8teen,GitHub,1,1,0.2,22,github,closed,Facebook,unknown
+facebook,facebook/chef-utils,Facebook Email,1,0,0.2,20,personal,closed,Facebook,unknown
+facebook,facebook/chef-utils,GitHub,3,0,0.5,50,github,closed,Facebook,unknown
+facebook,facebook/codemod,Facebook,1,0,0.2,20,public,closed,Facebook,internal
+facebook,facebook/codemod,GitHub,1,0,0.2,20,github,closed,Facebook,unknown
+facebook,facebook/facebook-android-sdk,Facebook,5,1,0.8,82,public,closed,Facebook,internal
+facebook,facebook/facebook-android-sdk,GitHub,3,1,0.5,52,github,closed,Facebook,unknown
+facebook,facebook/facebook-ios-sdk,Facebook,6,1,1,102,public,closed,Facebook,internal
+facebook,facebook/facebook-ios-sdk,GitHub,1,1,0.2,22,github,closed,Facebook,unknown
+facebook,facebook/facebook-ios-sdk,Google Email,1,0,0.2,20,personal,closed,Facebook,unknown
+facebook,facebook/fbthrift,GitHub,1,3,0.2,26,github,closed,Facebook,unknown
+facebook,facebook/fishhook,Facebook,2,1,0.3,32,public,closed,Facebook,internal
+facebook,facebook/fishhook,GitHub,2,1,0.3,32,github,closed,Facebook,unknown
+facebook,facebook/fishhook,Google Email,1,0,0.2,20,personal,closed,Facebook,unknown
+facebook,facebook/folly,GitHub,1,3,0.2,26,github,closed,Facebook,unknown
+facebook,facebook/hhvm,GitHub,1,3,0.2,26,github,closed,Facebook,unknown
+facebook,facebook/jcommon,GitHub,1,0,0.2,20,github,closed,Facebook,unknown
+facebook,facebook/jcommon,Google Email,1,0,0.2,20,personal,closed,Facebook,unknown
+facebook,facebook/mysql-5.6,GitHub,2,3,0.3,36,github,closed,Facebook,unknown
+facebook,facebook/nailgun,Facebook,3,0,0.5,50,public,closed,Facebook,internal
+facebook,facebook/nailgun,GitHub,5,1,0.8,82,github,closed,Facebook,unknown
+facebook,facebook/nailgun,Google Email,2,1,0.3,32,personal,closed,Facebook,unknown
+facebook,facebook/php-webdriver,GitHub,3,1,0.5,52,github,closed,Facebook,unknown
+facebook,facebook/php-webdriver,Google Email,5,2,0.8,84.00000000000001,personal,closed,Facebook,unknown
+facebook,facebook/pyre2,Facebook,2,1,0.3,32,public,closed,Facebook,internal
+facebook,facebook/react,GitHub,1,3,0.2,26,github,closed,Facebook,unknown
+facebook,facebook/react,Google Email,1,3,0.2,26,personal,closed,Facebook,unknown
+facebook,facebook/react-devtools,Facebook,1,1,0.2,22,public,closed,Facebook,internal
+facebook,facebook/react-devtools,GitHub,4,1,0.7,72,github,closed,Facebook,unknown
+facebook,facebook/react-devtools,Google Email,3,1,0.5,52,personal,closed,Facebook,unknown
+facebook,facebook/rocksdb,GitHub,1,3,0.2,26,github,closed,Facebook,unknown
+facebook,facebook/SocketRocket,Apple Email,1,0,0.2,20,personal,closed,Facebook,unknown
+facebook,facebook/watchman,GitHub,2,3,0.3,36,github,closed,Facebook,unknown
+facebook,facebook/xctool,GitHub,1,0,0.2,20,github,closed,Facebook,unknown
+facebook,facebook/xctool,Google Email,1,0,0.2,20,personal,closed,Facebook,unknown
+facebookexperimental,facebookexperimental/atom-quick-file-browser,Facebook,1,0,0.2,20,public,closed,Facebook,internal
+facebookexperimental,facebookexperimental/atom-quick-file-browser,GitHub,1,0,0.2,20,github,closed,Facebook,unknown
+facebookexperimental,facebookexperimental/buckit,GitHub,1,3,0.2,26,github,closed,Facebook,unknown
+facebookexperimental,facebookexperimental/doh-proxy,Facebook,1,0,0.2,20,public,closed,Facebook,internal
+facebookexperimental,facebookexperimental/doh-proxy,Facebook Email,1,1,0.2,22,personal,closed,Facebook,unknown
+facebookexperimental,facebookexperimental/doh-proxy,GitHub,3,2,0.5,54,github,closed,Facebook,unknown
+facebookexperimental,facebookexperimental/doh-proxy,Google Email,2,2,0.3,34,personal,closed,Facebook,unknown
+facebookexperimental,facebookexperimental/eden,GitHub,1,3,0.2,26,github,closed,Facebook,unknown
+facebookexperimental,facebookexperimental/eden-hg,GitHub,5,2,0.8,84.00000000000001,github,closed,Facebook,unknown
+facebookexperimental,facebookexperimental/hack-http-request-response-interfaces,Facebook,2,3,0.3,36,public,closed,Facebook,internal
+facebookexperimental,facebookexperimental/hack-http-request-response-interfaces,GitHub,3,0,0.5,50,github,closed,Facebook,unknown
+facebookexperimental,facebookexperimental/mononoke,GitHub,1,3,0.2,26,github,closed,Facebook,unknown
+facebookincubator,facebookincubator/Battery-Metrics,GitHub,4,1,0.7,72,github,closed,Facebook,unknown
+facebookincubator,facebookincubator/CommunityCellularManager,GitHub,4,0,0.7,70,github,closed,Facebook,unknown
+facebookincubator,facebookincubator/dcrpm,Facebook,2,1,0.3,32,public,closed,Facebook,internal
+facebookincubator,facebookincubator/dcrpm,GitHub,2,2,0.3,34,github,closed,Facebook,unknown
+facebookincubator,facebookincubator/dcrpm,Google Email,1,1,0.2,22,personal,closed,Facebook,unknown
+facebookincubator,facebookincubator/dhcplb,GitHub,5,1,0.8,82,github,closed,Facebook,unknown
+facebookincubator,facebookincubator/facebook-360-spatial-workstation,Facebook,2,0,0.3,30,public,closed,Facebook,internal
+facebookincubator,facebookincubator/facebook-for-magento,Facebook,1,0,0.2,20,public,closed,Facebook,internal
+facebookincubator,facebookincubator/facebook-for-magento,GitHub,4,2,0.7,74,github,closed,Facebook,unknown
+facebookincubator,facebookincubator/Facebook-For-OpenCart,Facebook,3,1,0.5,52,public,closed,Facebook,internal
+facebookincubator,facebookincubator/facebook-for-woocommerce,GitHub,3,2,0.5,54,github,closed,Facebook,unknown
+facebookincubator,facebookincubator/FBX2glTF,Facebook,4,1,0.7,72,public,closed,Facebook,internal
+facebookincubator,facebookincubator/FBX2glTF,GitHub,2,2,0.3,34,github,closed,Facebook,unknown
+facebookincubator,facebookincubator/FCR,GitHub,2,1,0.3,32,github,closed,Facebook,unknown
+facebookincubator,facebookincubator/gloo,Facebook,1,0,0.2,20,public,closed,Facebook,internal
+facebookincubator,facebookincubator/gloo,GitHub,6,1,1,102,github,closed,Facebook,unknown
+facebookincubator,facebookincubator/idx,Facebook,2,1,0.3,32,public,closed,Facebook,internal
+facebookincubator,facebookincubator/idx,Google Email,3,1,0.5,52,personal,closed,Facebook,unknown
+facebookincubator,facebookincubator/immutable-re,Google Email,2,1,0.3,32,personal,closed,Facebook,unknown
+facebookincubator,facebookincubator/Keyframes,GitHub,1,1,0.2,22,github,closed,Facebook,unknown
+facebookincubator,facebookincubator/language-capirca,Facebook,2,1,0.3,32,public,closed,Facebook,internal
+facebookincubator,facebookincubator/marketing-data-file-uploader,Facebook,1,0,0.2,20,public,closed,Facebook,internal
+facebookincubator,facebookincubator/ml_sampler,GitHub,1,0,0.2,20,github,closed,Facebook,unknown
+facebookincubator,facebookincubator/nfusr,GitHub,1,0,0.2,20,github,closed,Facebook,unknown
+facebookincubator,facebookincubator/OnlineSchemaChange,GitHub,3,2,0.5,54,github,closed,Facebook,unknown
+facebookincubator,facebookincubator/profilo,GitHub,2,2,0.3,34,github,closed,Facebook,unknown
+facebookincubator,facebookincubator/pystemd,GitHub,6,2,1,104,github,closed,Facebook,unknown
+facebookincubator,facebookincubator/rpm-backports,Facebook,1,0,0.2,20,public,closed,Facebook,internal
+facebookincubator,facebookincubator/rpm-backports,GitHub,3,2,0.5,54,github,closed,Facebook,unknown
+facebookincubator,facebookincubator/rust-partial-io,GitHub,1,1,0.2,22,github,closed,Facebook,unknown
+facebookincubator,facebookincubator/systemd-compat-libs,Facebook,2,0,0.3,30,public,closed,Facebook,internal
+facebookresearch,facebookresearch/CommAI-env,GitHub,1,0,0.2,20,github,closed,Facebook,unknown
+facebookresearch,facebookresearch/DrQA,GitHub,2,2,0.3,34,github,closed,Facebook,unknown
+facebookresearch,facebookresearch/DrQA,Massachusetts Institute of Technology,2,0,0.3,30,education,closed,Facebook,external
+facebookresearch,facebookresearch/ELF,Facebook,1,2,0.2,24.000000000000004,public,closed,Facebook,internal
+facebookresearch,facebookresearch/ELF,GitHub,1,0,0.2,20,github,closed,Facebook,unknown
+facebookresearch,facebookresearch/ELF,Google Email,1,1,0.2,22,personal,closed,Facebook,unknown
+facebookresearch,facebookresearch/end-to-end-negotiator,GitHub,1,0,0.2,20,github,closed,Facebook,unknown
+facebookresearch,facebookresearch/end-to-end-negotiator,Google Email,1,0,0.2,20,personal,closed,Facebook,unknown
+facebookresearch,facebookresearch/faiss,Facebook,4,1,0.7,72,public,closed,Facebook,internal
+facebookresearch,facebookresearch/faiss,GitHub,3,1,0.5,52,github,closed,Facebook,unknown
+facebookresearch,facebookresearch/faiss,Google Email,1,1,0.2,22,personal,closed,Facebook,unknown
+facebookresearch,facebookresearch/fastText,GitHub,6,2,1,104,github,closed,Facebook,unknown
+facebookresearch,facebookresearch/InferSent,Facebook,1,0,0.2,20,public,closed,Facebook,internal
+facebookresearch,facebookresearch/low-shot-shrink-hallucinate,Google Email,1,0,0.2,20,personal,closed,Facebook,unknown
+facebookresearch,facebookresearch/ParlAI,Facebook,1,2,0.2,24.000000000000004,public,closed,Facebook,internal
+facebookresearch,facebookresearch/ParlAI,GitHub,1,3,0.2,26,github,closed,Facebook,unknown
+facebookresearch,facebookresearch/pysparnn,GitHub,1,0,0.2,20,github,closed,Facebook,unknown
+facebookresearch,facebookresearch/pysparnn,Google Email,1,0,0.2,20,personal,closed,Facebook,unknown
+facebookresearch,facebookresearch/SentEval,Facebook,5,1,0.8,82,public,closed,Facebook,internal
+facebookresearch,facebookresearch/SentEval,GitHub,2,0,0.3,30,github,closed,Facebook,unknown
+facebookresearch,facebookresearch/SparseConvNet,Facebook,1,1,0.2,22,public,closed,Facebook,internal
+facebookresearch,facebookresearch/SparseConvNet,GitHub,4,0,0.7,70,github,closed,Facebook,unknown
+facebookresearch,facebookresearch/SparseConvNet,Google Email,4,1,0.7,72,personal,closed,Facebook,unknown
+facebookresearch,facebookresearch/SparseConvNet,RWTH Aachen University,1,0,0.2,20,education,closed,Facebook,external
+facebookresearch,facebookresearch/StarSpace,Facebook,1,0,0.2,20,public,closed,Facebook,internal
+facebookresearch,facebookresearch/StarSpace,GitHub,4,1,0.7,72,github,closed,Facebook,unknown
+facebookresearch,facebookresearch/visdom,GitHub,3,2,0.5,54,github,closed,Facebook,unknown
+fex-team,fex-team/fex-team.github.io,Baidu,4,0,0.7,70,public,closed,Baidu,internal
+fex-team,fex-team/fex-team.github.io,GitHub,5,0,0.8,80,github,closed,Baidu,unknown
+fex-team,fex-team/fex-team.github.io,Google Email,1,0,0.2,20,personal,closed,Baidu,unknown
+fex-team,fex-team/fex-team.github.io,iCloud Email,3,0,0.5,50,personal,closed,Baidu,unknown
+fex-team,fex-team/fex-team.github.io,QQ Email,1,0,0.2,20,personal,closed,Baidu,unknown
+fex-team,fex-team/fis-optimizer-uglify-js,Baidu,1,1,0.2,22,public,closed,Baidu,internal
+fex-team,fex-team/fis-optimizer-uglify-js,GitHub,1,0,0.2,20,github,closed,Baidu,unknown
+fex-team,fex-team/ueditor,GitHub,1,2,0.2,24.000000000000004,github,closed,Baidu,unknown
+fex-team,fex-team/ueditor,Google Email,1,1,0.2,22,personal,closed,Baidu,unknown
+fex-team,fex-team/webuploader,Baidu,1,2,0.2,24.000000000000004,public,closed,Baidu,internal
+fex-team,fex-team/webuploader,GitHub,1,1,0.2,22,github,closed,Baidu,unknown
+fujitsu,fujitsu/ism-ansible,GitHub,3,2,0.5,54,github,closed,Fujitsu,unknown
+fujitsu,fujitsu/launcher,GitHub,2,1,0.3,32,github,closed,Fujitsu,unknown
+google,google/dagger,Google Email,2,3,0.3,36,personal,closed,Google,unknown
+google,google/google-api-ruby-client,Google,2,2,0.3,34,public,closed,Google,internal
+google,google/google-api-ruby-client,Google Email,1,0,0.2,20,personal,closed,Google,unknown
+google,google/ruby-openid-apps-discovery,GitHub,1,0,0.2,20,github,closed,Google,unknown
+google,google/signet,Google,1,0,0.2,20,public,closed,Google,internal
+google,google/signet,Google Email,1,0,0.2,20,personal,closed,Google,unknown
+google,google/truth,Google,1,1,0.2,22,public,closed,Google,internal
+google,google/truth,Google Email,3,2,0.5,54,personal,closed,Google,unknown
+google,google/upb,GitHub,2,2,0.3,34,github,closed,Google,unknown
+google,google/upb,Google,2,2,0.3,34,public,closed,Google,internal
+google,google/upb,Google Email,1,0,0.2,20,personal,closed,Google,unknown
+googlecloudplatform,GoogleCloudPlatform/appengine-sharded-counters-java-maven,GitHub,1,1,0.2,22,github,closed,Google,unknown
+googlecloudplatform,GoogleCloudPlatform/compute-cassandra-python,GitHub,1,1,0.2,22,github,closed,Google,unknown
+googlecloudplatform,GoogleCloudPlatform/go-endpoints,GitHub,1,0,0.2,20,github,closed,Google,unknown
+googlecloudplatform,GoogleCloudPlatform/google-cloud-datastore,GitHub,1,2,0.2,24.000000000000004,github,closed,Google,unknown
+googlecloudplatform,GoogleCloudPlatform/google-cloud-datastore,Google,1,1,0.2,22,public,closed,Google,internal
+googlecloudplatform,GoogleCloudPlatform/gsutil,Google,3,2,0.5,54,public,closed,Google,internal
+googlecloudplatform,GoogleCloudPlatform/php-docs-samples,GitHub,4,0,0.7,70,github,closed,Google,unknown
+googlecloudplatform,GoogleCloudPlatform/php-docs-samples,Google,3,3,0.5,56.00000000000001,public,closed,Google,internal
+googlecloudplatform,GoogleCloudPlatform/prediction-try-java-python,GitHub,1,1,0.2,22,github,closed,Google,unknown
+googlecloudplatform,GoogleCloudPlatform/solutions-google-compute-engine-cluster-for-hadoop,GitHub,1,1,0.2,22,github,closed,Google,unknown
+googlecloudplatform,GoogleCloudPlatform/solutions-load-balanced-gaming-server-on-google-compute-engine,GitHub,1,1,0.2,22,github,closed,Google,unknown
+googlecloudplatform,GoogleCloudPlatform/Template,GitHub,1,1,0.2,22,github,closed,Google,unknown
+googlesamples,googlesamples/android-ActionBarCompat-Basic,Google,1,0,0.2,20,public,closed,Google,internal
+googlesamples,googlesamples/android-ActionBarCompat-ListPopupMenu,Google,1,0,0.2,20,public,closed,Google,internal
+googlesamples,googlesamples/android-ActionBarCompat-Styled,Google,1,0,0.2,20,public,closed,Google,internal
+googlesamples,googlesamples/android-ActivityInstrumentation,Google,1,0,0.2,20,public,closed,Google,internal
+googlesamples,googlesamples/android-AdvancedImmersiveMode,Google,1,0,0.2,20,public,closed,Google,internal
+googlesamples,googlesamples/android-BasicManagedProfile,Google,1,0,0.2,20,public,closed,Google,internal
+googlesamples,googlesamples/android-Camera2Basic,Google,1,0,0.2,20,public,closed,Google,internal
+googlesamples,googlesamples/android-Camera2Video,Google,1,0,0.2,20,public,closed,Google,internal
+googlesamples,googlesamples/android-ClippingBasic,Google,1,0,0.2,20,public,closed,Google,internal
+googlesamples,googlesamples/android-ElevationBasic,Google,1,0,0.2,20,public,closed,Google,internal
+googlesamples,googlesamples/android-ElevationDrag,Google,1,0,0.2,20,public,closed,Google,internal
+googlesamples,googlesamples/android-FloatingActionButtonBasic,Google,1,0,0.2,20,public,closed,Google,internal
+googlesamples,googlesamples/android-JobScheduler,Google,1,0,0.2,20,public,closed,Google,internal
+googlesamples,googlesamples/android-NavigationDrawer,Google,1,0,0.2,20,public,closed,Google,internal
+googlesamples,googlesamples/android-PdfRendererBasic,Google,1,0,0.2,20,public,closed,Google,internal
+googlesamples,googlesamples/android-play-publisher-api,GitHub,1,0,0.2,20,github,closed,Google,unknown
+googlesamples,googlesamples/android-play-publisher-api,Google,1,0,0.2,20,public,closed,Google,internal
+googlesamples,googlesamples/android-RevealEffectBasic,Google,1,0,0.2,20,public,closed,Google,internal
+googlesamples,googlesamples/androidtv-Leanback,GitHub,1,1,0.2,22,github,closed,Google,unknown
+googlesamples,googlesamples/androidtv-Leanback,Google,2,0,0.3,30,public,closed,Google,internal
+googlesamples,googlesamples/androidtv-Leanback,Google Email,1,0,0.2,20,personal,closed,Google,unknown
+googlesamples,googlesamples/web-fundamentals,Google,3,0,0.5,50,public,closed,Google,internal
+h2oai,h2oai/app-consumer-loan,Google Email,1,1,0.2,22,personal,open,Community Project,unknown
+h2oai,h2oai/app-malicious-domains,Google Email,1,0,0.2,20,personal,open,Community Project,unknown
+h2oai,h2oai/app-malicious-domains,NA,1,0,0.2,20,no domain record,open,Community Project,unknown
+h2oai,h2oai/h2o-3,GitHub,5,4,0.8,88,github,open,Community Project,unknown
+h2oai,h2oai/h2o-3,GMX Email,1,0,0.2,20,personal,open,Community Project,unknown
+h2oai,h2oai/h2o-3,Google Email,5,3,0.8,86.00000000000001,personal,open,Community Project,unknown
+h2oai,h2oai/h2o-3,H2O.ai,5,4,0.8,88,private,open,Community Project,external
+h2oai,h2oai/h2o-3,Outlook.com Email,1,0,0.2,20,personal,open,Community Project,unknown
+h2oai,h2oai/h2o-3,Pavel Pscheidl,5,2,0.8,84.00000000000001,private,open,Community Project,external
+h2oai,h2oai/h2o-3,ProtonMail Email,1,0,0.2,20,personal,open,Community Project,unknown
+h2oai,h2oai/h2o-3,Seznam.cz Email,1,3,0.2,26,personal,open,Community Project,unknown
+h2oai,h2oai/h2o-3,UC Berkeley,1,0,0.2,20,education,open,Community Project,external
+h2oai,h2oai/h2o-3,Yahoo Email,4,2,0.7,74,personal,open,Community Project,unknown
+h2oai,h2oai/h2o-3,NA,5,2,0.8,84.00000000000001,no domain record,open,Community Project,unknown
+h2oai,h2oai/h2o-droplets,Google Email,1,0,0.2,20,personal,open,Community Project,unknown
+h2oai,h2oai/h2o-droplets,H2O.ai,1,1,0.2,22,private,open,Community Project,external
+h2oai,h2oai/h2o-flow,GitHub,3,0,0.5,50,github,open,Community Project,unknown
+h2oai,h2oai/h2o-flow,GMX,1,0,0.2,20,private,open,Community Project,external
+h2oai,h2oai/h2o-flow,Google Email,4,0,0.7,70,personal,open,Community Project,unknown
+h2oai,h2oai/h2o-flow,H2O.ai,5,1,0.8,82,private,open,Community Project,external
+h2oai,h2oai/h2o-meetups,GitHub,3,2,0.5,54,github,open,Community Project,unknown
+h2oai,h2oai/h2o-meetups,Google Email,4,1,0.7,72,personal,open,Community Project,unknown
+h2oai,h2oai/h2o-meetups,H2O.ai,2,2,0.3,34,private,open,Community Project,external
+h2oai,h2oai/h2o-meetups,NA,1,1,0.2,22,no domain record,open,Community Project,unknown
+h2oai,h2oai/h2o-tutorials,GitHub,2,0,0.3,30,github,open,Community Project,unknown
+h2oai,h2oai/h2o-tutorials,Google Email,4,3,0.7,76,personal,open,Community Project,unknown
+h2oai,h2oai/h2o-tutorials,H2O.ai,4,0,0.7,70,private,open,Community Project,external
+h2oai,h2oai/h2o-tutorials,Outlook.com Email,1,0,0.2,20,personal,open,Community Project,unknown
+h2oai,h2oai/h2o-tutorials,Seznam.cz Email,2,0,0.3,30,personal,open,Community Project,unknown
+h2oai,h2oai/h2o-tutorials,NA,2,2,0.3,34,no domain record,open,Community Project,unknown
+h2oai,h2oai/sparkling-water,GitHub,5,3,0.8,86.00000000000001,github,open,Community Project,unknown
+h2oai,h2oai/sparkling-water,Google Email,5,3,0.8,86.00000000000001,personal,open,Community Project,unknown
+h2oai,h2oai/sparkling-water,H2O.ai,3,1,0.5,52,private,open,Community Project,external
+h2oai,h2oai/sparkling-water,ProtonMail Email,1,1,0.2,22,personal,open,Community Project,unknown
+h2oai,h2oai/sparkling-water,NA,1,0,0.2,20,no domain record,open,Community Project,unknown
+huawei,Huawei/containerops,GitHub,3,1,0.5,52,github,closed,Huawei,unknown
+huawei,Huawei/containerops,Google Email,1,0,0.2,20,personal,closed,Huawei,unknown
+huawei-clouds,huawei-clouds/dls-mxserving-client,GitHub,2,0,0.3,30,github,closed,Huawei,unknown
+huawei-clouds,huawei-clouds/dls-mxserving-client,Google Email,1,1,0.2,22,personal,closed,Huawei,unknown
+huawei-clouds,huawei-clouds/dls-tfserving-client,GitHub,2,0,0.3,30,github,closed,Huawei,unknown
+huawei-clouds,huawei-clouds/dls-tfserving-client,QQ Email,1,1,0.2,22,personal,closed,Huawei,unknown
+huawei-clouds,huawei-clouds/golangsdk,GitHub,1,2,0.2,24.000000000000004,github,closed,Huawei,unknown
+huawei-clouds,huawei-clouds/golangsdk,Google Email,1,2,0.2,24.000000000000004,personal,closed,Huawei,unknown
+huawei-clouds,huawei-clouds/golangsdk,NetEase Email,1,1,0.2,22,personal,closed,Huawei,unknown
+huawei-clouds,huawei-clouds/terraform-provider-ecloud,GitHub,1,0,0.2,20,github,closed,Huawei,unknown
+huawei-clouds,huawei-clouds/terraform-provider-ecloud,Google Email,1,0,0.2,20,personal,closed,Huawei,unknown
+huawei-clouds,huawei-clouds/terraform-provider-flexibleengine,GitHub,1,0,0.2,20,github,closed,Huawei,unknown
+huawei-clouds,huawei-clouds/terraform-provider-flexibleengine,Google Email,2,0,0.3,30,personal,closed,Huawei,unknown
+huawei-clouds,huawei-clouds/terraform-provider-huaweicloud,GitHub,1,2,0.2,24.000000000000004,github,closed,Huawei,unknown
+huawei-clouds,huawei-clouds/terraform-provider-huaweicloud,Google Email,1,3,0.2,26,personal,closed,Huawei,unknown
+huawei-clouds,huawei-clouds/terraform-provider-huaweicloud,NetEase Email,1,0,0.2,20,personal,closed,Huawei,unknown
+huawei-clouds,huawei-clouds/terraform-provider-telefonicaopencloud,GitHub,2,1,0.3,32,github,closed,Huawei,unknown
+huawei-clouds,huawei-clouds/terraform-provider-telefonicaopencloud,Google Email,2,3,0.3,36,personal,closed,Huawei,unknown
+huaweicloud,huaweicloud/cloudfoundry-deployment,GitHub,2,0,0.3,30,github,closed,Huawei,unknown
+huaweicloud,huaweicloud/CloudResetPwdAgent,GitHub,2,0,0.3,30,github,closed,Huawei,unknown
+huaweicloud,huaweicloud/community,GitHub,1,0,0.2,20,github,closed,Huawei,unknown
+huaweicloud,huaweicloud/community,Google Email,2,0,0.3,30,personal,closed,Huawei,unknown
+huaweicloud,huaweicloud/community,NetEase Email,1,0,0.2,20,personal,closed,Huawei,unknown
+huaweicloud,huaweicloud/dls-example,GitHub,2,3,0.3,36,github,closed,Huawei,unknown
+huaweicloud,huaweicloud/golangsdk,GitHub,2,1,0.3,32,github,closed,Huawei,unknown
+huaweicloud,huaweicloud/golangsdk,Google Email,3,1,0.5,52,personal,closed,Huawei,unknown
+huaweicloud,huaweicloud/golangsdk,QQ Email,1,2,0.2,24.000000000000004,personal,closed,Huawei,unknown
+huaweicloud,huaweicloud/huaweicloud-sdk-java-dis,Google Email,1,0,0.2,20,personal,closed,Huawei,unknown
+huaweicloud,huaweicloud/huaweicloud-service-broker,GitHub,1,3,0.2,26,github,closed,Huawei,unknown
+huaweicloud,huaweicloud/huaweicloud-service-broker,Google Email,1,3,0.2,26,personal,closed,Huawei,unknown
+huaweicloud,huaweicloud/huaweicloud-tool-aad-toa,GitHub,2,0,0.3,30,github,closed,Huawei,unknown
+huaweicloud,huaweicloud/huaweicloud-tool-aad-toa,NetEase Email,2,1,0.3,32,personal,closed,Huawei,unknown
+huaweicloud,huaweicloud/magic-modules,GitHub,1,2,0.2,24.000000000000004,github,closed,Huawei,unknown
+huaweicloud,huaweicloud/magic-modules,Google,1,1,0.2,22,public,closed,Huawei,external
+huaweicloud,huaweicloud/repo-template,GitHub,1,0,0.2,20,github,closed,Huawei,unknown
+huaweicloud,huaweicloud/repo-template,Google Email,1,0,0.2,20,personal,closed,Huawei,unknown
+huaweicloud,huaweicloud/terraform-provider-ecloud,GitHub,1,2,0.2,24.000000000000004,github,closed,Huawei,unknown
+huaweicloud,huaweicloud/terraform-provider-ecloud,Google Email,1,3,0.2,26,personal,closed,Huawei,unknown
+huaweicloud,huaweicloud/terraform-provider-ecloud,NetEase Email,1,0,0.2,20,personal,closed,Huawei,unknown
+huaweicloud,huaweicloud/terraform-provider-flexibleengine,GitHub,3,2,0.5,54,github,closed,Huawei,unknown
+huaweicloud,huaweicloud/terraform-provider-flexibleengine,Google Email,3,2,0.5,54,personal,closed,Huawei,unknown
+huaweicloud,huaweicloud/terraform-provider-huaweicloud,GitHub,4,0,0.7,70,github,closed,Huawei,unknown
+huaweicloud,huaweicloud/terraform-provider-huaweicloud,Google Email,4,2,0.7,74,personal,closed,Huawei,unknown
+huaweicloud,huaweicloud/terraform-provider-opentelekomcloud,GitHub,3,1,0.5,52,github,closed,Huawei,unknown
+huaweicloud,huaweicloud/terraform-provider-opentelekomcloud,Google Email,2,1,0.3,32,personal,closed,Huawei,unknown
+huaweicloud,huaweicloud/terraform-provider-opentelekomcloud,NetEase Email,2,0,0.3,30,personal,closed,Huawei,unknown
+huaweicloud,huaweicloud/terraform-provider-telefonicaopencloud,GitHub,2,0,0.3,30,github,closed,Huawei,unknown
+huaweicloud,huaweicloud/terraform-provider-telefonicaopencloud,Google Email,1,3,0.2,26,personal,closed,Huawei,unknown
+huaweicloud,huaweicloud/terraform-provider-telefonicaopencloud,NetEase Email,1,0,0.2,20,personal,closed,Huawei,unknown
+huaweicloud,huaweicloud/terraformdocs,Google Email,1,0,0.2,20,personal,closed,Huawei,unknown
+ibm,IBM/air-traffic-control,GitHub,1,1,0.2,22,github,closed,IBM,unknown
+ibm,IBM/BluePic,GitHub,2,0,0.3,30,github,closed,IBM,unknown
+ibm,IBM/BluePic,IBM,1,0,0.2,20,public,closed,IBM,internal
+ibm,IBM/CognitiveConcierge,GitHub,2,0,0.3,30,github,closed,IBM,unknown
+ibm,IBM/CognitiveConcierge,IBM,2,2,0.3,34,public,closed,IBM,internal
+ibm,IBM/ibm-cloud-functions-action-trigger-rule,GitHub,1,1,0.2,22,github,closed,IBM,unknown
+ibm,IBM/ibm-cloud-functions-data-processing-cloudant,GitHub,1,0,0.2,20,github,closed,IBM,unknown
+ibm,IBM/ibm-cloud-functions-data-processing-cloudant,IBM,1,0,0.2,20,public,closed,IBM,internal
+ibm,IBM/ibm-cloud-functions-data-processing-message-hub,GitHub,2,1,0.3,32,github,closed,IBM,unknown
+ibm,IBM/ibm-cloud-functions-data-processing-message-hub,Google Email,1,0,0.2,20,personal,closed,IBM,unknown
+ibm,IBM/ibm-cloud-functions-data-processing-message-hub,IBM,2,0,0.3,30,public,closed,IBM,internal
+ibm,IBM/ibm-cloud-functions-serverless-apis,GitHub,2,1,0.3,32,github,closed,IBM,unknown
+ibm,IBM/ibm-cloud-functions-serverless-apis,IBM,1,1,0.2,22,public,closed,IBM,internal
+ibm,IBM/ibm-cloud-functions-serverless-iot-openfridge,GitHub,4,0,0.7,70,github,closed,IBM,unknown
+ibm,IBM/ibm-cloud-functions-serverless-iot-openfridge,IBM,1,1,0.2,22,public,closed,IBM,internal
+ibm,IBM/ibm-cloud-functions-serverless-ocr-openchecks,GitHub,1,1,0.2,22,github,closed,IBM,unknown
+ibm,IBM/ibm-cloud-functions-serverless-ocr-openchecks,IBM,1,1,0.2,22,public,closed,IBM,internal
+ibm,IBM/ibm.github.io,GitHub,4,1,0.7,72,github,closed,IBM,unknown
+ibm,IBM/ibm.github.io,Google Email,2,1,0.3,32,personal,closed,IBM,unknown
+ibm,IBM/ibm.github.io,IBM,1,0,0.2,20,public,closed,IBM,internal
+ibm,IBM/logmet-client-njs,GitHub,1,0,0.2,20,github,closed,IBM,unknown
+ibm,IBM/logmet-client-njs,Google Email,1,0,0.2,20,personal,closed,IBM,unknown
+ibm,IBM/message-catalog-manager,GitHub,3,2,0.5,54,github,closed,IBM,unknown
+ibm,IBM/message-catalog-manager,IBM,2,2,0.3,34,public,closed,IBM,internal
+ibm,IBM/node-i18n-utilities,GitHub,1,1,0.2,22,github,closed,IBM,unknown
+ibm,IBM/node-i18n-utilities,IBM,2,1,0.3,32,public,closed,IBM,internal
+ibm,IBM/pyxcli,GitHub,1,1,0.2,22,github,closed,IBM,unknown
+ibm,IBM/pyxcli,IBM,1,1,0.2,22,public,closed,IBM,internal
+ibm,IBM/serverless-home-automation,GitHub,3,2,0.5,54,github,closed,IBM,unknown
+ibm,IBM/serverless-home-automation,Google Email,1,1,0.2,22,personal,closed,IBM,unknown
+ibm,IBM/serverless-home-automation,IBM,2,1,0.3,32,public,closed,IBM,internal
+ibm,IBM/swift-enterprise-demo,GitHub,1,0,0.2,20,github,closed,IBM,unknown
+ibm,IBM/swift-enterprise-demo,IBM,1,0,0.2,20,public,closed,IBM,internal
+ibm-cloud,IBM-Cloud/bluechatter,GitHub,1,0,0.2,20,github,closed,IBM,unknown
+ibm-cloud,IBM-Cloud/bluechatter,IBM,1,1,0.2,22,public,closed,IBM,internal
+ibm-cloud,IBM-Cloud/box-watson,GitHub,1,0,0.2,20,github,closed,IBM,unknown
+ibm-cloud,IBM-Cloud/box-watson,IBM,1,1,0.2,22,public,closed,IBM,internal
+ibm-cloud,IBM-Cloud/get-started-python,GitHub,1,1,0.2,22,github,closed,IBM,unknown
+ibm-cloud,IBM-Cloud/get-started-python,IBM,1,1,0.2,22,public,closed,IBM,internal
+ibm-cloud,IBM-Cloud/gp-java-client,GitHub,2,0,0.3,30,github,closed,IBM,unknown
+ibm-cloud,IBM-Cloud/gp-java-client,IBM,2,1,0.3,32,public,closed,IBM,internal
+ibm-cloud,IBM-Cloud/gp-js-client,GitHub,4,1,0.7,72,github,closed,IBM,unknown
+ibm-cloud,IBM-Cloud/gp-js-client,IBM,4,1,0.7,72,public,closed,IBM,internal
+ibm-cloud,IBM-Cloud/gp-nodejs-sample,GitHub,1,0,0.2,20,github,closed,IBM,unknown
+ibm-watson-iot,ibm-watson-iot/blockchain-samples,GitHub,2,3,0.3,36,github,closed,IBM,unknown
+ibm-watson-iot,ibm-watson-iot/blockchain-samples,IBM,1,0,0.2,20,public,closed,IBM,internal
+ibm-watson-iot,ibm-watson-iot/iot-embeddedc,IBM,1,0,0.2,20,public,closed,IBM,internal
+ibm-watson-iot,ibm-watson-iot/iot-java,GitHub,2,1,0.3,32,github,closed,IBM,unknown
+ibm-watson-iot,ibm-watson-iot/iot-java,IBM,2,1,0.3,32,public,closed,IBM,internal
+ibm-watson-iot,ibm-watson-iot/iot-nodejs,GitHub,2,1,0.3,32,github,closed,IBM,unknown
+ibm-watson-iot,ibm-watson-iot/iot-nodejs,IBM,1,1,0.2,22,public,closed,IBM,internal
+ibm-watson-iot,ibm-watson-iot/iot-platform-apiv2-samples,GitHub,1,1,0.2,22,github,closed,IBM,unknown
+ibm-watson-iot,ibm-watson-iot/iot-platform-apiv2-samples,IBM,1,2,0.2,24.000000000000004,public,closed,IBM,internal
+ibm-watson-iot,ibm-watson-iot/iot-python,GitHub,2,0,0.3,30,github,closed,IBM,unknown
+ibm-watson-iot,ibm-watson-iot/iot-python,IBM,2,3,0.3,36,public,closed,IBM,internal
+ibm-watson-iot,ibm-watson-iot/rickshaw4iot,GitHub,1,1,0.2,22,github,closed,IBM,unknown
+ibmdatascience,IBMDataScience/datascix,Google Email,1,1,0.2,22,personal,closed,IBM,unknown
+ibmdatascience,IBMDataScience/datascix,IBM,1,1,0.2,22,public,closed,IBM,internal
+ibmdatascience,IBMDataScience/DSx-Desktop,GitHub,2,0,0.3,30,github,closed,IBM,unknown
+ibmdatascience,IBMDataScience/DSx-Desktop,Google Email,3,1,0.5,52,personal,closed,IBM,unknown
+ibmdatascience,IBMDataScience/DSx-Desktop,IBM,2,0,0.3,30,public,closed,IBM,internal
+ibmdatascience,IBMDataScience/dsx-shiny-apps,IBM,1,0,0.2,20,public,closed,IBM,internal
+ibmdatascience,IBMDataScience/sample-notebooks,IBM,3,3,0.5,56.00000000000001,public,closed,IBM,internal
+ibmresearch,IBMResearch/code-sample,GitHub,2,3,0.3,36,github,closed,IBM,unknown
+ibmresearch,IBMResearch/hume,Google Email,1,1,0.2,22,personal,closed,IBM,unknown
+ibmresearch,IBMResearch/jlocke,GitHub,2,2,0.3,34,github,closed,IBM,unknown
+ibmresearch,IBMResearch/jlocke,Google Email,2,2,0.3,34,personal,closed,IBM,unknown
+ibmresearch,IBMResearch/kibana-bluemix,GitHub,1,0,0.2,20,github,closed,IBM,unknown
+ibmresearch,IBMResearch/kibana-bluemix,Google Email,1,1,0.2,22,personal,closed,IBM,unknown
+ibmresearch,IBMResearch/loopback-ibmresearch-mixin,Google Email,1,1,0.2,22,personal,closed,IBM,unknown
+intel,intel/buxton,GitHub,1,0,0.2,20,github,closed,Intel,unknown
+intel,intel/buxton,Intel,1,0,0.2,20,public,closed,Intel,internal
+intel,intel/dptf,Intel,1,0,0.2,20,public,closed,Intel,internal
+intel,intel/intel-vaapi-driver,Intel,3,3,0.5,56.00000000000001,public,closed,Intel,internal
+intel,intel/libva,Intel,4,2,0.7,74,public,closed,Intel,internal
+intel,intel/libyami,Intel,5,1,0.8,82,public,closed,Intel,internal
+intel,intel/luv-yocto,Intel,1,3,0.2,26,public,closed,Intel,internal
+intel,intel/numatop,GitHub,2,0,0.3,30,github,closed,Intel,unknown
+intel,intel/numatop,IBM,1,0,0.2,20,public,closed,Intel,external
+intel,intel/numatop,Intel,2,1,0.3,32,public,closed,Intel,internal
+intel,intel/thermal_daemon,Intel,3,0,0.5,50,public,closed,Intel,internal
+intel-bigdata,Intel-bigdata/HDCS,GitHub,2,2,0.3,34,github,closed,Intel,unknown
+intel-bigdata,Intel-bigdata/HDCS,Intel,2,2,0.3,34,public,closed,Intel,internal
+intel-bigdata,Intel-bigdata/HLKVDS,GitHub,2,1,0.3,32,github,closed,Intel,unknown
+intel-bigdata,Intel-bigdata/HLKVDS,Intel,3,2,0.5,54,public,closed,Intel,internal
+intel-bigdata,Intel-bigdata/OAP,GitHub,2,3,0.3,36,github,closed,Intel,unknown
+intel-bigdata,Intel-bigdata/OAP,Intel,2,2,0.3,34,public,closed,Intel,internal
+intel-bigdata,Intel-bigdata/spark-adaptive,Apache Software Foundation,1,1,0.2,22,nonprofit,closed,Intel,external
+intel-bigdata,Intel-bigdata/spark-adaptive,GitHub,2,0,0.3,30,github,closed,Intel,unknown
+intel-bigdata,Intel-bigdata/spark-adaptive,Google Email,1,2,0.2,24.000000000000004,personal,closed,Intel,unknown
+intel-bigdata,Intel-bigdata/spark-adaptive,Intel,3,2,0.5,54,public,closed,Intel,internal
+intel-bigdata,Intel-bigdata/SSM,GitHub,2,1,0.3,32,github,closed,Intel,unknown
+intel-bigdata,Intel-bigdata/SSM,Google Email,1,0,0.2,20,personal,closed,Intel,unknown
+intel-bigdata,Intel-bigdata/SSM,Intel,1,2,0.2,24.000000000000004,public,closed,Intel,internal
+intellabs,IntelLabs/hpat,Intel,1,3,0.2,26,public,closed,Intel,internal
+intellabs,IntelLabs/HPAT.jl,Intel,1,0,0.2,20,public,closed,Intel,internal
+intellabs,IntelLabs/numba,GitHub,1,3,0.2,26,github,closed,Intel,unknown
+intellabs,IntelLabs/numba,Google Email,1,2,0.2,24.000000000000004,personal,closed,Intel,unknown
+intellabs,IntelLabs/pmgd,Intel,1,3,0.2,26,public,closed,Intel,internal
+intellabs,IntelLabs/pWord2Vec,GitHub,1,0,0.2,20,github,closed,Intel,unknown
+intellabs,IntelLabs/SkimCaffe,GitHub,2,0,0.3,30,github,closed,Intel,unknown
+intellabs,IntelLabs/SkimCaffe,NetEase Email,1,0,0.2,20,personal,closed,Intel,unknown
+intellabs,IntelLabs/vcl,GitHub,1,1,0.2,22,github,closed,Intel,unknown
+intellabs,IntelLabs/vcl,Intel,1,1,0.2,22,public,closed,Intel,internal
+intellabs,IntelLabs/vdms,GitHub,2,1,0.3,32,github,closed,Intel,unknown
+intellabs,IntelLabs/vdms,Intel,2,3,0.3,36,public,closed,Intel,internal
+keras-team,keras-team/keras,AIA Science,1,0,0.2,20,private,open,Google,external
+keras-team,keras-team/keras,Aw Young Qingzhuo,1,0,0.2,20,private,open,Google,external
+keras-team,keras-team/keras,"Birkbeck, University of London",1,0,0.2,20,education,open,Google,external
+keras-team,keras-team/keras,Bluewin,1,0,0.2,20,private,open,Google,external
+keras-team,keras-team/keras,Cornell University,1,0,0.2,20,education,open,Google,external
+keras-team,keras-team/keras,GitHub,5,2,0.8,84.00000000000001,github,open,Google,unknown
+keras-team,keras-team/keras,GMX Email,1,0,0.2,20,personal,open,Google,unknown
+keras-team,keras-team/keras,Google,4,1,0.7,72,public,open,Google,internal
+keras-team,keras-team/keras,Google Email,5,4,0.8,88,personal,open,Google,unknown
+keras-team,keras-team/keras,Hong,1,0,0.2,20,private,open,Google,external
+keras-team,keras-team/keras,Intel,1,0,0.2,20,public,open,Google,external
+keras-team,keras-team/keras,koeln_de,1,0,0.2,20,private,open,Google,external
+keras-team,keras-team/keras,Melinae,1,0,0.2,20,private,open,Google,external
+keras-team,keras-team/keras,Microsoft,1,0,0.2,20,public,open,Google,external
+keras-team,keras-team/keras,National Taiwan University,1,0,0.2,20,education,open,Google,external
+keras-team,keras-team/keras,Outlook.com Email,4,1,0.7,72,personal,open,Google,unknown
+keras-team,keras-team/keras,QQ Email,3,1,0.5,52,personal,open,Google,unknown
+keras-team,keras-team/keras,Sparkbit,1,0,0.2,20,private,open,Google,external
+keras-team,keras-team/keras,Stefano Cappellini,2,1,0.3,32,private,open,Google,external
+keras-team,keras-team/keras,ThoughtRiver,1,0,0.2,20,private,open,Google,external
+keras-team,keras-team/keras,Université de Sherbrooke,5,1,0.8,82,education,open,Google,external
+keras-team,keras-team/keras,University of Florida,1,0,0.2,20,education,open,Google,external
+keras-team,keras-team/keras,University of Victoria,1,0,0.2,20,education,open,Google,external
+keras-team,keras-team/keras,Yandex Email,1,0,0.2,20,personal,open,Google,unknown
+keras-team,keras-team/keras,NA,5,3,0.8,86.00000000000001,no domain record,open,Google,unknown
+keras-team,keras-team/keras-contrib,Apple Email,1,0,0.2,20,personal,open,Google,unknown
+keras-team,keras-team/keras-contrib,ekholabs,1,2,0.2,24.000000000000004,private,open,Google,external
+keras-team,keras-team/keras-contrib,GitHub,2,1,0.3,32,github,open,Google,unknown
+keras-team,keras-team/keras-contrib,Google Email,3,3,0.5,56.00000000000001,personal,open,Google,unknown
+keras-team,keras-team/keras-contrib,QQ Email,1,1,0.2,22,personal,open,Google,unknown
+keras-team,keras-team/keras-contrib,RWTH Aachen University,1,0,0.2,20,education,open,Google,external
+keras-team,keras-team/keras-docs-ja,Amazon.com,1,0,0.2,20,public,open,Google,external
+keras-team,keras-team/keras-docs-ja,GitHub,4,1,0.7,72,github,open,Google,unknown
+keras-team,keras-team/keras-docs-ja,Google Email,5,2,0.8,84.00000000000001,personal,open,Google,unknown
+keras-team,keras-team/keras-docs-ja,University of Tsukuba,2,1,0.3,32,education,open,Google,external
+keras-team,keras-team/keras-docs-ja,NA,2,1,0.3,32,no domain record,open,Google,unknown
+keras-team,keras-team/keras-docs-zh,GitHub,5,2,0.8,84.00000000000001,github,open,Google,unknown
+keras-team,keras-team/keras-docs-zh,Google,2,0,0.3,30,public,open,Google,internal
+keras-team,keras-team/keras-docs-zh,Google Email,2,2,0.3,34,personal,open,Google,unknown
+keras-team,keras-team/keras-docs-zh,Outlook.com Email,5,1,0.8,82,personal,open,Google,unknown
+keras-team,keras-team/keras-docs-zh,QQ Email,3,2,0.5,54,personal,open,Google,unknown
+keras-team,keras-team/keras-docs-zh,NA,2,0,0.3,30,no domain record,open,Google,unknown
+keras-team,keras-team/keras-preprocessing,Google Email,1,2,0.2,24.000000000000004,personal,open,Google,unknown
+kubeflow,kubeflow/batch-predict,GitHub,2,0,0.3,30,github,open,Community Project,unknown
+kubeflow,kubeflow/batch-predict,Google,1,0,0.2,20,public,open,Community Project,external
+kubeflow,kubeflow/batch-predict,Google Email,1,0,0.2,20,personal,open,Community Project,unknown
+kubeflow,kubeflow/batch-predict,NA,1,0,0.2,20,no domain record,open,Community Project,unknown
+kubeflow,kubeflow/caffe2-operator,GitHub,2,0,0.3,30,github,open,Community Project,unknown
+kubeflow,kubeflow/caffe2-operator,Google Email,2,0,0.3,30,personal,open,Community Project,unknown
+kubeflow,kubeflow/caffe2-operator,NA,1,0,0.2,20,no domain record,open,Community Project,unknown
+kubeflow,kubeflow/community,Apple Email,3,0,0.5,50,personal,open,Community Project,unknown
+kubeflow,kubeflow/community,Caicloud,2,1,0.3,32,private,open,Community Project,external
+kubeflow,kubeflow/community,Carol Willing,1,1,0.2,22,private,open,Community Project,external
+kubeflow,kubeflow/community,datawire.io,1,0,0.2,20,private,open,Community Project,external
+kubeflow,kubeflow/community,GitHub,4,0,0.7,70,github,open,Community Project,unknown
+kubeflow,kubeflow/community,Google,2,2,0.3,34,public,open,Community Project,external
+kubeflow,kubeflow/community,Google Email,3,2,0.5,54,personal,open,Community Project,unknown
+kubeflow,kubeflow/community,Intel,1,1,0.2,22,public,open,Community Project,external
+kubeflow,kubeflow/community,Kris Nova,1,0,0.2,20,private,open,Community Project,external
+kubeflow,kubeflow/community,Outlook.com Email,1,1,0.2,22,personal,open,Community Project,unknown
+kubeflow,kubeflow/community,Red Hat,2,0,0.3,30,public,open,Community Project,external
+kubeflow,kubeflow/community,Rummble,1,0,0.2,20,private,open,Community Project,external
+kubeflow,kubeflow/community,Uber,1,0,0.2,20,private,open,Community Project,external
+kubeflow,kubeflow/community,Yahoo Email,1,0,0.2,20,personal,open,Community Project,unknown
+kubeflow,kubeflow/community,NA,4,1,0.7,72,no domain record,open,Community Project,unknown
+kubeflow,kubeflow/example-seldon,GitHub,1,0,0.2,20,github,open,Community Project,unknown
+kubeflow,kubeflow/example-seldon,Seldon,3,4,0.5,57.99999999999999,private,open,Community Project,external
+kubeflow,kubeflow/examples,Carol Willing,1,0,0.2,20,private,open,Community Project,external
+kubeflow,kubeflow/examples,GitHub,4,3,0.7,76,github,open,Community Project,unknown
+kubeflow,kubeflow/examples,Google,3,2,0.5,54,public,open,Community Project,external
+kubeflow,kubeflow/examples,Google Email,4,1,0.7,72,personal,open,Community Project,unknown
+kubeflow,kubeflow/examples,NA,4,1,0.7,72,no domain record,open,Community Project,unknown
+kubeflow,kubeflow/internal-acls,GitHub,1,1,0.2,22,github,open,Community Project,unknown
+kubeflow,kubeflow/internal-acls,NA,1,2,0.2,24.000000000000004,no domain record,open,Community Project,unknown
+kubeflow,kubeflow/katib,GitHub,2,3,0.3,36,github,open,Community Project,unknown
+kubeflow,kubeflow/katib,Google,2,0,0.3,30,public,open,Community Project,external
+kubeflow,kubeflow/katib,Google Email,2,3,0.3,36,personal,open,Community Project,unknown
+kubeflow,kubeflow/katib,Lyft,1,0,0.2,20,private,open,Community Project,external
+kubeflow,kubeflow/katib,NetEase Email,2,0,0.3,30,personal,open,Community Project,unknown
+kubeflow,kubeflow/katib,Outlook.com Email,2,3,0.3,36,personal,open,Community Project,unknown
+kubeflow,kubeflow/katib,NA,1,0,0.2,20,no domain record,open,Community Project,unknown
+kubeflow,kubeflow/kubebench,GitHub,2,0,0.3,30,github,open,Community Project,unknown
+kubeflow,kubeflow/kubebench,Google Email,1,0,0.2,20,personal,open,Community Project,unknown
+kubeflow,kubeflow/kubebench,NetEase Email,1,0,0.2,20,personal,open,Community Project,unknown
+kubeflow,kubeflow/kubebench,МФТИ,1,0,0.2,20,private,open,Community Project,external
+kubeflow,kubeflow/kubebench,NA,1,0,0.2,20,no domain record,open,Community Project,unknown
+kubeflow,kubeflow/kubeflow,Apple Email,2,0,0.3,30,personal,open,Community Project,unknown
+kubeflow,kubeflow/kubeflow,Caicloud,1,1,0.2,22,private,open,Community Project,external
+kubeflow,kubeflow/kubeflow,Carol Willing,2,1,0.3,32,private,open,Community Project,external
+kubeflow,kubeflow/kubeflow,Georgia Tech,1,0,0.2,20,education,open,Community Project,external
+kubeflow,kubeflow/kubeflow,GitHub,5,3,0.8,86.00000000000001,github,open,Community Project,unknown
+kubeflow,kubeflow/kubeflow,Google,5,3,0.8,86.00000000000001,public,open,Community Project,external
+kubeflow,kubeflow/kubeflow,Google Email,5,2,0.8,84.00000000000001,personal,open,Community Project,unknown
+kubeflow,kubeflow/kubeflow,Intel,3,1,0.5,52,public,open,Community Project,external
+kubeflow,kubeflow/kubeflow,Microsoft,1,0,0.2,20,public,open,Community Project,external
+kubeflow,kubeflow/kubeflow,Outlook.com Email,3,1,0.5,52,personal,open,Community Project,unknown
+kubeflow,kubeflow/kubeflow,QQ Email,1,0,0.2,20,personal,open,Community Project,unknown
+kubeflow,kubeflow/kubeflow,Red Hat,4,1,0.7,72,public,open,Community Project,external
+kubeflow,kubeflow/kubeflow,Sabancı University,1,0,0.2,20,education,open,Community Project,external
+kubeflow,kubeflow/kubeflow,Seldon,3,0,0.5,50,private,open,Community Project,external
+kubeflow,kubeflow/kubeflow,Uber,2,2,0.3,34,private,open,Community Project,external
+kubeflow,kubeflow/kubeflow,Yahoo Email,2,1,0.3,32,personal,open,Community Project,unknown
+kubeflow,kubeflow/kubeflow,Yandex Email,1,1,0.2,22,personal,open,Community Project,unknown
+kubeflow,kubeflow/kubeflow,NA,5,4,0.8,88,no domain record,open,Community Project,unknown
+kubeflow,kubeflow/mpi-operator,GitHub,1,0,0.2,20,github,open,Community Project,unknown
+kubeflow,kubeflow/mpi-operator,NA,1,0,0.2,20,no domain record,open,Community Project,unknown
+kubeflow,kubeflow/pipelines,GitHub,1,2,0.2,24.000000000000004,github,open,Community Project,unknown
+kubeflow,kubeflow/pipelines,NA,1,0,0.2,20,no domain record,open,Community Project,unknown
+kubeflow,kubeflow/pytorch-operator,GitHub,3,1,0.5,52,github,open,Community Project,unknown
+kubeflow,kubeflow/pytorch-operator,Google,2,0,0.3,30,public,open,Community Project,external
+kubeflow,kubeflow/pytorch-operator,Google Email,3,2,0.5,54,personal,open,Community Project,unknown
+kubeflow,kubeflow/pytorch-operator,NA,1,0,0.2,20,no domain record,open,Community Project,unknown
+kubeflow,kubeflow/reporting,GitHub,1,0,0.2,20,github,open,Community Project,unknown
+kubeflow,kubeflow/reporting,NA,2,2,0.3,34,no domain record,open,Community Project,unknown
+kubeflow,kubeflow/testing,GitHub,5,3,0.8,86.00000000000001,github,open,Community Project,unknown
+kubeflow,kubeflow/testing,Google,4,2,0.7,74,public,open,Community Project,external
+kubeflow,kubeflow/testing,Google Email,3,0,0.5,50,personal,open,Community Project,unknown
+kubeflow,kubeflow/testing,Outlook.com Email,1,0,0.2,20,personal,open,Community Project,unknown
+kubeflow,kubeflow/testing,Red Hat,2,0,0.3,30,public,open,Community Project,external
+kubeflow,kubeflow/testing,Yandex Email,1,0,0.2,20,personal,open,Community Project,unknown
+kubeflow,kubeflow/testing,NA,5,2,0.8,84.00000000000001,no domain record,open,Community Project,unknown
+kubeflow,kubeflow/tf-operator,Caicloud,3,1,0.5,52,private,open,Community Project,external
+kubeflow,kubeflow/tf-operator,GitHub,5,3,0.8,86.00000000000001,github,open,Community Project,unknown
+kubeflow,kubeflow/tf-operator,Google,4,1,0.7,72,public,open,Community Project,external
+kubeflow,kubeflow/tf-operator,Google Email,5,2,0.8,84.00000000000001,personal,open,Community Project,unknown
+kubeflow,kubeflow/tf-operator,Outlook.com Email,5,2,0.8,84.00000000000001,personal,open,Community Project,unknown
+kubeflow,kubeflow/tf-operator,ProtonMail Email,2,0,0.3,30,personal,open,Community Project,unknown
+kubeflow,kubeflow/tf-operator,QQ Email,1,0,0.2,20,personal,open,Community Project,unknown
+kubeflow,kubeflow/tf-operator,Red Hat,1,0,0.2,20,public,open,Community Project,external
+kubeflow,kubeflow/tf-operator,Yahoo Email,1,0,0.2,20,personal,open,Community Project,unknown
+kubeflow,kubeflow/tf-operator,NA,5,1,0.8,82,no domain record,open,Community Project,unknown
+kubeflow,kubeflow/website,Apple Email,1,0,0.2,20,personal,open,Community Project,unknown
+kubeflow,kubeflow/website,Carol Willing,1,0,0.2,20,private,open,Community Project,external
+kubeflow,kubeflow/website,GitHub,2,1,0.3,32,github,open,Community Project,unknown
+kubeflow,kubeflow/website,Google,2,0,0.3,30,public,open,Community Project,external
+kubeflow,kubeflow/website,Outlook.com Email,1,0,0.2,20,personal,open,Community Project,unknown
+kubeflow,kubeflow/website,QQ Email,1,1,0.2,22,personal,open,Community Project,unknown
+kubeflow,kubeflow/website,Red Hat,2,2,0.3,34,public,open,Community Project,external
+kubeflow,kubeflow/website,NA,2,1,0.3,32,no domain record,open,Community Project,unknown
+liteos,LiteOS/LiteOS,GitHub,2,3,0.3,36,github,closed,Huawei,unknown
+liteos,LiteOS/LiteOS_Connect_to_3rd_Cloud,GitHub,1,3,0.2,26,github,closed,Huawei,unknown
+liteos,LiteOS/LiteOS_Connect_to_3rd_Cloud,NetEase Email,1,1,0.2,22,personal,closed,Huawei,unknown
+liteos,LiteOS/LiteOS_Connect_to_3rd_Cloud,QQ Email,1,1,0.2,22,personal,closed,Huawei,unknown
+liteos,LiteOS/LiteOS_Connect_to_3rd_Cloud,Sina Email,1,0,0.2,20,personal,closed,Huawei,unknown
+liteos,LiteOS/LiteOS_Partner_Development_Kits,GitHub,2,1,0.3,32,github,closed,Huawei,unknown
+liteos,LiteOS/LiteOS_Partner_Development_Kits,NetEase Email,1,1,0.2,22,personal,closed,Huawei,unknown
+nvidia,NVIDIA/caffe,GitHub,2,1,0.3,32,github,closed,NVIDIA,unknown
+nvidia,NVIDIA/caffe,NVIDIA,2,3,0.3,36,public,closed,NVIDIA,internal
+nvidia,NVIDIA/cbootimage,NVIDIA,1,0,0.2,20,public,closed,NVIDIA,internal
+nvidia,NVIDIA/gdrcopy,GitHub,1,0,0.2,20,github,closed,NVIDIA,unknown
+nvidia,NVIDIA/gdrcopy,NVIDIA,2,0,0.3,30,public,closed,NVIDIA,internal
+nvidia,NVIDIA/libglvnd,GitHub,3,1,0.5,52,github,closed,NVIDIA,unknown
+nvidia,NVIDIA/libglvnd,NVIDIA,6,1,1,102,public,closed,NVIDIA,internal
+nvidia,NVIDIA/nvidia-installer,NVIDIA,4,1,0.7,72,public,closed,NVIDIA,internal
+nvidia,NVIDIA/nvidia-modprobe,NVIDIA,4,1,0.7,72,public,closed,NVIDIA,internal
+nvidia,NVIDIA/nvidia-persistenced,NVIDIA,4,1,0.7,72,public,closed,NVIDIA,internal
+nvidia,NVIDIA/nvidia-settings,NVIDIA,4,2,0.7,74,public,closed,NVIDIA,internal
+nvidia,NVIDIA/nvidia-xconfig,NVIDIA,4,1,0.7,72,public,closed,NVIDIA,internal
+nvidia,NVIDIA/tegrarcm,NVIDIA,1,0,0.2,20,public,closed,NVIDIA,internal
+nvidiagameworks,NVIDIAGameWorks/DxrTutorials,NVIDIA,3,1,0.5,52,public,closed,NVIDIA,internal
+nvidiagameworks,NVIDIAGameWorks/Falcor,GitHub,1,1,0.2,22,github,closed,NVIDIA,unknown
+nvidiagameworks,NVIDIAGameWorks/Falcor,NVIDIA,2,2,0.3,34,public,closed,NVIDIA,internal
+nvidiagameworks,NVIDIAGameWorks/GraphicsSamples,NVIDIA,2,0,0.3,30,public,closed,NVIDIA,internal
+nvidiagameworks,NVIDIAGameWorks/UE4GitDepsPacker,GitHub,1,1,0.2,22,github,closed,NVIDIA,unknown
+nvidiagameworks,NVIDIAGameWorks/USD,GitHub,2,3,0.3,36,github,closed,NVIDIA,unknown
+nvlabs,NVlabs/cub,GitHub,2,0,0.3,30,github,closed,NVIDIA,unknown
+nvlabs,NVlabs/cub,NVIDIA,2,0,0.3,30,public,closed,NVIDIA,internal
+nvlabs,NVlabs/dlinputs,GitHub,1,0,0.2,20,github,closed,NVIDIA,unknown
+nvlabs,NVlabs/dlinputs,Google Email,2,2,0.3,34,personal,closed,NVIDIA,unknown
+nvlabs,NVlabs/dltrainers,Google Email,3,2,0.5,54,personal,closed,NVIDIA,unknown
+nvlabs,NVlabs/fermat,NVIDIA,3,1,0.5,52,public,closed,NVIDIA,internal
+nvlabs,NVlabs/geomapnet,GitHub,1,0,0.2,20,github,closed,NVIDIA,unknown
+nvlabs,NVlabs/geomapnet,NVIDIA,1,0,0.2,20,public,closed,NVIDIA,internal
+nvlabs,NVlabs/MUNIT,GitHub,2,2,0.3,34,github,closed,NVIDIA,unknown
+nvlabs,NVlabs/MUNIT,Google Email,2,2,0.3,34,personal,closed,NVIDIA,unknown
+nvlabs,NVlabs/MUNIT,NVIDIA,1,1,0.2,22,public,closed,NVIDIA,internal
+nvlabs,NVlabs/ocrobin,Google Email,1,2,0.2,24.000000000000004,personal,closed,NVIDIA,unknown
+nvlabs,NVlabs/ocrodeg,Google Email,1,2,0.2,24.000000000000004,personal,closed,NVIDIA,unknown
+nvlabs,NVlabs/ocroline,Google Email,2,0,0.3,30,personal,closed,NVIDIA,unknown
+nvlabs,NVlabs/ocroline,NVIDIA,1,1,0.2,22,public,closed,NVIDIA,internal
+nvlabs,NVlabs/ocropus3,GitHub,1,0,0.2,20,github,closed,NVIDIA,unknown
+nvlabs,NVlabs/ocropus3,Google Email,2,2,0.3,34,personal,closed,NVIDIA,unknown
+nvlabs,NVlabs/ocropus3,NVIDIA,1,0,0.2,20,public,closed,NVIDIA,internal
+nvlabs,NVlabs/ocrorot,Google Email,2,3,0.3,36,personal,closed,NVIDIA,unknown
+nvlabs,NVlabs/ocrorot,NVIDIA,1,1,0.2,22,public,closed,NVIDIA,internal
+nvlabs,NVlabs/ocroseg,Google Email,3,1,0.5,52,personal,closed,NVIDIA,unknown
+nvlabs,NVlabs/ocroseg,NVIDIA,1,2,0.2,24.000000000000004,public,closed,NVIDIA,internal
+nvlabs,NVlabs/splatnet,Google Email,1,0,0.2,20,personal,closed,NVIDIA,unknown
+oracle,oracle/db-sample-schemas,GitHub,1,0,0.2,20,github,closed,Oracle,unknown
+oracle,oracle/docker-images,GitHub,2,2,0.3,34,github,closed,Oracle,unknown
+oracle,oracle/docker-images,Google Email,1,0,0.2,20,personal,closed,Oracle,unknown
+oracle,oracle/dotnet-db-samples,GitHub,3,3,0.5,56.00000000000001,github,closed,Oracle,unknown
+oracle,oracle/nosql-examples,GitHub,4,0,0.7,70,github,closed,Oracle,unknown
+oracle,oracle/nosql-examples,Google Email,1,0,0.2,20,personal,closed,Oracle,unknown
+oracle,oracle/opengrok,GitHub,2,1,0.3,32,github,closed,Oracle,unknown
+oracle,oracle/wookiee,GitHub,2,1,0.3,32,github,closed,Oracle,unknown
+oracle,oracle/wookiee,Google Email,1,0,0.2,20,personal,closed,Oracle,unknown
+oracle,oracle/wookiee-cache,GitHub,1,0,0.2,20,github,closed,Oracle,unknown
+oracle,oracle/wookiee-cache-memcache,GitHub,1,0,0.2,20,github,closed,Oracle,unknown
+oracle,oracle/wookiee-cluster,GitHub,3,2,0.5,54,github,closed,Oracle,unknown
+oracle,oracle/wookiee-etcd,GitHub,1,0,0.2,20,github,closed,Oracle,unknown
+oracle,oracle/wookiee-kafka,GitHub,1,0,0.2,20,github,closed,Oracle,unknown
+oracle,oracle/wookiee-metrics,GitHub,3,0,0.5,50,github,closed,Oracle,unknown
+oracle,oracle/wookiee-spray,GitHub,1,0,0.2,20,github,closed,Oracle,unknown
+oracle,oracle/wookiee-zookeeper,GitHub,3,1,0.5,52,github,closed,Oracle,unknown
+oracle,oracle/wookiee-zookeeper,Yahoo Email,1,0,0.2,20,personal,closed,Oracle,unknown
+pivotal-cf,pivotal-cf/bookbinder,GitHub,4,1,0.7,72,github,closed,Pivotal,unknown
+pivotal-cf,pivotal-cf/brokerapi,GitHub,4,0,0.7,70,github,closed,Pivotal,unknown
+pivotal-cf,pivotal-cf/cf-rabbitmq-release,GitHub,1,1,0.2,22,github,closed,Pivotal,unknown
+pivotal-cf,pivotal-cf/cf-rabbitmq-release,Google Email,2,0,0.3,30,personal,closed,Pivotal,unknown
+pivotal-cf,pivotal-cf/docs-mysql,GitHub,2,0,0.3,30,github,closed,Pivotal,unknown
+pivotal-cf,pivotal-cf/docs-ops-guide,GitHub,2,1,0.3,32,github,closed,Pivotal,unknown
+pivotal-cf,pivotal-cf/docs-pcf-gsg,GitHub,1,0,0.2,20,github,closed,Pivotal,unknown
+pivotal-cf,pivotal-cf/docs-pcf-gsg,Google Email,1,1,0.2,22,personal,closed,Pivotal,unknown
+pivotal-cf,pivotal-cf/docs-pcf-install,GitHub,1,2,0.2,24.000000000000004,github,closed,Pivotal,unknown
+pivotal-cf,pivotal-cf/docs-pcf-install,Google Email,1,1,0.2,22,personal,closed,Pivotal,unknown
+pivotal-cf,pivotal-cf/docs-pivotalcf-console,Google Email,1,1,0.2,22,personal,closed,Pivotal,unknown
+pivotal-cf,pivotal-cf/docs-pws-services,GitHub,3,1,0.5,52,github,closed,Pivotal,unknown
+pivotal-cf,pivotal-cf/docs-pws-services,Google Email,3,0,0.5,50,personal,closed,Pivotal,unknown
+pivotal-cf,pivotal-cf/docs-rabbitmq-pcf,GitHub,1,2,0.2,24.000000000000004,github,closed,Pivotal,unknown
+pivotal-cf,pivotal-cf/docs-redis,GitHub,2,2,0.3,34,github,closed,Pivotal,unknown
+pivotal-cf,pivotal-cf/pcf-release-notes,GitHub,2,2,0.3,34,github,closed,Pivotal,unknown
+pivotal-cf,pivotal-cf/spring-cloud-services-connector,GitHub,3,0,0.5,50,github,closed,Pivotal,unknown
+pivotal-cf,pivotal-cf/spring-cloud-services-connector,Google Email,1,1,0.2,22,personal,closed,Pivotal,unknown
+pivotal-cf-experimental,pivotal-cf-experimental/basic-env,GitHub,1,0,0.2,20,github,closed,Pivotal,unknown
+pivotal-cf-experimental,pivotal-cf-experimental/dummy-boshrelease,GitHub,1,1,0.2,22,github,closed,Pivotal,unknown
+powershell,PowerShell/ActiveDirectoryCSDsc,GitHub,4,0,0.7,70,github,closed,Microsoft,unknown
+powershell,PowerShell/ActiveDirectoryCSDsc,Google Email,3,1,0.5,52,personal,closed,Microsoft,unknown
+powershell,PowerShell/ActiveDirectoryCSDsc,Microsoft,2,0,0.3,30,public,closed,Microsoft,internal
+powershell,PowerShell/ComputerManagementDsc,GitHub,1,1,0.2,22,github,closed,Microsoft,unknown
+powershell,PowerShell/ComputerManagementDsc,Google Email,2,3,0.3,36,personal,closed,Microsoft,unknown
+powershell,PowerShell/ComputerManagementDsc,Microsoft,1,0,0.2,20,public,closed,Microsoft,internal
+powershell,PowerShell/DscResource.Tests,GitHub,5,1,0.8,82,github,closed,Microsoft,unknown
+powershell,PowerShell/DscResources,GitHub,2,3,0.3,36,github,closed,Microsoft,unknown
+powershell,PowerShell/DscResources,Microsoft,2,1,0.3,32,public,closed,Microsoft,internal
+powershell,PowerShell/NetworkingDsc,GitHub,2,1,0.3,32,github,closed,Microsoft,unknown
+powershell,PowerShell/NetworkingDsc,Google Email,2,2,0.3,34,personal,closed,Microsoft,unknown
+powershell,PowerShell/NetworkingDsc,Microsoft,1,0,0.2,20,public,closed,Microsoft,internal
+powershell,PowerShell/PackageManagementProviderResource,GitHub,1,1,0.2,22,github,closed,Microsoft,unknown
+powershell,PowerShell/platyPS,GitHub,2,1,0.3,32,github,closed,Microsoft,unknown
+powershell,PowerShell/platyPS,Google Email,3,0,0.5,50,personal,closed,Microsoft,unknown
+powershell,PowerShell/PSScriptAnalyzer,GitHub,4,1,0.7,72,github,closed,Microsoft,unknown
+powershell,PowerShell/PSScriptAnalyzer,Google Email,2,1,0.3,32,personal,closed,Microsoft,unknown
+powershell,PowerShell/PSScriptAnalyzer,Microsoft,3,2,0.5,54,public,closed,Microsoft,internal
+powershell,PowerShell/xActiveDirectory,GitHub,4,1,0.7,72,github,closed,Microsoft,unknown
+powershell,PowerShell/xActiveDirectory,Microsoft,3,0,0.5,50,public,closed,Microsoft,internal
+powershell,PowerShell/xAzure,GitHub,1,0,0.2,20,github,closed,Microsoft,unknown
+powershell,PowerShell/xAzurePack,GitHub,1,0,0.2,20,github,closed,Microsoft,unknown
+powershell,PowerShell/xBitlocker,GitHub,2,1,0.3,32,github,closed,Microsoft,unknown
+powershell,PowerShell/xBitlocker,Microsoft,1,0,0.2,20,public,closed,Microsoft,internal
+powershell,PowerShell/xDatabase,GitHub,2,0,0.3,30,github,closed,Microsoft,unknown
+powershell,PowerShell/xDatabase,Microsoft,2,0,0.3,30,public,closed,Microsoft,internal
+powershell,PowerShell/xDhcpServer,GitHub,2,0,0.3,30,github,closed,Microsoft,unknown
+powershell,PowerShell/xDhcpServer,Microsoft,1,0,0.2,20,public,closed,Microsoft,internal
+powershell,PowerShell/xDismFeature,GitHub,2,0,0.3,30,github,closed,Microsoft,unknown
+powershell,PowerShell/xDismFeature,Microsoft,1,0,0.2,20,public,closed,Microsoft,internal
+powershell,PowerShell/xDnsServer,GitHub,3,1,0.5,52,github,closed,Microsoft,unknown
+powershell,PowerShell/xDnsServer,Microsoft,2,0,0.3,30,public,closed,Microsoft,internal
+powershell,PowerShell/xDscDiagnostics,GitHub,2,0,0.3,30,github,closed,Microsoft,unknown
+powershell,PowerShell/xDscDiagnostics,Microsoft,1,0,0.2,20,public,closed,Microsoft,internal
+powershell,PowerShell/xDSCResourceDesigner,GitHub,2,1,0.3,32,github,closed,Microsoft,unknown
+powershell,PowerShell/xDSCResourceDesigner,Microsoft,2,0,0.3,30,public,closed,Microsoft,internal
+powershell,PowerShell/xExchange,GitHub,5,0,0.8,80,github,closed,Microsoft,unknown
+powershell,PowerShell/xExchange,Microsoft,3,0,0.5,50,public,closed,Microsoft,internal
+powershell,PowerShell/xFailOverCluster,GitHub,4,0,0.7,70,github,closed,Microsoft,unknown
+powershell,PowerShell/xFailOverCluster,Microsoft,2,0,0.3,30,public,closed,Microsoft,internal
+powershell,PowerShell/xHyper-V,GitHub,3,0,0.5,50,github,closed,Microsoft,unknown
+powershell,PowerShell/xHyper-V,Microsoft,2,0,0.3,30,public,closed,Microsoft,internal
+powershell,PowerShell/xHyper-V,Outlook.com Email,1,1,0.2,22,personal,closed,Microsoft,unknown
+powershell,PowerShell/xInternetExplorerHomePage,GitHub,1,0,0.2,20,github,closed,Microsoft,unknown
+powershell,PowerShell/xJea,GitHub,1,0,0.2,20,github,closed,Microsoft,unknown
+powershell,PowerShell/xMySql,GitHub,1,0,0.2,20,github,closed,Microsoft,unknown
+powershell,PowerShell/xPendingReboot,GitHub,2,0,0.3,30,github,closed,Microsoft,unknown
+powershell,PowerShell/xPendingReboot,Microsoft,1,0,0.2,20,public,closed,Microsoft,internal
+powershell,PowerShell/xPhp,GitHub,1,0,0.2,20,github,closed,Microsoft,unknown
+pytorch,pytorch/audio,Facebook,1,1,0.2,22,public,open,Facebook,internal
+pytorch,pytorch/audio,GitHub,3,1,0.5,52,github,open,Facebook,unknown
+pytorch,pytorch/audio,Google Email,4,0,0.7,70,personal,open,Facebook,unknown
+pytorch,pytorch/audio,Indian Inst of Technology Hyderabad,1,0,0.2,20,education,open,Facebook,external
+pytorch,pytorch/audio,Massachusetts Institute of Technology,1,0,0.2,20,education,open,Facebook,external
+pytorch,pytorch/audio,Peter Goldsborough,2,0,0.3,30,private,open,Facebook,external
+pytorch,pytorch/audio,NA,2,0,0.3,30,no domain record,open,Facebook,unknown
+pytorch,pytorch/benchmark,Cornell University,2,1,0.3,32,education,open,Facebook,external
+pytorch,pytorch/benchmark,Facebook,1,2,0.2,24.000000000000004,public,open,Facebook,internal
+pytorch,pytorch/benchmark,GitHub,1,0,0.2,20,github,open,Facebook,unknown
+pytorch,pytorch/benchmark,Google Email,3,0,0.5,50,personal,open,Facebook,unknown
+pytorch,pytorch/benchmark,Massachusetts Institute of Technology,2,1,0.3,32,education,open,Facebook,external
+pytorch,pytorch/builder,Facebook,3,0,0.5,50,public,open,Facebook,internal
+pytorch,pytorch/builder,GitHub,1,1,0.2,22,github,open,Facebook,unknown
+pytorch,pytorch/builder,Google Email,4,3,0.7,76,personal,open,Facebook,unknown
+pytorch,pytorch/cpuinfo,Facebook,5,2,0.8,84.00000000000001,public,open,Facebook,internal
+pytorch,pytorch/cpuinfo,GitHub,4,0,0.7,70,github,open,Facebook,unknown
+pytorch,pytorch/cpuinfo,Google Email,4,0,0.7,70,personal,open,Facebook,unknown
+pytorch,pytorch/examples,Facebook,1,0,0.2,20,public,open,Facebook,internal
+pytorch,pytorch/examples,GitHub,5,0,0.8,80,github,open,Facebook,unknown
+pytorch,pytorch/examples,Google Email,5,1,0.8,82,personal,open,Facebook,unknown
+pytorch,pytorch/examples,NA,1,0,0.2,20,no domain record,open,Facebook,unknown
+pytorch,pytorch/extension-cpp,Facebook,2,2,0.3,34,public,open,Facebook,internal
+pytorch,pytorch/extension-cpp,GitHub,1,1,0.2,22,github,open,Facebook,unknown
+pytorch,pytorch/extension-cpp,Peter Goldsborough,1,2,0.2,24.000000000000004,private,open,Facebook,external
+pytorch,pytorch/extension-ffi,Facebook,1,0,0.2,20,public,open,Facebook,internal
+pytorch,pytorch/fairseq,Apache Software Foundation,3,0,0.5,50,nonprofit,open,Facebook,external
+pytorch,pytorch/fairseq,Facebook,5,2,0.8,84.00000000000001,public,open,Facebook,internal
+pytorch,pytorch/fairseq,GitHub,5,1,0.8,82,github,open,Facebook,unknown
+pytorch,pytorch/fairseq,Google Email,3,0,0.5,50,personal,open,Facebook,unknown
+pytorch,pytorch/fairseq,NVIDIA,1,0,0.2,20,public,open,Facebook,external
+pytorch,pytorch/fairseq,NA,1,1,0.2,22,no domain record,open,Facebook,unknown
+pytorch,pytorch/glow,Facebook,5,6,0.8,92,public,open,Facebook,internal
+pytorch,pytorch/glow,GitHub,5,5,0.8,90,github,open,Facebook,unknown
+pytorch,pytorch/glow,Google Email,5,3,0.8,86.00000000000001,personal,open,Facebook,unknown
+pytorch,pytorch/glow,Peter Goldsborough,1,2,0.2,24.000000000000004,private,open,Facebook,external
+pytorch,pytorch/glow,University of Washington,1,0,0.2,20,education,open,Facebook,external
+pytorch,pytorch/glow,NA,5,1,0.8,82,no domain record,open,Facebook,unknown
+pytorch,pytorch/ideep,Intel,1,0,0.2,20,public,open,Facebook,external
+pytorch,pytorch/ignite,GitHub,5,2,0.8,84.00000000000001,github,open,Facebook,unknown
+pytorch,pytorch/ignite,Google Email,5,3,0.8,86.00000000000001,personal,open,Facebook,unknown
+pytorch,pytorch/ignite,Indian Inst of Technology Hyderabad,1,0,0.2,20,education,open,Facebook,external
+pytorch,pytorch/pytorch,Alibaba Cloud,1,1,0.2,22,private,open,Facebook,external
+pytorch,pytorch/pytorch,Baidu,1,0,0.2,20,public,open,Facebook,external
+pytorch,pytorch/pytorch,Case Western Reserve University,1,0,0.2,20,education,open,Facebook,external
+pytorch,pytorch/pytorch,CK-Telecom,2,1,0.3,32,private,open,Facebook,external
+pytorch,pytorch/pytorch,Cornell University,5,2,0.8,84.00000000000001,education,open,Facebook,external
+pytorch,pytorch/pytorch,Duke University,1,0,0.2,20,education,open,Facebook,external
+pytorch,pytorch/pytorch,Facebook,5,5,0.8,90,public,open,Facebook,internal
+pytorch,pytorch/pytorch,Facebook Email,2,1,0.3,32,personal,open,Facebook,unknown
+pytorch,pytorch/pytorch,GitHub,5,6,0.8,92,github,open,Facebook,unknown
+pytorch,pytorch/pytorch,Google Email,5,6,0.8,92,personal,open,Facebook,unknown
+pytorch,pytorch/pytorch,Hasso Plattner Institute,1,0,0.2,20,private,open,Facebook,external
+pytorch,pytorch/pytorch,hello,1,0,0.2,20,private,open,Facebook,external
+pytorch,pytorch/pytorch,IBM,4,2,0.7,74,public,open,Facebook,external
+pytorch,pytorch/pytorch,Imperial College London,1,0,0.2,20,education,open,Facebook,external
+pytorch,pytorch/pytorch,Indian Inst of Technology Hyderabad,4,2,0.7,74,education,open,Facebook,external
+pytorch,pytorch/pytorch,Instagram,1,0,0.2,20,private,open,Facebook,external
+pytorch,pytorch/pytorch,Intel,4,0,0.7,70,public,open,Facebook,external
+pytorch,pytorch/pytorch,Iowa State University,1,0,0.2,20,education,open,Facebook,external
+pytorch,pytorch/pytorch,Massachusetts Institute of Technology,5,4,0.8,88,education,open,Facebook,external
+pytorch,pytorch/pytorch,Microsoft,1,0,0.2,20,public,open,Facebook,external
+pytorch,pytorch/pytorch,NetEase Email,5,2,0.8,84.00000000000001,personal,open,Facebook,unknown
+pytorch,pytorch/pytorch,NVIDIA,5,1,0.8,82,public,open,Facebook,external
+pytorch,pytorch/pytorch,Orobix,4,1,0.7,72,private,open,Facebook,external
+pytorch,pytorch/pytorch,Outlook.com Email,4,1,0.7,72,personal,open,Facebook,unknown
+pytorch,pytorch/pytorch,Peter Goldsborough,5,3,0.8,86.00000000000001,private,open,Facebook,external
+pytorch,pytorch/pytorch,PlanGrid,1,0,0.2,20,private,open,Facebook,external
+pytorch,pytorch/pytorch,ProtonMail Email,1,1,0.2,22,personal,open,Facebook,unknown
+pytorch,pytorch/pytorch,QQ Email,3,0,0.5,50,personal,open,Facebook,unknown
+pytorch,pytorch/pytorch,Rensselaer Polytechnic Institute,1,0,0.2,20,education,open,Facebook,external
+pytorch,pytorch/pytorch,Rochester Institute of Technology,1,1,0.2,22,education,open,Facebook,external
+pytorch,pytorch/pytorch,Samsung,1,1,0.2,22,public,open,Facebook,external
+pytorch,pytorch/pytorch,Tsinghua University,1,0,0.2,20,education,open,Facebook,external
+pytorch,pytorch/pytorch,TTIC,1,1,0.2,22,education,open,Facebook,external
+pytorch,pytorch/pytorch,TU München,5,3,0.8,86.00000000000001,education,open,Facebook,external
+pytorch,pytorch/pytorch,Uber,1,0,0.2,20,private,open,Facebook,external
+pytorch,pytorch/pytorch,University of Illinois at Urbana-Champaign,1,1,0.2,22,education,open,Facebook,external
+pytorch,pytorch/pytorch,University of Oxford,3,1,0.5,52,education,open,Facebook,external
+pytorch,pytorch/pytorch,University of South Florida,1,0,0.2,20,education,open,Facebook,external
+pytorch,pytorch/pytorch,University of Tsukuba,2,1,0.3,32,education,open,Facebook,external
+pytorch,pytorch/pytorch,University of Zagreb,1,0,0.2,20,education,open,Facebook,external
+pytorch,pytorch/pytorch,UT Austin,2,0,0.3,30,education,open,Facebook,external
+pytorch,pytorch/pytorch,Yahoo Email,2,1,0.3,32,personal,open,Facebook,unknown
+pytorch,pytorch/pytorch,Yandex Email,1,0,0.2,20,personal,open,Facebook,unknown
+pytorch,pytorch/pytorch,Zoho Email,1,0,0.2,20,personal,open,Facebook,unknown
+pytorch,pytorch/pytorch,NA,5,3,0.8,86.00000000000001,no domain record,open,Facebook,unknown
+pytorch,pytorch/pytorch.github.io,Facebook,2,2,0.3,34,public,open,Facebook,internal
+pytorch,pytorch/pytorch.github.io,GitHub,3,0,0.5,50,github,open,Facebook,unknown
+pytorch,pytorch/pytorch.github.io,Google Email,5,2,0.8,84.00000000000001,personal,open,Facebook,unknown
+pytorch,pytorch/pytorch.github.io,Outlook.com Email,1,0,0.2,20,personal,open,Facebook,unknown
+pytorch,pytorch/pytorch.github.io,PyTorch,5,6,0.8,92,nonprofit,open,Facebook,external
+pytorch,pytorch/text,GitHub,4,0,0.7,70,github,open,Facebook,unknown
+pytorch,pytorch/text,Google Email,5,3,0.8,86.00000000000001,personal,open,Facebook,unknown
+pytorch,pytorch/text,Kemal Maulana,1,1,0.2,22,personal,open,Facebook,unknown
+pytorch,pytorch/text,Outlook.com Email,2,0,0.3,30,personal,open,Facebook,unknown
+pytorch,pytorch/text,Rochester Institute of Technology,1,0,0.2,20,education,open,Facebook,external
+pytorch,pytorch/text,Seoul National Univ.,1,0,0.2,20,education,open,Facebook,external
+pytorch,pytorch/text,Universität Würzburg,1,0,0.2,20,education,open,Facebook,external
+pytorch,pytorch/text,University of Zagreb,1,0,0.2,20,education,open,Facebook,external
+pytorch,pytorch/tnt,GitHub,3,1,0.5,52,github,open,Facebook,unknown
+pytorch,pytorch/tnt,Google Email,5,1,0.8,82,personal,open,Facebook,unknown
+pytorch,pytorch/tnt,Imagen Technologies,2,0,0.3,30,private,open,Facebook,external
+pytorch,pytorch/tnt,Indian Inst of Technology Hyderabad,1,0,0.2,20,education,open,Facebook,external
+pytorch,pytorch/tnt,NetEase Email,1,0,0.2,20,personal,open,Facebook,unknown
+pytorch,pytorch/tnt,SenseTime Group Limited,1,2,0.2,24.000000000000004,private,open,Facebook,external
+pytorch,pytorch/tnt,Stanford University,1,1,0.2,22,education,open,Facebook,external
+pytorch,pytorch/tnt,TU München,1,0,0.2,20,education,open,Facebook,external
+pytorch,pytorch/translate,Facebook,1,4,0.2,28.000000000000004,public,open,Facebook,internal
+pytorch,pytorch/translate,GitHub,1,4,0.2,28.000000000000004,github,open,Facebook,unknown
+pytorch,pytorch/translate,Google Email,1,1,0.2,22,personal,open,Facebook,unknown
+pytorch,pytorch/tutorials,GitHub,5,0,0.8,80,github,open,Facebook,unknown
+pytorch,pytorch/tutorials,Google Email,5,3,0.8,86.00000000000001,personal,open,Facebook,unknown
+pytorch,pytorch/tutorials,IBM,1,0,0.2,20,public,open,Facebook,external
+pytorch,pytorch/tutorials,Naren Dasan,1,0,0.2,20,personal,open,Facebook,unknown
+pytorch,pytorch/tutorials,NetEase Email,1,0,0.2,20,personal,open,Facebook,unknown
+pytorch,pytorch/tutorials,Peter Goldsborough,2,1,0.3,32,private,open,Facebook,external
+pytorch,pytorch/tutorials,QQ Email,1,1,0.2,22,personal,open,Facebook,unknown
+pytorch,pytorch/tutorials,Sebastian Raschka,1,1,0.2,22,private,open,Facebook,external
+pytorch,pytorch/tutorials,NA,2,0,0.3,30,no domain record,open,Facebook,unknown
+pytorch,pytorch/vision,GitHub,5,1,0.8,82,github,open,Facebook,unknown
+pytorch,pytorch/vision,Google Email,5,3,0.8,86.00000000000001,personal,open,Facebook,unknown
+pytorch,pytorch/vision,Indian Inst of Technology Hyderabad,4,0,0.7,70,education,open,Facebook,external
+pytorch,pytorch/vision,NVIDIA,1,0,0.2,20,public,open,Facebook,external
+pytorch,pytorch/vision,Outlook.com Email,1,1,0.2,22,personal,open,Facebook,unknown
+pytorch,pytorch/vision,Zoho Email,1,1,0.2,22,personal,open,Facebook,unknown
+pytorch,pytorch/vision,NA,1,1,0.2,22,no domain record,open,Facebook,unknown
+redhat-developer,redhat-developer/che-dockerfiles,Google Email,1,2,0.2,24.000000000000004,personal,closed,Red Hat,unknown
+redhat-developer,redhat-developer/che-functional-tests,Google Email,1,0,0.2,20,personal,closed,Red Hat,unknown
+redhat-developer,redhat-developer/che-functional-tests,Red Hat,2,3,0.3,36,public,closed,Red Hat,internal
+redhat-developer,redhat-developer/che-starter,Google Email,3,2,0.5,54,personal,closed,Red Hat,unknown
+redhat-developer,redhat-developer/che-starter,Red Hat,1,1,0.2,22,public,closed,Red Hat,internal
+redhat-developer,redhat-developer/che-vertx-server,Google Email,1,1,0.2,22,personal,closed,Red Hat,unknown
+redhat-developer,redhat-developer/che-vertx-server,Red Hat,1,1,0.2,22,public,closed,Red Hat,internal
+redhat-developer,redhat-developer/developers.redhat.com,GitHub,2,2,0.3,34,github,closed,Red Hat,unknown
+redhat-developer,redhat-developer/developers.redhat.com,Google Email,2,0,0.3,30,personal,closed,Red Hat,unknown
+redhat-developer,redhat-developer/developers.redhat.com,Red Hat,1,2,0.2,24.000000000000004,public,closed,Red Hat,internal
+redhat-developer,redhat-developer/osd-monitor-poc,GitHub,1,2,0.2,24.000000000000004,github,closed,Red Hat,unknown
+redhat-developer,redhat-developer/osd-monitor-poc,Red Hat,5,2,0.8,84.00000000000001,public,closed,Red Hat,internal
+redhat-developer,redhat-developer/reactive-microservices-in-java,Google Email,1,1,0.2,22,personal,closed,Red Hat,unknown
+redhat-developer,redhat-developer/redhat-sso-quickstarts,Red Hat,1,0,0.2,20,public,closed,Red Hat,internal
+redhat-developer,redhat-developer/rh-che,GitHub,3,1,0.5,52,github,closed,Red Hat,unknown
+redhat-developer,redhat-developer/rh-che,Google Email,2,3,0.3,36,personal,closed,Red Hat,unknown
+redhat-developer,redhat-developer/rh-che,Red Hat,2,1,0.3,32,public,closed,Red Hat,internal
+redhat-developer,redhat-developer/rpm-packaging-guide,GitHub,2,0,0.3,30,github,closed,Red Hat,unknown
+redhat-developer,redhat-developer/rpm-packaging-guide,Google Email,2,1,0.3,32,personal,closed,Red Hat,unknown
+redhat-developer,redhat-developer/rpm-packaging-guide,Red Hat,1,1,0.2,22,public,closed,Red Hat,internal
+redhat-developer,redhat-developer/s2i-dotnetcore,GitHub,6,1,1,102,github,closed,Red Hat,unknown
+redhat-developer,redhat-developer/s2i-dotnetcore,Google Email,1,3,0.2,26,personal,closed,Red Hat,unknown
+redhat-developer,redhat-developer/s2i-dotnetcore-ex,Google Email,1,0,0.2,20,personal,closed,Red Hat,unknown
+redhat-developer,redhat-developer/vscode-java,Google Email,3,2,0.5,54,personal,closed,Red Hat,unknown
+rht-labs,rht-labs/ansible-stacks,GitHub,2,1,0.3,32,github,closed,Red Hat,unknown
+rht-labs,rht-labs/ansible-stacks,Red Hat,2,1,0.3,32,public,closed,Red Hat,internal
+rht-labs,rht-labs/automation-api,GitHub,1,1,0.2,22,github,closed,Red Hat,unknown
+rht-labs,rht-labs/enablement-ci-cd,GitHub,1,0,0.2,20,github,closed,Red Hat,unknown
+rht-labs,rht-labs/enablement-ci-cd,Google Email,2,2,0.3,34,personal,closed,Red Hat,unknown
+rht-labs,rht-labs/enablement-ci-cd,Red Hat,1,0,0.2,20,public,closed,Red Hat,internal
+rht-labs,rht-labs/enablement-docs,GitHub,2,1,0.3,32,github,closed,Red Hat,unknown
+rht-labs,rht-labs/enablement-docs,Google Email,2,1,0.3,32,personal,closed,Red Hat,unknown
+rht-labs,rht-labs/enablement-docs,Red Hat,2,2,0.3,34,public,closed,Red Hat,internal
+rht-labs,rht-labs/hexboard,GitHub,1,1,0.2,22,github,closed,Red Hat,unknown
+rht-labs,rht-labs/hexboard,Red Hat,1,1,0.2,22,public,closed,Red Hat,internal
+rht-labs,rht-labs/infographic,GitHub,4,1,0.7,72,github,closed,Red Hat,unknown
+rht-labs,rht-labs/infographic,Red Hat,1,3,0.2,26,public,closed,Red Hat,internal
+rht-labs,rht-labs/labs-ci-cd,GitHub,2,0,0.3,30,github,closed,Red Hat,unknown
+rht-labs,rht-labs/labs-ci-cd,Google Email,2,2,0.3,34,personal,closed,Red Hat,unknown
+rht-labs,rht-labs/labs-demo,GitHub,1,1,0.2,22,github,closed,Red Hat,unknown
+rht-labs,rht-labs/practice-library,GitHub,4,1,0.7,72,github,closed,Red Hat,unknown
+rht-labs,rht-labs/practice-library,Google Email,4,0,0.7,70,personal,closed,Red Hat,unknown
+rht-labs,rht-labs/practice-library,Red Hat,3,1,0.5,52,public,closed,Red Hat,internal
+rht-labs,rht-labs/residency-tools,GitHub,1,0,0.2,20,github,closed,Red Hat,unknown
+rht-labs,rht-labs/sketchpod,GitHub,1,1,0.2,22,github,closed,Red Hat,unknown
+rht-labs,rht-labs/sketchpod,Red Hat,1,0,0.2,20,public,closed,Red Hat,internal
+rht-labs,rht-labs/slides-template,Google Email,1,1,0.2,22,personal,closed,Red Hat,unknown
+rht-labs,rht-labs/todolist-api,Google Email,3,1,0.5,52,personal,closed,Red Hat,unknown
+rht-labs,rht-labs/todolist-api,Red Hat,2,1,0.3,32,public,closed,Red Hat,internal
+rht-labs,rht-labs/todolist-fe,Google Email,2,3,0.3,36,personal,closed,Red Hat,unknown
+rht-labs,rht-labs/todolist-fe,Red Hat,1,2,0.2,24.000000000000004,public,closed,Red Hat,internal
+samsung,Samsung/Chromium,Samsung,2,0,0.3,30,public,closed,Samsung,internal
+samsung,Samsung/GearVRf,GitHub,1,0,0.2,20,github,closed,Samsung,unknown
+samsung,Samsung/GearVRf,Samsung,2,3,0.3,36,public,closed,Samsung,internal
+samsung,Samsung/iotjs,GitHub,1,1,0.2,22,github,closed,Samsung,unknown
+samsung,Samsung/iotjs,Samsung,2,2,0.3,34,public,closed,Samsung,internal
+samsung,Samsung/jpeg4py,GitHub,1,1,0.2,22,github,closed,Samsung,unknown
+samsung,Samsung/jpeg4py,Google Email,1,1,0.2,22,personal,closed,Samsung,unknown
+scikit-learn,scikit-learn/examples-data,Yahoo Email,1,0,0.2,20,personal,open,Community Project,unknown
+scikit-learn,scikit-learn/scikit-learn,AOL Email,2,1,0.3,32,personal,open,Community Project,unknown
+scikit-learn,scikit-learn/scikit-learn,Bluewin,1,1,0.2,22,private,open,Community Project,external
+scikit-learn,scikit-learn/scikit-learn,BlueYonder,1,0,0.2,20,private,open,Community Project,external
+scikit-learn,scikit-learn/scikit-learn,Columbia University,1,0,0.2,20,education,open,Community Project,external
+scikit-learn,scikit-learn/scikit-learn,ENSTA PTech Alumni,3,0,0.5,50,nonprofit,open,Community Project,external
+scikit-learn,scikit-learn/scikit-learn,Framasoft,1,0,0.2,20,nonprofit,open,Community Project,external
+scikit-learn,scikit-learn/scikit-learn,GitHub,5,3,0.8,86.00000000000001,github,open,Community Project,unknown
+scikit-learn,scikit-learn/scikit-learn,GMX Email,1,0,0.2,20,personal,open,Community Project,unknown
+scikit-learn,scikit-learn/scikit-learn,Google,1,0,0.2,20,public,open,Community Project,external
+scikit-learn,scikit-learn/scikit-learn,Google Email,5,4,0.8,88,personal,open,Community Project,unknown
+scikit-learn,scikit-learn/scikit-learn,IIEST,1,0,0.2,20,education,open,Community Project,external
+scikit-learn,scikit-learn/scikit-learn,Indian Institute of Technology Kanpur,1,0,0.2,20,education,open,Community Project,external
+scikit-learn,scikit-learn/scikit-learn,Luis Pedro Coelho,1,0,0.2,20,nonprofit,open,Community Project,external
+scikit-learn,scikit-learn/scikit-learn,Nicolas Hug,1,0,0.2,20,private,open,Community Project,external
+scikit-learn,scikit-learn/scikit-learn,Onet.,1,0,0.2,20,private,open,Community Project,external
+scikit-learn,scikit-learn/scikit-learn,Outlook.com Email,3,0,0.5,50,personal,open,Community Project,unknown
+scikit-learn,scikit-learn/scikit-learn,QQ Email,1,0,0.2,20,personal,open,Community Project,unknown
+scikit-learn,scikit-learn/scikit-learn,Sina Email,5,2,0.8,84.00000000000001,personal,open,Community Project,unknown
+scikit-learn,scikit-learn/scikit-learn,Universidad de Córdoba,1,0,0.2,20,education,open,Community Project,external
+scikit-learn,scikit-learn/scikit-learn,"University of California, Irvine",1,0,0.2,20,education,open,Community Project,external
+scikit-learn,scikit-learn/scikit-learn,Yahoo Email,5,3,0.8,86.00000000000001,personal,open,Community Project,unknown
+scikit-learn,scikit-learn/scikit-learn,NA,5,2,0.8,84.00000000000001,no domain record,open,Community Project,unknown
+tensorflow,tensorflow/agents,Danijar Hafner,5,0,0.8,80,private,open,Google,external
+tensorflow,tensorflow/agents,GitHub,3,1,0.5,52,github,open,Google,unknown
+tensorflow,tensorflow/agents,Google,1,0,0.2,20,public,open,Google,internal
+tensorflow,tensorflow/agents,hello,1,0,0.2,20,private,open,Google,external
+tensorflow,tensorflow/agents,Outlook.com Email,2,0,0.3,30,personal,open,Google,unknown
+tensorflow,tensorflow/agents,NA,1,0,0.2,20,no domain record,open,Google,unknown
+tensorflow,tensorflow/benchmarks,Bluewin,1,1,0.2,22,private,open,Google,external
+tensorflow,tensorflow/benchmarks,GitHub,2,1,0.3,32,github,open,Google,unknown
+tensorflow,tensorflow/benchmarks,Google,5,3,0.8,86.00000000000001,public,open,Google,internal
+tensorflow,tensorflow/benchmarks,Google Email,3,1,0.5,52,personal,open,Google,unknown
+tensorflow,tensorflow/benchmarks,Intel,1,0,0.2,20,public,open,Google,external
+tensorflow,tensorflow/benchmarks,Outlook.com Email,2,0,0.3,30,personal,open,Google,unknown
+tensorflow,tensorflow/benchmarks,TensorFlow,4,0,0.7,70,nonprofit,open,Google,external
+tensorflow,tensorflow/benchmarks,Uber,3,0,0.5,50,private,open,Google,external
+tensorflow,tensorflow/cleverhans,Freedom of the Press Foundation,1,0,0.2,20,government,open,Google,external
+tensorflow,tensorflow/cleverhans,GitHub,5,1,0.8,82,github,open,Google,unknown
+tensorflow,tensorflow/cleverhans,Google,5,2,0.8,84.00000000000001,public,open,Google,internal
+tensorflow,tensorflow/cleverhans,Google Email,4,2,0.7,74,personal,open,Google,unknown
+tensorflow,tensorflow/cleverhans,Imperial College London,1,1,0.2,22,education,open,Google,external
+tensorflow,tensorflow/cleverhans,Johns Hopkins University,1,2,0.2,24.000000000000004,education,open,Google,external
+tensorflow,tensorflow/cleverhans,Kansas State University,1,2,0.2,24.000000000000004,education,open,Google,external
+tensorflow,tensorflow/cleverhans,Massachusetts Institute of Technology,3,1,0.5,52,education,open,Google,external
+tensorflow,tensorflow/cleverhans,Outlook.com Email,1,0,0.2,20,personal,open,Google,unknown
+tensorflow,tensorflow/cleverhans,Penn State,1,1,0.2,22,education,open,Google,external
+tensorflow,tensorflow/cleverhans,RIST,2,0,0.3,30,private,open,Google,external
+tensorflow,tensorflow/cleverhans,UnifyID,1,1,0.2,22,private,open,Google,external
+tensorflow,tensorflow/cleverhans,University of Guelph,1,0,0.2,20,education,open,Google,external
+tensorflow,tensorflow/cleverhans,NA,2,0,0.3,30,no domain record,open,Google,unknown
+tensorflow,tensorflow/ecosystem,GitHub,2,0,0.3,30,github,open,Google,unknown
+tensorflow,tensorflow/ecosystem,Google Email,2,0,0.3,30,personal,open,Google,unknown
+tensorflow,tensorflow/ecosystem,NA,4,1,0.7,72,no domain record,open,Google,unknown
+tensorflow,tensorflow/haskell,GitHub,3,1,0.5,52,github,open,Google,unknown
+tensorflow,tensorflow/haskell,Google Email,3,2,0.5,54,personal,open,Google,unknown
+tensorflow,tensorflow/haskell,HAMBERG.NO,1,1,0.2,22,private,open,Google,external
+tensorflow,tensorflow/haskell,NA,1,0,0.2,20,no domain record,open,Google,unknown
+tensorflow,tensorflow/lattice,GitHub,1,1,0.2,22,github,open,Google,unknown
+tensorflow,tensorflow/lattice,Google,2,1,0.3,32,public,open,Google,internal
+tensorflow,tensorflow/lattice,Google Email,1,2,0.2,24.000000000000004,personal,open,Google,unknown
+tensorflow,tensorflow/lucid,GitHub,4,3,0.7,76,github,open,Google,unknown
+tensorflow,tensorflow/lucid,Google,4,3,0.7,76,public,open,Google,internal
+tensorflow,tensorflow/lucid,Google Email,4,1,0.7,72,personal,open,Google,unknown
+tensorflow,tensorflow/lucid,NA,3,2,0.5,54,no domain record,open,Google,unknown
+tensorflow,tensorflow/magenta,Bluewin,1,0,0.2,20,private,open,Google,external
+tensorflow,tensorflow/magenta,GitHub,4,3,0.7,76,github,open,Google,unknown
+tensorflow,tensorflow/magenta,Google,4,3,0.7,76,public,open,Google,internal
+tensorflow,tensorflow/magenta,Google Email,5,1,0.8,82,personal,open,Google,unknown
+tensorflow,tensorflow/magenta,NetEase Email,1,0,0.2,20,personal,open,Google,unknown
+tensorflow,tensorflow/magenta,Tero Parviainen,1,0,0.2,20,private,open,Google,external
+tensorflow,tensorflow/magenta,Yahoo Email,1,0,0.2,20,personal,open,Google,unknown
+tensorflow,tensorflow/magenta,NA,5,2,0.8,84.00000000000001,no domain record,open,Google,unknown
+tensorflow,tensorflow/magenta-demos,GitHub,3,1,0.5,52,github,open,Google,unknown
+tensorflow,tensorflow/magenta-demos,Google,4,0,0.7,70,public,open,Google,internal
+tensorflow,tensorflow/magenta-demos,NA,1,1,0.2,22,no domain record,open,Google,unknown
+tensorflow,tensorflow/metadata,Google,1,1,0.2,22,public,open,Google,internal
+tensorflow,tensorflow/models,AMD,1,0,0.2,20,private,open,Google,external
+tensorflow,tensorflow/models,Andrew Selle,2,0,0.3,30,private,open,Google,external
+tensorflow,tensorflow/models,Bluewin,3,1,0.5,52,private,open,Google,external
+tensorflow,tensorflow/models,Combient AB,1,0,0.2,20,private,open,Google,external
+tensorflow,tensorflow/models,dheera,1,1,0.2,22,private,open,Google,external
+tensorflow,tensorflow/models,GitHub,5,4,0.8,88,github,open,Google,unknown
+tensorflow,tensorflow/models,Google,5,4,0.8,88,public,open,Google,internal
+tensorflow,tensorflow/models,Google Email,5,2,0.8,84.00000000000001,personal,open,Google,unknown
+tensorflow,tensorflow/models,IBM,1,0,0.2,20,public,open,Google,external
+tensorflow,tensorflow/models,Immonet,1,1,0.2,22,private,open,Google,external
+tensorflow,tensorflow/models,Intel,1,0,0.2,20,public,open,Google,external
+tensorflow,tensorflow/models,KTH Royal Institute of Technology,1,0,0.2,20,education,open,Google,external
+tensorflow,tensorflow/models,NetEase Email,2,0,0.3,30,personal,open,Google,unknown
+tensorflow,tensorflow/models,Outlook.com Email,2,0,0.3,30,personal,open,Google,unknown
+tensorflow,tensorflow/models,Penn State,1,0,0.2,20,education,open,Google,external
+tensorflow,tensorflow/models,ProtonMail Email,1,0,0.2,20,personal,open,Google,unknown
+tensorflow,tensorflow/models,QQ Email,1,2,0.2,24.000000000000004,personal,open,Google,unknown
+tensorflow,tensorflow/models,SevenTablets,1,1,0.2,22,private,open,Google,external
+tensorflow,tensorflow/models,Stylight,1,0,0.2,20,private,open,Google,external
+tensorflow,tensorflow/models,University of Mainz,1,1,0.2,22,education,open,Google,external
+tensorflow,tensorflow/models,Yahoo Email,1,0,0.2,20,personal,open,Google,unknown
+tensorflow,tensorflow/models,NA,5,3,0.8,86.00000000000001,no domain record,open,Google,unknown
+tensorflow,tensorflow/playground,GitHub,1,1,0.2,22,github,open,Google,unknown
+tensorflow,tensorflow/playground,Phil,1,0,0.2,20,personal,open,Google,unknown
+tensorflow,tensorflow/probability,Google,4,4,0.7,77.99999999999999,public,open,Google,internal
+tensorflow,tensorflow/probability,Google Email,1,0,0.2,20,personal,open,Google,unknown
+tensorflow,tensorflow/probability,hello,1,0,0.2,20,private,open,Google,external
+tensorflow,tensorflow/probability,Trent,1,0,0.2,20,private,open,Google,external
+tensorflow,tensorflow/probability,NA,1,0,0.2,20,no domain record,open,Google,unknown
+tensorflow,tensorflow/rust,Google,5,3,0.8,86.00000000000001,public,open,Google,internal
+tensorflow,tensorflow/rust,Google Email,3,0,0.5,50,personal,open,Google,unknown
+tensorflow,tensorflow/rust,NA,1,2,0.2,24.000000000000004,no domain record,open,Google,unknown
+tensorflow,tensorflow/serving,GitHub,1,0,0.2,20,github,open,Google,unknown
+tensorflow,tensorflow/serving,Google,5,3,0.8,86.00000000000001,public,open,Google,internal
+tensorflow,tensorflow/serving,Google Email,4,1,0.7,72,personal,open,Google,unknown
+tensorflow,tensorflow/serving,Shopify,1,0,0.2,20,public,open,Google,external
+tensorflow,tensorflow/serving,TensorFlow,5,3,0.8,86.00000000000001,nonprofit,open,Google,external
+tensorflow,tensorflow/tensor2tensor,Apple Email,1,1,0.2,22,personal,open,Google,unknown
+tensorflow,tensorflow/tensor2tensor,Bluewin,1,0,0.2,20,private,open,Google,external
+tensorflow,tensorflow/tensor2tensor,CodiLime,4,3,0.7,76,private,open,Google,external
+tensorflow,tensorflow/tensor2tensor,GitHub,4,2,0.7,74,github,open,Google,unknown
+tensorflow,tensorflow/tensor2tensor,GMX Email,1,1,0.2,22,personal,open,Google,unknown
+tensorflow,tensorflow/tensor2tensor,Google,5,4,0.8,88,public,open,Google,internal
+tensorflow,tensorflow/tensor2tensor,Google Email,5,2,0.8,84.00000000000001,personal,open,Google,unknown
+tensorflow,tensorflow/tensor2tensor,hello,1,0,0.2,20,private,open,Google,external
+tensorflow,tensorflow/tensor2tensor,Intel,1,0,0.2,20,public,open,Google,external
+tensorflow,tensorflow/tensor2tensor,John Glover,1,0,0.2,20,personal,open,Google,unknown
+tensorflow,tensorflow/tensor2tensor,QQ Email,2,1,0.3,32,personal,open,Google,unknown
+tensorflow,tensorflow/tensor2tensor,Synchron Voice and Video,1,0,0.2,20,private,open,Google,external
+tensorflow,tensorflow/tensor2tensor,University of Heidelberg,1,0,0.2,20,education,open,Google,external
+tensorflow,tensorflow/tensor2tensor,Univerzita Karlova,4,1,0.7,72,education,open,Google,external
+tensorflow,tensorflow/tensor2tensor,Yahoo Email,1,0,0.2,20,personal,open,Google,unknown
+tensorflow,tensorflow/tensor2tensor,NA,3,2,0.5,54,no domain record,open,Google,unknown
+tensorflow,tensorflow/tensorboard,⩕,1,0,0.2,20,private,open,Google,external
+tensorflow,tensorflow/tensorboard,Carnegie Mellon University,1,0,0.2,20,education,open,Google,external
+tensorflow,tensorflow/tensorboard,GitHub,5,4,0.8,88,github,open,Google,unknown
+tensorflow,tensorflow/tensorboard,Google,5,3,0.8,86.00000000000001,public,open,Google,internal
+tensorflow,tensorflow/tensorboard,Google Email,4,3,0.7,76,personal,open,Google,unknown
+tensorflow,tensorflow/tensorboard,Microsoft,1,0,0.2,20,public,open,Google,external
+tensorflow,tensorflow/tensorboard,Outlook.com Email,1,1,0.2,22,personal,open,Google,unknown
+tensorflow,tensorflow/tensorboard,NA,1,0,0.2,20,no domain record,open,Google,unknown
+tensorflow,tensorflow/tensorboard-plugin-example,GitHub,1,2,0.2,24.000000000000004,github,open,Google,unknown
+tensorflow,tensorflow/tensorboard-plugin-example,Google,1,1,0.2,22,public,open,Google,internal
+tensorflow,tensorflow/tensorboard-plugin-example,Google Email,1,1,0.2,22,personal,open,Google,unknown
+tensorflow,tensorflow/tensorflow,4Catalyzer,1,0,0.2,20,private,open,Google,external
+tensorflow,tensorflow/tensorflow,Alibaba Cloud,1,0,0.2,20,private,open,Google,external
+tensorflow,tensorflow/tensorflow,Amazon.com,1,0,0.2,20,public,open,Google,external
+tensorflow,tensorflow/tensorflow,AMD,1,0,0.2,20,private,open,Google,external
+tensorflow,tensorflow/tensorflow,Andrew Selle,3,0,0.5,50,private,open,Google,external
+tensorflow,tensorflow/tensorflow,Anton Marini,1,0,0.2,20,private,open,Google,external
+tensorflow,tensorflow/tensorflow,Apple Email,2,0,0.3,30,personal,open,Google,unknown
+tensorflow,tensorflow/tensorflow,Applicative,1,1,0.2,22,private,open,Google,external
+tensorflow,tensorflow/tensorflow,Bluewin,4,2,0.7,74,private,open,Google,external
+tensorflow,tensorflow/tensorflow,Brainscode,2,0,0.3,30,private,open,Google,external
+tensorflow,tensorflow/tensorflow,Caicloud,1,0,0.2,20,private,open,Google,external
+tensorflow,tensorflow/tensorflow,Clarifai,2,1,0.3,32,private,open,Google,external
+tensorflow,tensorflow/tensorflow,Codeplay Software,1,0,0.2,20,private,open,Google,external
+tensorflow,tensorflow/tensorflow,Cornell University,1,0,0.2,20,education,open,Google,external
+tensorflow,tensorflow/tensorflow,Cruise Automation,1,1,0.2,22,private,open,Google,external
+tensorflow,tensorflow/tensorflow,Deutsches Herzzentrum Berlin,1,1,0.2,22,private,open,Google,external
+tensorflow,tensorflow/tensorflow,Dyn,1,0,0.2,20,private,open,Google,external
+tensorflow,tensorflow/tensorflow,Foxmail,1,0,0.2,20,private,open,Google,external
+tensorflow,tensorflow/tensorflow,Geoffrey Irving,1,1,0.2,22,private,open,Google,external
+tensorflow,tensorflow/tensorflow,GitHub,5,5,0.8,90,github,open,Google,unknown
+tensorflow,tensorflow/tensorflow,GMX Email,1,0,0.2,20,personal,open,Google,unknown
+tensorflow,tensorflow/tensorflow,Google,5,7,0.8,94,public,open,Google,internal
+tensorflow,tensorflow/tensorflow,Google Email,5,4,0.8,88,personal,open,Google,unknown
+tensorflow,tensorflow/tensorflow,Graphcore,2,1,0.3,32,private,open,Google,external
+tensorflow,tensorflow/tensorflow,Harvard University,1,0,0.2,20,education,open,Google,external
+tensorflow,tensorflow/tensorflow,hello,4,1,0.7,72,private,open,Google,external
+tensorflow,tensorflow/tensorflow,IBM,5,2,0.8,84.00000000000001,public,open,Google,external
+tensorflow,tensorflow/tensorflow,iCloud Email,1,0,0.2,20,personal,open,Google,unknown
+tensorflow,tensorflow/tensorflow,Intel,5,2,0.8,84.00000000000001,public,open,Google,external
+tensorflow,tensorflow/tensorflow,JoyTunes,1,0,0.2,20,private,open,Google,external
+tensorflow,tensorflow/tensorflow,Kamil Sindi,1,1,0.2,22,private,open,Google,external
+tensorflow,tensorflow/tensorflow,Kika Tech,4,0,0.7,70,private,open,Google,external
+tensorflow,tensorflow/tensorflow,Kwangwoon University,5,3,0.8,86.00000000000001,education,open,Google,external
+tensorflow,tensorflow/tensorflow,LeapMind,2,0,0.3,30,private,open,Google,external
+tensorflow,tensorflow/tensorflow,mail.com Email,1,0,0.2,20,personal,open,Google,unknown
+tensorflow,tensorflow/tensorflow,Maximilian Mitchell,1,0,0.2,20,private,open,Google,external
+tensorflow,tensorflow/tensorflow,Mozilla,1,0,0.2,20,nonprofit,open,Google,external
+tensorflow,tensorflow/tensorflow,NetEase Email,3,1,0.5,52,personal,open,Google,unknown
+tensorflow,tensorflow/tensorflow,New Jersey Institute of Technology,1,0,0.2,20,education,open,Google,external
+tensorflow,tensorflow/tensorflow,NTNU,2,0,0.3,30,education,open,Google,external
+tensorflow,tensorflow/tensorflow,NVIDIA,5,3,0.8,86.00000000000001,public,open,Google,external
+tensorflow,tensorflow/tensorflow,Outlook.com Email,5,4,0.8,88,personal,open,Google,unknown
+tensorflow,tensorflow/tensorflow,Pete Warden,2,0,0.3,30,private,open,Google,external
+tensorflow,tensorflow/tensorflow,PicsArt,3,1,0.5,52,private,open,Google,external
+tensorflow,tensorflow/tensorflow,QQ Email,3,0,0.5,50,personal,open,Google,unknown
+tensorflow,tensorflow/tensorflow,Ruby,1,0,0.2,20,nonprofit,open,Google,external
+tensorflow,tensorflow/tensorflow,Seoul National Univ.,1,0,0.2,20,education,open,Google,external
+tensorflow,tensorflow/tensorflow,Shopify,3,0,0.5,50,public,open,Google,external
+tensorflow,tensorflow/tensorflow,Spreadtrum,1,0,0.2,20,private,open,Google,external
+tensorflow,tensorflow/tensorflow,TensorFlow,5,7,0.8,94,nonprofit,open,Google,external
+tensorflow,tensorflow/tensorflow,Traptic,1,0,0.2,20,private,open,Google,external
+tensorflow,tensorflow/tensorflow,Uber,1,0,0.2,20,private,open,Google,external
+tensorflow,tensorflow/tensorflow,UC San Diego,2,0,0.3,30,education,open,Google,external
+tensorflow,tensorflow/tensorflow,Université de Sherbrooke,1,0,0.2,20,education,open,Google,external
+tensorflow,tensorflow/tensorflow,University of Fribourg,1,2,0.2,24.000000000000004,education,open,Google,external
+tensorflow,tensorflow/tensorflow,University of São Paulo,1,0,0.2,20,education,open,Google,external
+tensorflow,tensorflow/tensorflow,UP Information Technology Development Center,2,1,0.3,32,education,open,Google,external
+tensorflow,tensorflow/tensorflow,Winton Group,1,0,0.2,20,private,open,Google,external
+tensorflow,tensorflow/tensorflow,Xiaomi,1,0,0.2,20,private,open,Google,external
+tensorflow,tensorflow/tensorflow,Yahoo Email,5,1,0.8,82,personal,open,Google,unknown
+tensorflow,tensorflow/tensorflow,Yandex Email,1,0,0.2,20,personal,open,Google,unknown
+tensorflow,tensorflow/tensorflow,НГС,1,0,0.2,20,private,open,Google,external
+tensorflow,tensorflow/tensorflow,NA,5,2,0.8,84.00000000000001,no domain record,open,Google,unknown
+tensorflow,tensorflow/tensorstore,Google,1,0,0.2,20,public,open,Google,internal
+tensorflow,tensorflow/tfjs-converter,Apple Email,1,0,0.2,20,personal,open,Google,unknown
+tensorflow,tensorflow/tfjs-converter,David Soergel,1,0,0.2,20,private,open,Google,external
+tensorflow,tensorflow/tfjs-converter,GitHub,4,4,0.7,77.99999999999999,github,open,Google,unknown
+tensorflow,tensorflow/tfjs-converter,Google,3,2,0.5,54,public,open,Google,internal
+tensorflow,tensorflow/tfjs-converter,Google Email,4,2,0.7,74,personal,open,Google,unknown
+tensorflow,tensorflow/tfjs-converter,Kyle McDonald,1,1,0.2,22,private,open,Google,external
+tensorflow,tensorflow/tfjs-core,Adobe Systems,1,0,0.2,20,public,open,Google,external
+tensorflow,tensorflow/tfjs-core,Apple Email,4,1,0.7,72,personal,open,Google,unknown
+tensorflow,tensorflow/tfjs-core,David Soergel,3,1,0.5,52,private,open,Google,external
+tensorflow,tensorflow/tfjs-core,GitHub,5,4,0.8,88,github,open,Google,unknown
+tensorflow,tensorflow/tfjs-core,Google,5,3,0.8,86.00000000000001,public,open,Google,internal
+tensorflow,tensorflow/tfjs-core,Google Email,5,4,0.8,88,personal,open,Google,unknown
+tensorflow,tensorflow/tfjs-core,Hudl,2,0,0.3,30,private,open,Google,external
+tensorflow,tensorflow/tfjs-core,Kyle McDonald,1,0,0.2,20,private,open,Google,external
+tensorflow,tensorflow/tfjs-core,University of Illinois at Urbana-Champaign,1,0,0.2,20,education,open,Google,external
+tensorflow,tensorflow/tfjs-core,NA,4,1,0.7,72,no domain record,open,Google,unknown
+tensorflow,tensorflow/tpu,Bluewin,1,1,0.2,22,private,open,Google,external
+tensorflow,tensorflow/tpu,GitHub,4,1,0.7,72,github,open,Google,unknown
+tensorflow,tensorflow/tpu,Google,5,2,0.8,84.00000000000001,public,open,Google,internal
+tensorflow,tensorflow/tpu,Google Email,5,0,0.8,80,personal,open,Google,unknown
+tensorflow,tensorflow/transform,GitHub,2,0,0.3,30,github,open,Google,unknown
+tensorflow,tensorflow/transform,Google,5,2,0.8,84.00000000000001,public,open,Google,internal
+tensorflow,tensorflow/transform,Google Email,1,0,0.2,20,personal,open,Google,unknown
+tensorflow,tensorflow/transform,IBM,1,0,0.2,20,public,open,Google,external
+tensorflow,tensorflow/workshops,Carnegie Mellon University,1,0,0.2,20,education,open,Google,external
+tensorflow,tensorflow/workshops,GitHub,2,0,0.3,30,github,open,Google,unknown
+tensorflow,tensorflow/workshops,Google,4,2,0.7,74,public,open,Google,internal
+tensorflow,tensorflow/workshops,Google Email,3,0,0.5,50,personal,open,Google,unknown
+tensorflow,tensorflow/workshops,Sapienza University of Rome,1,1,0.2,22,education,open,Google,external
+watson-developer-cloud,watson-developer-cloud/document-conversion-nodejs,GitHub,1,0,0.2,20,github,closed,IBM,unknown
+watson-developer-cloud,watson-developer-cloud/java-sdk,GitHub,1,2,0.2,24.000000000000004,github,closed,IBM,unknown
+watson-developer-cloud,watson-developer-cloud/java-sdk,Google Email,1,3,0.2,26,personal,closed,IBM,unknown
+watson-developer-cloud,watson-developer-cloud/language-translator-nodejs,GitHub,5,1,0.8,82,github,closed,IBM,unknown
+watson-developer-cloud,watson-developer-cloud/language-translator-nodejs,Google Email,4,0,0.7,70,personal,closed,IBM,unknown
+watson-developer-cloud,watson-developer-cloud/language-translator-nodejs,IBM,3,0,0.5,50,public,closed,IBM,internal
+watson-developer-cloud,watson-developer-cloud/natural-language-classifier-nodejs,GitHub,3,0,0.5,50,github,closed,IBM,unknown
+watson-developer-cloud,watson-developer-cloud/natural-language-classifier-nodejs,Google Email,2,2,0.3,34,personal,closed,IBM,unknown
+watson-developer-cloud,watson-developer-cloud/natural-language-classifier-nodejs,IBM,1,0,0.2,20,public,closed,IBM,internal
+watson-developer-cloud,watson-developer-cloud/node-red-labs,GitHub,2,3,0.3,36,github,closed,IBM,unknown
+watson-developer-cloud,watson-developer-cloud/node-red-labs,IBM,2,1,0.3,32,public,closed,IBM,internal
+watson-developer-cloud,watson-developer-cloud/node-sdk,GitHub,2,2,0.3,34,github,closed,IBM,unknown
+watson-developer-cloud,watson-developer-cloud/node-sdk,Google Email,2,1,0.3,32,personal,closed,IBM,unknown
+watson-developer-cloud,watson-developer-cloud/node-sdk,IBM,2,1,0.3,32,public,closed,IBM,internal
+watson-developer-cloud,watson-developer-cloud/personality-insights-nodejs,GitHub,3,0,0.5,50,github,closed,IBM,unknown
+watson-developer-cloud,watson-developer-cloud/personality-insights-nodejs,Google Email,3,1,0.5,52,personal,closed,IBM,unknown
+watson-developer-cloud,watson-developer-cloud/personality-insights-nodejs,IBM,1,0,0.2,20,public,closed,IBM,internal
+watson-developer-cloud,watson-developer-cloud/personality-insights-python,GitHub,1,1,0.2,22,github,closed,IBM,unknown
+watson-developer-cloud,watson-developer-cloud/personality-insights-twitter-python,GitHub,1,0,0.2,20,github,closed,IBM,unknown
+watson-developer-cloud,watson-developer-cloud/personality-insights-twitter-python,Google Email,1,1,0.2,22,personal,closed,IBM,unknown
+watson-developer-cloud,watson-developer-cloud/retrieve-and-rank-java,GitHub,1,0,0.2,20,github,closed,IBM,unknown
+watson-developer-cloud,watson-developer-cloud/speech-to-text-nodejs,GitHub,5,1,0.8,82,github,closed,IBM,unknown
+watson-developer-cloud,watson-developer-cloud/speech-to-text-nodejs,Google Email,1,1,0.2,22,personal,closed,IBM,unknown
+watson-developer-cloud,watson-developer-cloud/speech-to-text-nodejs,IBM,2,2,0.3,34,public,closed,IBM,internal
+watson-developer-cloud,watson-developer-cloud/speech-to-text-websockets-python,IBM,1,0,0.2,20,public,closed,IBM,internal
+watson-developer-cloud,watson-developer-cloud/text-to-speech-nodejs,GitHub,2,1,0.3,32,github,closed,IBM,unknown
+watson-developer-cloud,watson-developer-cloud/text-to-speech-nodejs,Google Email,3,0,0.5,50,personal,closed,IBM,unknown
+watson-developer-cloud,watson-developer-cloud/tone-analyzer-nodejs,GitHub,2,1,0.3,32,github,closed,IBM,unknown
+watson-developer-cloud,watson-developer-cloud/tone-analyzer-nodejs,Google Email,3,0,0.5,50,personal,closed,IBM,unknown
+watson-developer-cloud,watson-developer-cloud/visual-recognition-nodejs,GitHub,3,1,0.5,52,github,closed,IBM,unknown
+watson-developer-cloud,watson-developer-cloud/visual-recognition-nodejs,Google Email,4,0,0.7,70,personal,closed,IBM,unknown
+watson-developer-cloud,watson-developer-cloud/visual-recognition-nodejs,IBM,1,1,0.2,22,public,closed,IBM,internal
+watson-developer-cloud,watson-developer-cloud/your-celebrity-match,GitHub,1,0,0.2,20,github,closed,IBM,unknown
+watson-developer-cloud,watson-developer-cloud/your-celebrity-match,Google Email,3,0,0.5,50,personal,closed,IBM,unknown
+watson-explorer,Watson-Explorer/onewex-custom-converters,GitHub,1,0,0.2,20,github,closed,IBM,unknown
+watson-explorer,Watson-Explorer/onewex-custom-converters,IBM,1,0,0.2,20,public,closed,IBM,internal
+watson-explorer,Watson-Explorer/onewex-notebooks,GitHub,1,0,0.2,20,github,closed,IBM,unknown
+watson-explorer,Watson-Explorer/onewex-notebooks,IBM,1,0,0.2,20,public,closed,IBM,internal
+watson-explorer,Watson-Explorer/wexce-samples-searchapp,IBM,1,0,0.2,20,public,closed,IBM,internal
+watson-explorer,Watson-Explorer/wexdae,GitHub,1,0,0.2,20,github,closed,IBM,unknown
+watson-explorer,Watson-Explorer/wexdae,IBM,1,0,0.2,20,public,closed,IBM,internal
