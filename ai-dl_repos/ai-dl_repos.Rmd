@@ -1,0 +1,503 @@
+---
+title: "Engagement of Organizations on Open AI Repositories"
+author: "Augustina Ragwitz"
+date: "June 21, 2018"
+output:
+  html_document:
+    toc: TRUE
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r includes, message=FALSE}
+library(ggthemes)
+library(lubridate)
+library(scales)
+library(tidyverse)
+library(urltools)
+
+ggplot_scale <- c("navyblue", "tan4", "chartreuse4", "blueviolet", "blue", "deeppink4", "goldenrod", "violetred", "turquoise2", "lightgreen", "lightpink1", "yellow1", "slategrey", "peachpuff2", "mediumorchid4")
+```
+
+# Question
+
+Concerning open source engagement, are companies engaging more in their own projects than in external ones? Are companies collaborating or working in isolation? Note, this analysis specifically focuses on Artificial Intelligence and Data Science projects.
+
+# Data
+
+The data come from other analysis, detailed below.
+
+## Projects of Interest
+
+From countering-bean-counting/git-commit-log-engagement/deep-learning-frameworks-commit-log/dl-frameworks-commit-log.Rmd
+
+```{r gitlog-open-projects, message=FALSE}
+
+# manual list of sponsored projects
+sponsored_projects <- read_csv('
+tensorflow,Google
+paddlepaddle,Baidu
+pytorch,Facebook
+keras-team,Google
+', col_names=c("project","sponsor"))
+
+# Github Repositories
+repos_open <- read_rds("imported_data/repos_open.Rds")
+
+repos_open <- repos_open %>% 
+  select(project=owner.login, repo=full_name, description) %>%
+  mutate(commit_access = "open", project=str_to_lower(project)) %>%
+  left_join(sponsored_projects)
+
+# Commit Log for Repositories (last 6 months)
+gitlog_open_projects <- read_rds("imported_data/commit_log_open_Jun2018.Rds")
+
+gitlog_open_projects <- gitlog_open_projects %>%
+  select(project=org,
+         repo,
+         commit_month, 
+         author_name, author_email,
+         committer_name, committer_email,
+         sha,
+         committer_company_name, committer_company_type,
+         author_company_name, author_company_type)
+
+```
+
+## Companies of Interest
+
+```{r gitlog-closed-projects}
+
+# Github Repositories
+repos_closed <- read_rds("imported_data/repos_closed.Rds")
+
+repos_closed <- repos_closed %>% 
+  select(project=github_org, repo=full_name, description, sponsor=company) %>%
+  mutate(commit_access = "closed",
+         # misspelled Red Hat in original
+         sponsor=str_replace(sponsor, "Redhat", "Red Hat"))
+
+# Commit Log for Repositories (last 6 months)
+gitlog_closed_projects <- read_rds("imported_data/commit_log_closed_Jun2018.Rds")
+
+gitlog_closed_projects <- gitlog_closed_projects %>%
+  select(project=github_org,
+         repo,
+         commit.committer.date, 
+         # author_name=commit.author.name, author_email=commit.author.email, author_login=author.login,
+         committer_name=commit.committer.name, committer_email=commit.committer.email, committer_login=committer.login,
+         sha,
+         committer_company_name=company) %>%
+ mutate(commit_month=floor_date(as.Date(commit.committer.date), unit="months")) %>%
+ select(-commit.committer.date) %>%
+  filter(commit_month > "2017-12-01")
+
+# Commit Activity for Contributors to the Company Repositories Above
+# affliated_commits_closed <- read_rds("imported_data/commit_activity_closed_Jun2018.Rds")
+ 
+```
+
+## Combined Repo List
+
+Make a consolidated list of repos and add information about whether it's a company-owned or public repository.
+
+```{r repos-combined}
+
+repos <- bind_rows(repos_open, repos_closed)
+
+```
+
+## Consolidated Commit Logs
+
+Combine the commit logs and update with metadata about the repos.
+
+```{r gitlog-combined}
+
+# bind rows on commit logs
+gitlog <- bind_rows(gitlog_closed_projects, gitlog_open_projects)
+
+```
+
+## Verify Company Distribution for Closed Projects
+
+Closed projects come from official company repositories. The assumption for this analysis is that committers to these projects are employees of the company, or some other way affiliated in an official capacity. The following plots show the distribution of the committers on these repositories.
+
+Note that identification is really hard and these plots will show how much obfuscation exists even on mostly known repositories.
+
+
+```{r contributor-proportion-by-company}
+
+company_id_lookup <- bind_rows(
+  gitlog_open_projects %>% select(company_name=author_company_name, email=author_email) %>% unique(),
+  gitlog_open_projects %>% select(company_name=committer_company_name, email=committer_email) %>% unique())
+
+company_id_lookup <- company_id_lookup %>%
+  separate(email, c("user", "email_host"), sep="@") %>%
+  mutate(email_domain = suffix_extract(email_host)$domain) %>%
+  select(-user, -email_host) %>%
+  unique() %>%
+  filter(! is.na(company_name))
+
+# manually add missing ones
+missing_companies <- read_csv('
+Pivotal,pivotal
+Oracle,oracle
+AT&T,attlocal
+AT&T,att
+Huawei,huawei
+', col_names=c("company_name", "email_domain"))
+
+company_id_lookup <- bind_rows(company_id_lookup, missing_companies)
+
+project_contributors <-  gitlog %>%
+  select(project, repo, author_email, committer_email, activity_month=commit_month, sha) %>%
+  unite(email, author_email, committer_email) %>%
+  separate_rows(email, sep="_", convert=TRUE) %>%
+  filter(! is.na(email)) # filter out entries with no email, will double check for missing in the next step
+
+# get missing sha's (committer is na)
+missing_contributors <- project_contributors %>%
+  anti_join(gitlog %>% select(sha))
+
+print(paste("Missing Contributors:", nrow(missing_contributors)))
+
+# match email domains to lookup list
+project_contributors <- project_contributors %>%
+  separate(email, c("user", "email_host"), sep="@", remove=FALSE) %>%
+  mutate(email_domain = suffix_extract(email_host)$domain) %>%
+  select(-user) %>%
+  left_join(company_id_lookup) %>%
+  unique()
+
+# add repo data
+
+project_contributors <- project_contributors %>%
+  inner_join(repos)
+
+# set domain type
+
+project_contributors <- project_contributors %>%
+  mutate(domain_type = ifelse(is.na(company_name), "No Domain Info",
+                              ifelse(str_detect(company_name, " Email"), "Personal", 
+                                     ifelse(company_name == sponsor, "Employee",
+                                            ifelse(company_name == "GitHub", "GitHub",
+                                                   "Other Organization")))))
+
+```
+
+```{r project-contributor-summaries}
+
+project_contributors_sponsor_summary <- project_contributors %>%
+  group_by(commit_access, sponsor, project) %>%
+  mutate(total_commits=n()) %>%
+  group_by(commit_access, sponsor, project, domain_type) %>%
+  summarise(num_commits=n(), 
+            pct_commits=round(num_commits/first(total_commits), 3), 
+            total_commits=first(total_commits))
+
+project_contributors_company_summary <- project_contributors %>%
+  group_by(commit_access, sponsor, project) %>%
+  mutate(total_commits=n()) %>%
+  group_by(commit_access, sponsor, project, domain_type, company_name) %>%
+  summarise(num_commits=n(), 
+            pct_commits=round(num_commits/first(total_commits), 3), 
+            total_commits=first(total_commits))
+
+```
+
+### Distribution of Committers by Domain on Closed Projects
+
+#### What email addresses were used by committers on closed projects?
+
+What proportion of committers on the company projects used their work email address? What types of email addresses were otherwise used?
+
+The majority of activity came from employee email addresses, Github obfuscated (also comes from direct commits through the Github Web UI), or no domain info. No domain information typically happens when commits are entered through an automated build system, usually internal to the company, or the repository is mirrored. Overall the presence of "Other Domain" is very minimal. This supports the assumption that the majority of committers on Company-sponsored, closed projects are likely acting in some official capacity for the sponsoring company.
+
+```{r fig-project-contributors-by-sponsor, fig.height=12, fig.width=12}
+
+ggplot(project_contributors_sponsor_summary %>% filter(commit_access == "closed"),
+       aes(x=project, 
+           y=pct_commits)) +
+  geom_bar(aes(fill=domain_type), stat="identity") +
+  scale_y_continuous(labels=percent) +
+  labs(x="Project", y="Commits (%)", fill="Domain Type", title="Distribution of Committers by Domain on Closed Projects") +
+  coord_flip() +
+  facet_wrap(~ sponsor, scales="free_y", ncol=3) +
+  theme_classic() +
+  scale_fill_few()
+```
+
+#### How significant was the contribution on closed projects from external organizations?
+
+Does it invalidate our assumption about committers being affiliated in an official capacity?
+
+Overall only a small proportion of commits came from external organizations. Some of these are from universities which could indicate internships. Others could be from forks of external repositories. Further analysis is needed to be sure, but the proportion is below 5% of all commit activity (except for one case with Baidu showing UC Irvine at around 10%).
+
+```{r, fig.height=10, fig.width=12}
+# http://sape.inf.usi.ch/quick-reference/ggplot2/colour
+
+ggplot(project_contributors_company_summary %>% filter(commit_access == "closed" & domain_type == "Other Organization"),
+       aes(x=project, 
+           y=pct_commits)) +
+  geom_bar(aes(fill=company_name), stat="identity", position="dodge") +
+  scale_y_continuous(labels=percent) +
+  labs(x="Project", y="Commits (%)", fill="Company", title="Commit Disribution from External Organizations on Closed Projects") +
+  coord_flip() +
+  facet_wrap(~ sponsor, scales="free_y", ncol=2) +
+  theme_classic() +
+  scale_fill_manual(values=ggplot_scale)
+```
+
+
+
+
+## Engagement Score
+
+The Engagement Score attempts to measure companies engaging in open source projects based on the length of time they have been involved with a project and the significance of their contributions. The length of time is the most important factor in this score while the commit weight provides a small indication for comparison when the involvement over time is fairly similar between two groups.
+
+Engagement metrics are defined as follows:
+
+ * Activity Months - Number of months that had at least one commit from an affiliated email address
+ * Commit Weight - Rounded natural log of the number of commits from an affiliated email address per month
+ 
+The Engagement Score adjusts the above metrics as follows:
+
+  * Months Percent - Proportion of total months with commits in the range considered for the report. For example, this report analyzes 6 months of data, so the proportion would be the number of months with an affiliated commit out of 6 months.
+  * Commit Weight - Takes the mode of the Commit Weight (most frequently occurring Commit Weight over the range analyzed) and divides it by 50 to better scale with the percent value being used.
+
+Engagement Score = Activity Months + Commit Weight/50
+
+The engagement score is multiplied by 100 to make it more "score-like" but that is just cosmetic.
+
+```{r project-summary, message=FALSE}
+
+# This assumes all activity on closed repositories is done in an official capacity.
+
+# consolidate author + committer (ok if counted twice -- this shows an increased interest in the project)
+
+# create a lookup for company type so we don't have to deal with it in the summary below
+company_type_lookup <- bind_rows(gitlog %>% select(company_name=author_company_name, company_type=author_company_type), 
+                                 gitlog %>% select(company_name=committer_company_name, company_type=committer_company_type))
+
+company_type_lookup <- company_type_lookup %>% 
+  unique() %>%
+  filter(! is.na(company_type))
+
+# phase 1 - project, repo, company, type, date, sha
+project_companies <-  gitlog %>%
+  select(project, repo, author_company_name, committer_company_name, activity_month=commit_month, sha) %>%
+  # convert committer_date to month
+  unite(company_name, author_company_name, committer_company_name) %>%
+  separate_rows(company_name, sep="_", convert=TRUE)
+
+# group by project
+project_summary <- project_companies %>%
+  group_by(project, repo, company_name, activity_month) %>%
+  summarize(commits=n(),
+             # natural log provides a simple weight
+            commit_weight = round(log(commits))) %>%
+  group_by(project, repo, company_name, commit_weight) %>%
+  mutate(commit_weight_mode = n()) # for computing the mode
+
+# project, company, engagement (activity interval)
+project_engagement <- project_summary %>%
+  group_by(project, company_name) %>%
+  summarize(
+    activity_months = n_distinct(activity_month),
+    commit_weight = commit_weight[which.max(commit_weight_mode)]
+  )
+
+activity_months_max <- max(project_engagement$activity_months)
+
+project_engagement <- project_engagement %>% 
+  # proportion of months with a commit
+  mutate(months_pct = round(activity_months/activity_months_max, 1),
+         engagement_score = 100 * (months_pct + commit_weight/50)) %>% # adjust the weight so it fits better with percent
+  # add company type
+  inner_join(company_type_lookup)
+
+# add repo data for plotting
+project_engagement <- project_engagement %>%
+  inner_join(repos %>% select(-repo, -description) %>% unique())
+
+# Clean up NA's, remove this once further identify steps taken above
+project_engagement <- project_engagement %>%
+  filter(! (is.na(company_name) & commit_access == "closed")) %>% # haven't identified authors on closed repos yet
+  mutate(company_type=ifelse(is.na(company_type) & commit_access == "closed", "public", company_type),
+         sponsor=ifelse(is.na(sponsor), "Community Project", sponsor)) %>%
+  unique()
+
+write_csv(project_engagement, "data/project_engagement.csv")
+```
+
+The following summary examines external versus internal engagement by applying the engagement score to individual repositories.
+
+```{r repo-summary}
+# needs to summarize engagement at the repo level
+# use the project_contributors to only compare commits on closed repos using work email
+
+repo_summary <- project_contributors %>%
+  group_by(project, repo, company_name, activity_month) %>%
+  summarize(commits=n(),
+             # natural log provides a simple weight
+            commit_weight = round(log(commits))) %>%
+  group_by(project, repo, company_name, commit_weight) %>%
+  mutate(commit_weight_mode = n()) # for computing the mode
+
+# project, repo, company, engagement (activity interval)
+repo_engagement <- repo_summary %>%
+  group_by(project, repo, company_name) %>%
+  summarize(
+    activity_months = n_distinct(activity_month),
+    commit_weight = commit_weight[which.max(commit_weight_mode)]
+  )
+
+repo_engagement <- repo_engagement %>% 
+  # proportion of months with a commit
+  mutate(months_pct = round(activity_months/activity_months_max, 1),
+         engagement_score = 100 * (months_pct + commit_weight/50)) %>% # adjust the weight so it fits better with percent
+  # add company type
+  inner_join(company_type_lookup)
+
+# add repo data for plotting
+repo_engagement <- repo_engagement %>%
+  inner_join(repos %>% select(-description) %>% unique())
+
+# Clean up NA's, remove this once further identify steps taken above
+repo_engagement <- repo_engagement %>%
+  filter(! (is.na(company_name) & commit_access == "closed")) %>% # haven't identified authors on closed repos yet
+  mutate(company_type=ifelse(is.na(company_type) & commit_access == "closed", "public", company_type),
+         sponsor=ifelse(is.na(sponsor), "Community Project", sponsor),
+         activity_scope = ifelse(is.na(company_name) | company_type %in% c("github", "personal"), "unknown",
+                                 ifelse(company_name == sponsor, "internal", "external"))) %>%
+  unique()
+
+write_csv(repo_engagement, "data/repo_engagement.csv")
+```
+
+# Analysis
+
+## External vs Internal Engagement
+
+Did companies typically engage more with their own projects than with other projects?
+
+The engagement below has been analyzed at the repository level. The box plots show the distribution of the identified activity. 
+
+Closed projects used a different identification assumption than did open projects. Only commit activity from work email addresses has been considered on closed projects to make a better apples-to-apples comparison. 
+
+Note also that this is comparing all projects within a companies' own repositories with a selection of well-known open source AI and data science projects. 
+
+```{r fig-external-vs-internal, fig.height=12, fig.width=8}
+
+# boxplot
+# facet by company
+# x = activity_scope, y = engagement score
+
+ggplot(repo_engagement %>% filter(company_name %in% repo_engagement$sponsor),
+       aes(x = activity_scope, y = engagement_score)) +
+  geom_boxplot(aes(color=activity_scope), show.legend = FALSE) +
+  coord_flip() +
+  facet_wrap(~ company_name, ncol=1) +
+  labs(x="Activity Scope", y="Engagement Level", title="Internal vs. External Project Engagement") +
+  theme_classic() +
+  scale_fill_few()
+
+```
+
+## IBM Focus
+
+### IBM vs Microsoft
+
+This section focuses on Microsoft and IBM to test the engagement score and uses the analysis that assumes all activity on an internal repository is "sanctioned".
+
+```{r engagement-subset}
+
+engagement_ibm <- project_engagement %>%
+  filter(! (is.na(company_name) & commit_access == "closed")) %>% # haven't identified authors on closed repos yet
+  filter(company_name %in% c("Microsoft", "IBM")) %>%
+  mutate(company_type=ifelse(is.na(company_type) & company_name %in% c("Microsoft", "IBM"), "public", company_type),
+         sponsor=ifelse(is.na(sponsor), "Community Project", sponsor))
+
+```
+
+As expected, we see high engagement on the companies' own projects. Microsoft appears to have broader engagement while IBM is more targeted. For projects IBM has been engaged with, the relationship is much longer than Microsoft's, suggesting more consistent commit engagement.
+
+```{r fig-raw-engagment-ibm-vs-microsoft, fig.width=10, fig.height=10}
+
+ggplot(engagement_ibm, 
+       mapping = aes(x = project, y = engagement_score)) +
+  geom_bar(aes(fill = company_name), stat="identity", position="dodge") +
+  coord_flip() +
+  facet_wrap(~ sponsor, scales="free_y", ncol=2) +
+  labs(x="Project", y="Engagement Level", fill="Contributing Company") +
+  theme_classic() +
+  scale_fill_few()
+```
+
+The following plot groups the external engagement into one plot for easier comparison. This supports the observation above -- IBM tends to have longer, more consistent engagements while Microsoft tends to be more broad.
+
+```{r fig-raw-engagment-ibm-vs-microsoft-summary, fig.width=10, fig.height=10}
+
+engagement_ibm_summary <- engagement_ibm %>%
+  mutate(sponsor=ifelse(sponsor %in% c("Microsoft", "IBM"), sponsor, "External"))
+
+ggplot(engagement_ibm_summary, 
+       mapping = aes(x = project, y = engagement_score)) +
+  geom_bar(aes(fill = company_name), stat="identity", position="dodge") +
+  coord_flip() +
+  facet_wrap(~ sponsor, scales="free_y", ncol=1) +
+  labs(x="Project", y="Engagement Level", fill="Contributor") +
+  theme_classic() +
+  scale_fill_few()
+
+```
+
+
+## IBM Engagement Overlap
+
+Where does IBM's engagment overlap and how does it compare with other companies? According the plot below, IBM shows the most overlap on the Tensorflow and Pytorch projects.
+
+```{r fig-ibm_compared, fig.height=10, fig.width=10, message=FALSE}
+
+engagement_public <- project_engagement %>%
+  filter(! (is.na(company_name) & commit_access == "closed")) %>% # haven't identified authors on closed repos yet
+  filter(company_type == "public") %>%
+  mutate(sponsor=ifelse(is.na(sponsor), "Community Project", sponsor))
+
+engagement_compared <- engagement_public %>%
+  select(project, sponsor, company_name, engagement_score) %>%
+  # turn company weights into columns
+  spread(company_name, engagement_score, fill=0)
+
+engagement_compared_to_ibm <- engagement_public %>%
+  filter(company_name != "IBM") %>%
+  inner_join(engagement_compared %>% select(IBM, project))
+
+# dot plot
+# x - other company engagement
+# y - ibm engagement
+
+ggplot(engagement_compared_to_ibm %>% filter(commit_access == "open"),
+       aes(x = engagement_score, y = IBM)) +
+  geom_jitter (aes(group=project, color=project, size=IBM)) +
+  guides(color=guide_legend(ncol=1)) +
+  theme_classic() +
+  scale_color_manual(values=ggplot_scale) +
+  facet_wrap(~ company_name) +
+  labs(x="Engagement Level", y="IBM Engagement Level")
+
+```
+
+
+# Final Thoughts
+
+One thing this analysis doesn't show is the additional commit activity from "employees" or "affiliates" identified through activity on the closed projects. There is a lot of noise in the data and I need to filter it based on the "quality" of the repositories. I may need to filter using a "brute force" method where I only include repos that are part of a larger project rather than owned by individuals.
+ 
+Right now this is only looking at commits, but I want to add other events. How do we measure "pull" to show what organizations are actually getting more engagement back from the community? And what is our engagement "push" vs our engagement "pull"? Where are we investing a lot and not getting a lot back, so we can evaluate a) if we want to continue that investment and b) strategies for getting more "pull" that we can check against these metrics in the future.
+ 
+I'm also thinking about future versions using a network to show company overlap because I'm really interested to see what companies might be collaborating, in what space.
+ 
+
+
